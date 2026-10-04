@@ -1,0 +1,100 @@
+The copy is finished and checked. Here it is.
+
+---
+
+## HERO
+
+# What did your dog do at 1 p.m. today?
+
+If you work long office days, the honest answer is probably "waited by the door." Maybe "ate a sock." We take Austin dogs out for a 30-minute walk in the middle of your workday, track every block by GPS, and send you a photo once they're back inside.
+
+**$25 a walk.**
+
+**[Book your first walk]**
+
+---
+
+### You know this day.
+
+You're out the door by 7:30, and if I-35 cooperates, you're home a little after 6. Somewhere around 2, between meetings, you think about your dog and start doing the math.
+
+Ten-plus hours.
+
+That's a long time to hold it. And a dog with nothing to do for that long will find something to do. That's how a couch cushion ends up in pieces, and your evening goes to cleanup instead of to the dog you missed all day.
+
+A midday walk cuts that stretch in half. Your dog gets out to sniff the neighbor's fence and burn off some energy, and you get to stop doing the math.
+
+---
+
+### You shouldn't have to take anyone's word for it.
+
+Hiring a walker usually means handing over a key and trusting that the walk happened. Was it 30 minutes or 12? Did they ever leave the yard? Most of the time, you'd have no way to know.
+
+So we show you. Every walk comes with a GPS map of the route your dog took and how long it lasted. Then comes the photo, which tells you the one thing a map can't: how your dog is doing.
+
+---
+
+### Here's tomorrow.
+
+It's 1:45, and your phone buzzes in the middle of a meeting. It's your dog, back home and looking extremely pleased with themselves. When you get a minute, you open the map and trace the loop they took around the neighborhood. Then you go back to work, and for the rest of the afternoon you don't check the clock once.
+
+---
+
+### How it works
+
+1. **Meet us.** [We come by, meet your dog, and set up key or lockbox access.]
+2. **Pick your days.** Book the weekdays you need a midday walk.
+3. **Get the map and the photo.** Both arrive after every walk.
+
+---
+
+### $25 a walk
+
+Every walk is a full 30 minutes. GPS tracking and the photo update come with every walk at no extra charge. [Only if true: No contracts. No sign-up fee.]
+
+---
+
+### What Austin dog owners say
+
+> [Testimonial. Best if a client describes the first photo that came in, or what they saw on the map.]
+
+> [Testimonial. Best if it names a change in their dog, like calmer evenings or less chewing.]
+
+[Trust strip. Include only what's true: Insured and bonded · Background-checked walkers · Walking Austin dogs since 20XX]
+
+---
+
+### Questions
+
+**How do you get into my home?**
+[Lockbox, key handoff or smart-lock code. Say how you do it and how you store keys.]
+
+**What happens when it's 105° out?**
+[Your summer policy, such as earlier slots, shaded routes or shorter walks. Austin owners will look for this.]
+
+**Will my dog have the same walker every time?**
+[If yes, say so plainly.]
+
+**Which neighborhoods do you cover?**
+[List them by name. People scan for their own.]
+
+**What if I need to cancel?**
+[Your cancellation window.]
+
+---
+
+### Tomorrow's another long day. Your dog's doesn't have to be.
+
+**[Book your first walk]**
+
+---
+
+**Notes**
+
+- **Placeholders:** Anything in brackets needs your real details, or you can delete it. I didn't make up testimonials, credentials or policies. The "Meet us" step assumes you do a visit first, so change it if you don't.
+- **What sets you apart:** Rover and Wag also offer GPS tracking and photos, so I didn't claim you're the only one. That section argues that owners deserve to see proof of the walk. If each dog always gets the same walker, that's probably your strongest advantage over the apps, and I'd put it in the hero.
+- **No fake urgency:** The closing line uses tomorrow's long workday as the reason to book now, instead of an invented deadline.
+- **Headline to test:** "You're at your desk until 6. Your dog is at the door until 6." It scored the same as the current headline in a headline-scoring tool, so it's a good A/B test.
+- **Check results:** A copy-checking tool found that the page covers all six reader questions it requires for a signup page. Its rhythm and "AI-sounding" score stayed low (1.9/10) on both drafts. Part of that comes from the format: it counts headings, FAQ questions and the repeated button as sentences. I did a final rhythm edit after the last check and didn't run the check again.
+
+**Techniques used** (from the Persuasion Taxonomy, CC BY 4.0): [Pointed Question](https://taxonomy.coppica.com/disrupt/question-open) in the headline, [Day-in-the-Life Frame](https://taxonomy.coppica.com/identify/day-in-the-life-frame) in "You know this day," [Domino Chain](https://taxonomy.coppica.com/agitate/domino-chain) in the couch-cushion lines, [Make Invisible Measurable](https://taxonomy.coppica.com/reframe/make-invisible-measurable) in the GPS map section and [Future Pacing](https://taxonomy.coppica.com/elevate/future-pacing) in "Here's tomorrow."

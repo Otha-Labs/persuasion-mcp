@@ -1,0 +1,51 @@
+Here's the email. I built it around one action, picking the first 3 recipes, because the first box can't ship until they do that.
+
+---
+
+**Subject:** Freshbox: pick your 3 dinners, half off
+**Preview text:** Takes about two minutes. Picks lock [cutoff day].
+
+Hi [First name],
+
+It's 6:40 on a Tuesday. The fridge is open, and inside are half an onion and a carton of eggs. No plan. Your thumb is already drifting toward the delivery app.
+
+That's the moment Freshbox is built for, and you just signed up to get out of it. Welcome.
+
+Here's how it works from here. Each week we send 3 recipes with every ingredient measured and packed, so there's no grocery run first. Each of those recipes takes about 20 minutes from cutting board to plate. That's short enough to cook on a night when you're tired, which is most of them.
+
+Right now there's only one thing to do.
+
+**[Choose my first 3 recipes]**
+
+It takes about two minutes. Go with whatever sounds good on a tired weeknight. You can swap picks until [cutoff day and time], and after that we start packing your box. Your first box is also 50% off, so this is the cheapest week to find out whether 20-minute dinners fit your life.
+
+Once you've picked, your week looks like this:
+
+1. **Today:** you choose 3 recipes.
+2. **[Delivery day]:** your box arrives cold-packed, with a recipe card for each meal.
+3. **That evening:** you open the fridge, and this time there's a plan. Start with whichever recipe looks easiest. Twenty minutes later, you're eating.
+
+If anything in your box isn't right, reply to this email. It goes straight to our team, and we'll fix it.
+
+Happy cooking,
+[Name]
+[Title], Freshbox
+
+P.S. Busy week? If you haven't picked by [cutoff day], we'll choose 3 crowd favorites for you, so your box still arrives on time.
+
+---
+
+**What you need to fill in or confirm:**
+- **Cutoff and delivery days:** the email uses the recipe deadline as its reason to act now, so put in the real ones.
+- **The P.S.:** only keep it if Freshbox really picks recipes for people who don't choose. If it doesn't, cut it.
+- **"Reply to this email":** only promise this if someone reads that inbox. If it's a no-reply address, link to support instead.
+
+**How I built it:** I checked a first draft with your persuasion-taxonomy tools and fixed what they flagged:
+- **The opening:** the first draft started with "Welcome to Freshbox," which gave readers no reason to keep reading. Now the email starts in the middle of the 6:40 p.m. fridge moment ([In Medias Res Open](https://taxonomy.coppica.com/disrupt/in-medias-res-open)), and the fridge comes back in step 3.
+- **The subject line:** about 40 characters show in a mobile inbox, and the original subject's "pick them here" was cut off. The new one fits the brand name, the action and "half off" into 39 characters.
+- **The rhythm:** the tool said the sentences were too even in length and didn't connect to each other, so I varied them.
+- **The structure:** the numbered week plan works as a [Micro-Commitment Chain](https://taxonomy.coppica.com/compel/micro-commitment-chain), where picking recipes is the first small step. The cutoff works as a [Deadline](https://taxonomy.coppica.com/compel/deadline).
+
+**A subject line to A/B test against it:** "6:40 p.m., fridge open? Pick 3 dinners." The main subject leads with the offer; this one leads with the reader's evening. Neither tool can tell you which will get more opens, so it's worth testing.
+
+(Technique links are from the Persuasion Taxonomy by Coppica, CC BY 4.0.)

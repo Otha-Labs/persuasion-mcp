@@ -1,0 +1,70 @@
+{
+  "name": "@coppica/persuasion-mcp",
+  "version": "1.0.0",
+  "description": "A free MCP server that helps any AI write and check marketing copy: the nine questions every reader asks, 766 persuasion techniques from real ads, copy diagnostics and A/B test math. No API key, no AI calls.",
+  "mcpName": "com.coppica/persuasion-taxonomy",
+  "type": "module",
+  "bin": {
+    "persuasion-mcp": "dist/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/server.d.ts",
+      "default": "./dist/server.js"
+    },
+    "./http": {
+      "types": "./dist/http.d.ts",
+      "default": "./dist/http.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "export-data": "node --env-file=../persuasion-taxonomy/.env.local scripts/export-catalog.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "voice": "node scripts/voice-check.mjs",
+    "prepublishOnly": "npm run build && npm run smoke && npm run smoke -- --http && npm run voice"
+  },
+  "license": "MIT AND CC-BY-4.0",
+  "author": "Coppica LLC (https://coppica.com)",
+  "homepage": "https://taxonomy.coppica.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otha-Labs/persuasion-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Otha-Labs/persuasion-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "marketing",
+    "copywriting",
+    "persuasion",
+    "conversion",
+    "landing-page",
+    "headlines",
+    "ab-testing",
+    "claude",
+    "chatgpt"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

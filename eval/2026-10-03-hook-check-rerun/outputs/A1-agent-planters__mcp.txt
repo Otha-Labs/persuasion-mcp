@@ -1,0 +1,89 @@
+I don't have your numbers, so this plan assumes the most common reason an Instagram shop goes flat. Monday's first task checks whether that's right.
+
+## Why sales are probably flat
+
+- **Your followers have already decided.** Most people who follow you and wanted a pot have bought one. Reposting to the same people won't change that.
+- **Planters don't wear out.** Past buyers need a new reason to buy, like a new plant, a gift or a new batch. Right now they probably don't hear from you between purchases.
+- **The fix has two parts.** Give your list a reason to buy again (the email), and reach people who've never seen you (the ad).
+
+**Don't discount.** Holiday shopping starts in about six weeks. A sale in October teaches buyers to wait for Black Friday and makes handmade work look like it was overpriced.
+
+## Next week (Mon Oct 5 – Sun Oct 11)
+
+| Day | What to do |
+|---|---|
+| **Mon** | Pull three numbers. (1) Instagram reach over the last 6 months: if it's falling, you have a traffic problem. (2) Site visits and conversion rate: if visits are steady but conversion fell, the problem is the shop. (3) Share of orders from repeat buyers, and your email list size. Then add **"Fits a 4" / 6" / 8" nursery pot"** to every listing, because that's how plant people think about size. Film the ad. |
+| **Tue** | Send the email in the morning. Launch the ad at about $25/day. Leave out past customers so the ad only reaches new people. |
+| **Wed** | Post the ad footage on your feed as a regular post. Run a Story with a question sticker: "How many plants are still in plastic?" Answer every DM with a pot recommendation. |
+| **Thu** | Answer every email reply that includes a photo. That P.S. is where sales will come from. Email 3–5 local plant shops about wholesale or consignment. Plant shops sell pots, and they get you off Instagram. |
+| **Fri** | Check the ad after about $100 spent. If under ~0.8% of viewers click the link, the first two seconds aren't working, so swap the hook. If people click but don't add to cart, fix the product page, not the ad. |
+| **Sun** | Resend the email to people who didn't open it, with the second subject line. |
+
+On ad spend: work out what you keep from an average order after materials and shipping. That's the most you can pay per sale and still break even. For example, if you keep $35 on a $70 order, you can pay up to $35. One week at $175 won't prove much. It only tells you whether the hook is worth spending more on.
+
+## The email
+
+**Subject:** 34 new pots for the plants still in plastic
+**Sunday resend subject:** Fall is the wrong time to repot
+**Preview text:** You don't have to repot them. Just drop them in.
+
+> *[Past customers only, if your email tool can segment. Add as the first line:]* You already have one of our pots on a shelf somewhere. This is about the plant next to it.
+>
+> Hi [First name],
+>
+> Next time you walk past your plants, count how many are still in the plastic pot they came home in.
+>
+> If you've been meaning to repot them "this weekend" since about June, I have good news: don't. Most houseplants slow down for winter, so fall is a poor time to disturb their roots.
+>
+> Set the nursery pot inside one of ours instead, plastic and all. No new soil, no dirt on the floor. The plastic disappears, and the plant you've kept alive all year finally looks like it lives there. Come spring, repot it properly if you want to.
+>
+> Which brings me to the kiln. This week I unloaded [34] new planters, $38 to $120. Every one was thrown on the wheel and glazed by hand, so the [glaze name] pooled differently on each piece. Some went dark at the rim. A few broke to [color] where the glaze ran thin. [One real detail about one specific pot.]
+>
+> I won't pretend this is your last chance. I'll fire another batch in [month]. But I can't make the same pot twice, so whichever one catches your eye here won't be in the next one.
+>
+> "[A real customer's words about theirs]"
+> [Name, city]
+>
+> Every listing now says which nursery pot it fits (4", 6" or 8"), so you can match it to the plastic pot your plant is in right now. They all ship [double-boxed], and if one arrives broken, I'll replace it.
+>
+> **[Find a pot for your plant →]**
+>
+> [Your name], [Brand]
+>
+> P.S. Can't decide? Reply with a photo of your plant in its plastic pot and I'll tell you which one from this batch I'd put it in.
+
+## The ad (Instagram Reel, plus a 4:5 still for the feed)
+
+**Shots (about 12 seconds):**
+1. **0–2s:** A pothos in a scuffed black nursery pot on an otherwise nice shelf. Text on screen: *"Your favorite plant is still living in its shipping container."*
+2. **2–5s:** Your hands drop it, plastic and all, into a glazed planter. *"No repotting. Drop it in."*
+3. **5–9s:** Close-ups of the glaze on 4–5 pots, then a quick shot of the wheel. *"Made by hand in [city]. No two alike."*
+4. **9–12s:** End card. *"$38–$120 · Fits 4", 6" & 8" nursery pots"*
+
+**Caption:**
+> Your favorite plant is still living in its shipping container. That thin plastic pot is packaging, and you wouldn't leave a new lamp in the box.
+>
+> You've kept that plant alive this long. It deserves better than looking like it's waiting to be unpacked.
+>
+> And you don't have to repot it. Set the nursery pot inside one of mine, plastic and all, and it disappears. No soil, no root shock.
+>
+> I'm [Name]. I throw every planter on the wheel and glaze it by hand in my studio in [city], in batches small enough that no two come out the same. When one sells, that exact pot is gone for good.
+>
+> So when a friend asks where the pot came from, you get to say a potter in [city] made it.
+>
+> $38 to $120, sized to fit 4", 6" and 8" nursery pots.
+
+**Headline:** Handmade planters. Drop the plastic pot right in.
+**Button:** Shop Now
+**Audience:** People who like houseplants and indoor gardening, aged 25–45. If you have 100+ past buyers, use a lookalike audience of them instead (Instagram needs at least 100 to build one).
+
+## Before anything goes out
+
+- **Fill in every [bracket] with real facts:** batch size, customer quote and breakage policy. If you don't have a quote or a breakage policy, delete that line rather than making one up. If there's no new batch ready, change "new batch" to "what's on the shelf right now." Each pot being one of a kind still works as the reason to buy now.
+- **Check that the drop-in idea works with your pots.** The inside opening has to fit the rim of a standard nursery pot. If a size doesn't fit, don't list it as fitting.
+- **I checked both drafts with a copy-review tool and revised them once.** It found the email didn't make readers feel it was written for them. The fix was the "this weekend since about June" line and the opening line for past customers. It found the ad listed features but didn't show the reader's life after buying, and the maker wasn't in it. The fixes were the "a potter in [city] made it" line and writing the caption as you. No copy can be shown to win before it runs, which is why the Sunday resend uses a different subject line.
+- **Persuasion techniques used** (from [the Persuasion Taxonomy](https://taxonomy.coppica.com), CC BY 4.0):
+  - Email: [Belief Echo](https://taxonomy.coppica.com/identify/belief-echo), [Bespoke-Adaptation Signal](https://taxonomy.coppica.com/identify/bespoke-adaptation-signal), [The "Not Required" List](https://taxonomy.coppica.com/resolve/not-required-list), [Small Batch Signal](https://taxonomy.coppica.com/prove/small-batch-signal), [Anti-Scarcity Disclosure](https://taxonomy.coppica.com/bond/anti-scarcity-disclosure)
+  - Ad: [The Suppressed Feeling](https://taxonomy.coppica.com/agitate/suppressed-feeling), [Display Worthy Motivation](https://taxonomy.coppica.com/elevate/display-worthy-motivation)
+
+Send me Monday's three numbers and I'll tell you whether this plan still fits or what to change.

@@ -1,0 +1,39 @@
+Here's the roast.
+
+**The big problem:** almost any SaaS company could put this hero on its site. Replace "Flowly" with Asana, Notion, Monday, ClickUp or a corporate HR portal and every word still works. After reading it, a visitor still doesn't know what Flowly *is*.
+
+I also ran it through a persuasion diagnostic tool. A signup page needs to answer six questions for the reader, and this hero doesn't clearly answer any of them. It doesn't grab attention, say who it's for, give a reason to believe it, or say what happens when you click.
+
+### Headline: "Empowering teams to do their best work"
+- **"Empowering"** is one of the most overused words in corporate copy. Readers skim right past it.
+- **"Teams":** which teams? Engineers? Agencies? A 6-person startup or a 6,000-person bank?
+- **"Their best work":** what work? It promises a feeling, not a result.
+- **It never says what kind of product this is.** Flowly could be a task manager, a chat app, a whiteboard or a meditation program.
+
+### Subheadline: "the all-in-one platform that streamlines collaboration, boosts productivity, and drives results"
+- **"All-in-one platform"** for what? All-in-one *what*?
+- **"Streamlines collaboration, boosts productivity, and drives results"** is the standard B2B SaaS phrase trio: three verb-noun pairs and no information. "Drives results" could describe a golf cart.
+- **No proof:** there's no number, no named customer and no explanation of *how* it makes anyone more productive. It promises a better life and gives no reason to believe it, so readers tune it out.
+- **It sounds machine-written.** It reads like a committee or an AI wrote it. A generic word list plus a tidy list of three is exactly what readers have learned to ignore.
+
+### Button: "Get Started"
+Started with what? A free trial? A sales call? A form that wants a credit card? When people can't tell what they're signing up for, they hesitate. Say what they get.
+
+### How to fix it
+1. **Say who it's for and what's bothering them.** Two ways to open:
+   - [The Pointed Question](https://taxonomy.coppica.com/disrupt/question-open): ask something the reader can't help answering in their head.
+   - [The Enemy of Conventional Wisdom](https://taxonomy.coppica.com/disrupt/enemy-of-conventional-wisdom): name something your reader believes and argue with it.
+2. **Say what Flowly actually does.** Use concrete nouns like tasks, docs, standups or handoffs, whatever is true.
+3. **Put one piece of proof right next to the claim:** a customer count, a known logo or time saved.
+4. **Make the button say what happens next.** "Start my free 14-day trial" tells people exactly what they're agreeing to. "Get Started" doesn't.
+
+### What that could look like
+I don't know what Flowly does, so this is a made-up example. Pretend it's a project tracker for agencies:
+
+> **Headline:** How many hours did your team lose this week asking "where are we on this?"
+> **Subhead:** Flowly puts every client project and approval on one board, so you can see who's stuck without calling a standup. 400+ agencies run on it.
+> **Button:** Start my free trial (no card needed)
+
+The numbers and details are placeholders. Swap in real ones.
+
+Tell me what Flowly does, who buys it and what proof you have (customers, numbers, anything), and I'll write a few real versions you can A/B test.

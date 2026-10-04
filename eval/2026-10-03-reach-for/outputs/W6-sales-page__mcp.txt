@@ -1,0 +1,71 @@
+I ran this through the Persuasion Taxonomy planner and diagnostic tools before writing the final version.
+
+---
+
+# That starter you threw out probably wasn't dead.
+
+**Sourdough Without Fear** is a $49 guide for total beginners. It takes you from an empty jar to your first good loaf in about two weeks, in plain English.
+
+Most sourdough guides are written by people who've forgotten what it's like not to know what "autolyse" means. So they skip the parts that trip beginners up.
+
+Maybe you've already tried. You fed a starter for six days until it smelled like nail polish remover, so you poured it down the sink. Or you made it all the way to baking day and pulled a dense, pale brick out of the oven. Or maybe you just watched a 40-minute video, heard "bulk ferment" eleven times, and quietly decided bread wasn't for you.
+
+Here's the good news: none of that means you're bad at this.
+
+That nail-polish smell is a hungry starter asking to be fed. And the brick? Usually that's dough that needed more time to rise. Most first-loaf failures come down to timing, and you can learn to judge timing by looking at your dough.
+
+That's what this book teaches. You'll learn what "ready" looks like at every stage, so you can stop watching the clock and trust your eyes.
+
+## What's inside
+
+- **Week 1: your starter.** What to feed it each day, and how it should look and smell when it's ready to bake with.
+- **Your first loaf.** One simple recipe, with photos of the dough at each stage so you're never guessing.
+- **Troubleshooting.** Flat loaf, gummy middle, pale crust, a starter that won't bubble. Find your problem, then read the fix.
+- **A plain-English glossary.** *Levain* is a scoop of starter. *Hydration* is how wet your dough is. Every explanation in the book is that simple.
+
+You won't need a stand mixer or a proofing box. A jar and a mixing bowl get you started, and your regular oven does the rest.
+
+## Why I wrote it
+
+My first few loaves went in the bin. I didn't need more information. I needed someone to tell me which parts mattered and which I could ignore. That's what this book does.
+
+I can't promise your first loaf will look like the ones on Instagram. I can promise it'll be bread, and you'll know exactly why it turned out the way it did.
+
+## What readers say
+
+> "[Real testimonial. Best case: someone who failed before and got a loaf out of the book.]"
+> *[Name]*
+
+## Picture a Saturday two weeks from now
+
+The dough rose overnight on your counter. An hour after you wake up, you're cutting into a loaf whose crust crackles under the knife. You made it with a starter you raised yourself from flour and water.
+
+## $49, once
+
+That's about what five loaves cost at a good bakery. Your starter can keep going for years, as long as you keep feeding it.
+
+**30-day money-back guarantee.** Work through the book, and if you don't bake a loaf you're proud of, email me for a full refund.
+
+## Start your starter tonight, free
+
+You don't have to buy anything to begin. Stir 50g of whole wheat flour and 50g of lukewarm water together in a clean jar, cover it loosely, and leave it on the counter.
+
+Tomorrow you'll have a jar that needs you. Everything from Day 2 on is in the book.
+
+**[ Get the book, $49 ]**
+
+---
+
+**Check these before you publish.** I don't know what's in your book, so some lines are guesses:
+- **Contents:** make the "What's inside" section, the photos, the equipment list and the Day 1 recipe match your actual method.
+- **Guarantee:** I made up the 30-day refund. Change the terms to your real policy, or cut it.
+- **Testimonial and story:** I wrote "Why I wrote it" as a sample. Replace it with your own story. For the testimonial, use a real reader or delete the section rather than leave the placeholder.
+- **Numbers:** "about two weeks" assumes a starter takes 7–14 days to get going. "Five bakery loaves" assumes loaves cost about $8–10 each, so adjust it for your market.
+
+**Persuasion techniques used** (from the [Persuasion Taxonomy](https://taxonomy.coppica.com), CC BY 4.0):
+- The page opens with [Enumerated Failed Alternatives](https://taxonomy.coppica.com/agitate/enumerated-failed-alternatives): the dead starter, the brick and the video. Each one gets a calm explanation instead of making the reader feel worse.
+- The glossary lines use [Jargon Calibration](https://taxonomy.coppica.com/identify/jargon-calibration). They show the book's plain-English tone instead of just claiming it.
+- "I can't promise your first loaf will look like the ones on Instagram" is a [Hedged Transformation Promise](https://taxonomy.coppica.com/bond/hedged-transformation-promise). Making a smaller promise makes it easier to believe.
+- The free Day 1 recipe uses the [Endowment Effect](https://taxonomy.coppica.com/compel/endowment-effect). It gives the reader a reason to buy now without a fake deadline: once they've started a starter, they'll want to know what to do on Day 2.
+
+**Biggest remaining gap:** proof. The diagnostic rated the page low on craft too, mostly for even sentence lengths and a list-like feel in the "What's inside" bullets. One real testimonial from a reader who failed before and then baked a loaf with your book would do more than anything else here.

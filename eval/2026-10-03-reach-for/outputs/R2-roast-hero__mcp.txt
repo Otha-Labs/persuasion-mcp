@@ -1,0 +1,50 @@
+## The roast
+
+**Headline: "Empowering teams to do their best work"**
+
+Try swapping the logo. This headline works just as well for Slack, Asana, Notion, a standing desk, an HR consultancy, or a nice office coffee machine. When a line fits every company, it says nothing about yours. "Empowering" is the beige paint of B2B verbs, and "their best work" is what every tool since the stapler has promised. A reader finishes the headline and still doesn't know what Flowly is.
+
+**Subheadline: "the all-in-one platform that streamlines collaboration, boosts productivity, and drives results."**
+
+- **"All-in-one platform"** sounds like you couldn't pick what the product is for.
+- **"Streamlines collaboration, boosts productivity, drives results"** is three filled squares on a buzzword bingo card. It also uses the verb-noun, verb-noun, verb-noun pattern that readers now recognize as AI filler and skip.
+- **"Drives results."** Which results? Revenue? Fewer meetings? Shipping on time? "Results" is what you write when you don't know.
+
+The subheadline's job is to explain what the headline left out. Here it just adds more fog.
+
+**Button: "Get Started"**
+
+Started with what? Is it a free trial, a sales call, or a credit card form? You're asking for a commitment before saying what it costs, and nothing above the button gives anyone a reason to click.
+
+## The scorecard
+
+I ran it through a copy diagnostic:
+
+- **Required reader questions answered clearly: 0 of 6.** "Is this for me?" and "Why act now?" are only partly answered. "Why should I pay attention?", "How bad is my problem?" and "Can I trust this?" aren't answered at all.
+- **Headline: 3.9/10.** It isn't specific, it gives no reason to read on, and it uses "best" without backing it up.
+- **Craft: 4/10.** Flagged for "empowering", sentences all the same length, and lines that read like a list instead of building on each other.
+- **Biggest problem:** nothing makes the reader stop. They see three nice-sounding lines and keep scrolling.
+
+## How to fix it
+
+1. **Name the problem or the reader.** A specific pain like "status meetings," "lost Slack threads" or "projects that slip" beats any line about empowerment.
+2. **Add one piece of proof.** A number, a customer name or a measured result. Right now the hero only makes promises.
+3. **Say what the button does and what it costs.** "Start free, no card" or "See a 2-minute demo" tells people what they're agreeing to.
+
+## Two directions
+
+I don't know what Flowly does, so these are templates. Swap in your real details and real numbers.
+
+**Option A: [The Pointed Question](https://taxonomy.coppica.com/disrupt/question-open)**
+> **How many hours did your team spend in status meetings this week?**
+> Flowly pulls updates from [Slack, GitHub, Jira] into one board, so standup becomes a two-minute read. [Customer] cut meeting time by [X]% in their first month.
+> **[Start free, no card needed]**
+
+**Option B: [The Enemy of Conventional Wisdom](https://taxonomy.coppica.com/disrupt/enemy-of-conventional-wisdom)**
+> **Your team doesn't need another tool. Flowly replaces [three of them].**
+> Tasks, docs and [chat] in one place, for [teams of 5–50 / agencies / product teams]. [N] teams switched last quarter.
+> **[See how it works in 2 minutes]**
+
+Tell me what Flowly actually does, who it's for and any real numbers you have, and I'll write a version you can ship. I can also set up an A/B test between the two directions so you're picking based on results.
+
+*Technique references: The Persuasion Taxonomy by Coppica (CC BY 4.0).*

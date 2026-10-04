@@ -1,0 +1,35 @@
+Here's a rewrite. I used your persuasion-taxonomy tools to plan it, checked one draft with them, and revised it based on what they found.
+
+---
+
+**The tee you'll still be reaching for next summer**
+
+Everyone owns one shirt they grab before all the others: the soft one that somehow always looks right. We made this to be that shirt.
+
+Honestly, it's a plain T-shirt. Nothing about it will surprise you on the hanger. It earns its keep a few months in, when a $10 tee has started rippling at the collar and you're back in the checkout line buying a replacement. Ours is organic cotton, soft from the first wear and durable enough to stay in rotation long after that. That makes $34 a better deal than it looks.
+
+It's sustainably made, too. *[Add one specific here: a certification, the factory, or an impact figure.]*
+
+Care is easy. Toss it in the machine with everything else. And since it fits true to size, just order what you always order.
+
+Six colors. Start with the one you'd wear tomorrow.
+
+**[Choose your color · $34]**
+
+---
+
+**Shorter version for a product card:**
+> The tee you'll still be reaching for next summer. Organic cotton that's soft from day one and built to outlast the $10 tees it replaces. Machine washable, true to size, six colors. $34.
+
+**What changed and why**
+- **The $34 price is now an argument.** People shopping for a basic tee compare it against cheap ones. The copy points out a cost they don't usually add up, which is buying the same cheap shirt again and again ([Hidden Cost Reveal](https://taxonomy.coppica.com/agitate/hidden-cost-reveal)). That makes the higher price read as the better deal.
+- **The opening describes what owning it is like.** Instead of starting with a list of features, it starts with the shirt you always grab first ([Aspirational Identity](https://taxonomy.coppica.com/elevate/aspirational-identity)).
+- **"Honestly, it's a plain T-shirt"** admits something unflattering on purpose ([Self-Deprecating Disclosure](https://taxonomy.coppica.com/bond/self-deprecating-disclosure)). The diagnostic flagged that the first draft never gave readers a reason to trust the brand, and an honest admission like this makes the durability claim easier to believe.
+- **Fit and care answer the usual doubts.** "Will it fit?" and "Is it a pain to wash?" are handled before the button ([Preemptive Objection](https://taxonomy.coppica.com/resolve/preemptive-objection)).
+
+**I didn't make up any facts, so here's what's left to fill in:**
+1. **A specific sustainability fact.** "Sustainably made" on its own gets skimmed, and the FTC's Green Guides warn against vague green claims. A certification like GOTS or the name of your factory would make it believable.
+2. **A return or fit guarantee, if you have one.** It's the strongest thing you could add, because it takes away most of the risk of buying.
+3. **The headline promises the shirt lasts about a year.** Make sure your durability backs that up.
+
+The diagnostic's craft score on the first draft was 4.6 out of 10, mostly because the sentences all ran the same length. I rewrote the rhythm but didn't run the check again.

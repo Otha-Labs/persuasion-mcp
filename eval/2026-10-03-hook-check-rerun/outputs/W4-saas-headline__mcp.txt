@@ -1,0 +1,22 @@
+Here's my pick, plus one alternate worth A/B testing against it.
+
+**Recommended**
+
+> # Get paid without writing another "just following up" email.
+> Nudge chases late invoices by email and SMS for small creative agencies, so the money comes in and you never have to send the awkward reminder yourself.
+
+Nobody wants to chase clients for money, and every agency owner has written that "just following up" email many times. The headline names that chore and promises they won't have to do it again. This approach is called the [Outcome-Without-Method Paradox](https://taxonomy.coppica.com/reframe/outcome-without-method-paradox): you promise the result and drop the step people assume they can't avoid. The subheadline says what Nudge does and who it's for, which the headline leaves out.
+
+**Alternate to test against it**
+
+> # Your clients love your work. They just forgot to pay for it.
+> Nudge sends the reminders for you, by email and SMS, until the invoice is paid. Built for small creative studios that would rather do the work than chase it.
+
+This one bets on the relationship worry. It treats late payers as forgetful rather than difficult, so an automatic nudge feels friendly instead of hostile. That matters to owners who want to keep the client. It makes a different bet from the first option, so an A/B test between them would show which worry matters more to your buyers.
+
+**Backup option:** "You run a creative studio, not a collections agency." It works, but it uses the "not X but Y" pattern that many SaaS sites already use.
+
+**Things to check before you ship:**
+- **"Until the invoice is paid"** in the alternate assumes Nudge keeps sending reminders until payment. If it stops after a set number, cut that phrase.
+- **There's no proof yet.** Neither version gives the reader a reason to believe the promise. Once you have a real number, such as "agencies on Nudge get paid X days sooner on average," put it just under the subheadline. Don't use a placeholder number.
+- **Urgency comes from the button.** A trial CTA like "Start chasing invoices free" does that job better than squeezing it into the headline.

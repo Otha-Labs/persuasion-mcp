@@ -1,0 +1,29 @@
+Lots of clicks with almost no sales can mean two different things, and the fix depends on which one you have. So the first job is finding out where people leave.
+
+## Step 1: Find where people drop off (about 15 minutes)
+
+1. **Compare link clicks to landing page views in Ads Manager.** If landing page views are well below link clicks, people leave before the page even loads. That points to a slow page or accidental clicks, and copy changes won't help. Look at your placements: Audience Network is a common source of junk clicks.
+2. **Measure how far people scroll and how long they stay.** Microsoft Clarity is free and gives you heatmaps and session recordings.
+3. **Track each step of the funnel:** article → product page click → add to cart → checkout started. The step where the numbers fall off tells you which problem below you have.
+
+## If they leave within the first screen: the ad and page don't match
+
+- **The page doesn't continue what the ad promised.** Put the ad next to the top of the article. If the article opens with a new headline or a generic intro, readers feel the mismatch and leave.
+- **The ad may be drawing curiosity clicks, not buyers.** A hook like "doctors are stunned" gets cheap clicks from people who don't have joint pain. A high click-through rate with no sales is a classic sign of this.
+- **Fix:** Use a [Precision Audience Signal](https://taxonomy.coppica.com/identify/precision-audience-signal): describe the reader so specifically that the right person feels singled out. For example: "If your knees ache on the stairs every morning…" You'll get fewer clicks, but better ones.
+
+## If they read but don't buy: they don't believe it, or it feels too risky
+
+This is the more likely problem with a long article. Your reader has almost certainly tried glucosamine or something similar already. Their real question is "why would this work when the others didn't?"
+
+- **Put evidence right next to each claim.** Name the ingredient, the dose and the study, and make sure your dose matches the one studied. That's [Quantified Proof](https://taxonomy.coppica.com/prove/statistical-proof). Few supplement brands use [Demonstration](https://taxonomy.coppica.com/prove/demonstration), so it can stand out. An example would be a real customer doing a concrete task like a stairs test, as long as their result is typical.
+- **Make the guarantee last longer than results take.** If the article says results show up in 4–8 weeks, but you sell one 30-day bottle with a 30-day guarantee, the buyer risks $39 on something they can't judge in time. That gap quietly kills sales.
+- **Explain what happens after they click buy.** Say whether it's one-time or a subscription, when it ships, and how to cancel. That's a [Process Walkthrough](https://taxonomy.coppica.com/resolve/process-walkthrough). Supplement buyers have been burned by hidden subscriptions, so anything unclear reads as a trap.
+- **Give a real reason to buy today, or none.** Fake countdown timers undo the trust the article built.
+- **Describe their life afterward, not the ingredients.** "Walking the dog without planning around the stairs" works better than "supports cartilage health."
+
+## One warning on claims
+
+Keep your claims about supporting joint comfort and function. Claims that it treats arthritis or replaces medication get ads rejected on Facebook and can bring trouble with the FTC (the US consumer-protection regulator). Proof only builds trust when it's true and typical.
+
+If you paste in the ad copy and the article, I can go through them line by line and show you exactly where readers are most likely dropping off.

@@ -1,0 +1,187 @@
+{
+ "source": "Upworthy Research Archive (Matias, Munger, Le Quere, Ebersole 2021, Nature Scientific Data), CC BY 4.0",
+ "method": "Within-test trait analysis on the Upworthy Research Archive (CC BY 4.0, Matias et al. 2021).\nUnit = one test x one image (eyecatcher), so only headlines shown with the same image are compared.\nPackages need >= MIN_IMP impressions. For a binary trait, a unit votes 1 if its packages WITH the\ntrait have a higher pooled CTR than those without. For a continuous trait, the unit compares its\nhighest- and lowest-valued packages. Win rate > 50% = the trait tends to win. Tests in the\nbroken-randomization window (2013-06-25 .. 2014-01-10) are excluded.",
+ "min_impressions": 1000,
+ "traits": {
+  "number": {
+   "confirmatory_win_rate": 0.5443,
+   "confirmatory_n": 3316,
+   "ci95": [
+    0.5273,
+    0.5612
+   ],
+   "holdout_win_rate": 0.5811,
+   "holdout_n": 721,
+   "exploratory_win_rate": 0.5405,
+   "verdict": "REPLICATES wins"
+  },
+  "question": {
+   "confirmatory_win_rate": 0.3856,
+   "confirmatory_n": 4217,
+   "ci95": [
+    0.371,
+    0.4004
+   ],
+   "holdout_win_rate": 0.3619,
+   "holdout_n": 923,
+   "exploratory_win_rate": 0.3838,
+   "verdict": "REPLICATES loses"
+  },
+  "you": {
+   "confirmatory_win_rate": 0.487,
+   "confirmatory_n": 5010,
+   "ci95": [
+    0.4732,
+    0.5009
+   ],
+   "holdout_win_rate": 0.5032,
+   "holdout_n": 1099,
+   "exploratory_win_rate": 0.4876,
+   "verdict": "no reliable effect"
+  },
+  "first_person": {
+   "confirmatory_win_rate": 0.5001,
+   "confirmatory_n": 4475,
+   "ci95": [
+    0.4855,
+    0.5148
+   ],
+   "holdout_win_rate": 0.4964,
+   "holdout_n": 985,
+   "exploratory_win_rate": 0.4743,
+   "verdict": "no reliable effect"
+  },
+  "quotation": {
+   "confirmatory_win_rate": 0.4377,
+   "confirmatory_n": 361,
+   "ci95": [
+    0.3874,
+    0.4892
+   ],
+   "holdout_win_rate": 0.4177,
+   "holdout_n": 79,
+   "exploratory_win_rate": 0.4754,
+   "verdict": "no reliable effect"
+  },
+  "negation": {
+   "confirmatory_win_rate": 0.4996,
+   "confirmatory_n": 4548,
+   "ci95": [
+    0.485,
+    0.5141
+   ],
+   "holdout_win_rate": 0.5165,
+   "holdout_n": 999,
+   "exploratory_win_rate": 0.4839,
+   "verdict": "no reliable effect"
+  },
+  "superlative": {
+   "confirmatory_win_rate": 0.5334,
+   "confirmatory_n": 2261,
+   "ci95": [
+    0.5128,
+    0.5539
+   ],
+   "holdout_win_rate": 0.5382,
+   "holdout_n": 524,
+   "exploratory_win_rate": 0.5558,
+   "verdict": "no reliable effect"
+  },
+  "this_these": {
+   "confirmatory_win_rate": 0.5578,
+   "confirmatory_n": 5522,
+   "ci95": [
+    0.5446,
+    0.5708
+   ],
+   "holdout_win_rate": 0.5725,
+   "holdout_n": 1214,
+   "exploratory_win_rate": 0.5526,
+   "verdict": "REPLICATES wins"
+  },
+  "exclamation": {
+   "confirmatory_win_rate": 0.4034,
+   "confirmatory_n": 761,
+   "ci95": [
+    0.3691,
+    0.4387
+   ],
+   "holdout_win_rate": 0.3701,
+   "holdout_n": 154,
+   "exploratory_win_rate": 0.3576,
+   "verdict": "REPLICATES loses"
+  },
+  "emphasis_caps": {
+   "confirmatory_win_rate": 0.4178,
+   "confirmatory_n": 1776,
+   "ci95": [
+    0.3951,
+    0.4409
+   ],
+   "holdout_win_rate": 0.4474,
+   "holdout_n": 380,
+   "exploratory_win_rate": 0.4103,
+   "verdict": "REPLICATES loses"
+  },
+  "how_why_what": {
+   "confirmatory_win_rate": 0.4963,
+   "confirmatory_n": 5561,
+   "ci95": [
+    0.4832,
+    0.5095
+   ],
+   "holdout_win_rate": 0.5033,
+   "holdout_n": 1220,
+   "exploratory_win_rate": 0.5042,
+   "verdict": "no reliable effect"
+  },
+  "time_word": {
+   "confirmatory_win_rate": 0.5366,
+   "confirmatory_n": 2158,
+   "ci95": [
+    0.5155,
+    0.5576
+   ],
+   "holdout_win_rate": 0.5593,
+   "holdout_n": 447,
+   "exploratory_win_rate": 0.5441,
+   "verdict": "REPLICATES wins"
+  },
+  "old_scoreHook": {
+   "confirmatory_win_rate": 0.4632,
+   "confirmatory_n": 7726,
+   "ci95": [
+    0.4521,
+    0.4744
+   ],
+   "holdout_win_rate": 0.4949,
+   "holdout_n": 1673,
+   "exploratory_win_rate": 0.482,
+   "verdict": "no reliable effect"
+  },
+  "word_count": {
+   "confirmatory_win_rate": 0.5385,
+   "confirmatory_n": 9564,
+   "ci95": [
+    0.5285,
+    0.5485
+   ],
+   "holdout_win_rate": 0.5435,
+   "holdout_n": 2079,
+   "exploratory_win_rate": 0.5493,
+   "verdict": "REPLICATES wins"
+  },
+  "article_overlap": {
+   "confirmatory_win_rate": 0.5268,
+   "confirmatory_n": 9406,
+   "ci95": [
+    0.5167,
+    0.5369
+   ],
+   "holdout_win_rate": 0.5164,
+   "holdout_n": 2043,
+   "exploratory_win_rate": 0.5188,
+   "verdict": "no reliable effect"
+  }
+ }
+}

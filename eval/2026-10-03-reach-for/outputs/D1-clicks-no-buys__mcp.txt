@@ -1,0 +1,35 @@
+The phrase "lots of clicks, almost no buyers" covers three different problems, and each one has a different fix. So the first job is to find out where people drop off.
+
+## Step 1: Find where they leave
+
+In Meta Ads Manager and your page analytics, check:
+
+- **Link clicks vs. landing page views.** If landing page views are much lower than clicks, people leave before the page even loads. That points to page speed in Facebook's in-app browser or to accidental taps, not your copy.
+- **Time on page and scroll depth.** If most people leave within about 10 seconds, it's a bounce problem. If they scroll halfway or further and still don't buy, it's a persuasion problem.
+- **Add-to-cart and checkout starts.** If people start checkout and quit, look at surprise shipping costs, forced account creation or a slow payment step.
+
+## Likely causes for this setup, most likely first
+
+**1. The ad and the page don't match.** Ads that win clicks through curiosity often bring in people who weren't looking for a joint supplement. Put your ad next to the first screen of the article. Do they make the same promise, in the same words, to the same person? The headline should continue the thought the ad started, not start over cold. One fix is to name the exact reader so precisely that the right person feels singled out ([Precision Audience Signal](https://taxonomy.coppica.com/identify/precision-audience-signal)), for example "for people whose knees ache on the stairs every morning" instead of "for joint health."
+
+**2. They don't believe the claims.** This is probably your biggest problem if people read the article but don't buy. Joint-pain buyers have usually tried glucosamine or turmeric already and been let down. They're quietly asking, "Why would this one work when the last three didn't?" Every big claim needs a mechanism and evidence right beside it:
+- Specific numbers, like study results, the percentage of customers who reorder, or a count of reviews ([Quantified Proof](https://taxonomy.coppica.com/prove/statistical-proof))
+- Something they can see happen, such as a before/after mobility test or a short customer video ([Demonstration](https://taxonomy.coppica.com/prove/demonstration))
+
+**3. Doubts aren't answered before you ask for the sale.** At $39, the hidden objection is "this takes weeks to work, so one bottle is a gamble." By the time you make the pitch, the page should answer three questions: how long until I feel it, will it work for my kind of pain, and what if it doesn't? A clear money-back guarantee, plus bundle pricing that matches the time the product takes to work (for example, a 3-bottle "90-day course"), usually does more than cutting the price.
+
+**4. The move from article to sales pitch.** Advertorials often lose people at the moment they turn into a pitch, or when the button goes to a generic product page that starts the story over. The offer page should feel like the next paragraph of the article.
+
+**5. No honest reason to buy today.** If nothing makes today the day, people bookmark the page and never come back. Use a real deadline or a real launch price, not a fake countdown timer, because skeptical buyers spot those. For readers who aren't ready yet, a free guide in exchange for an email address ([Lead Magnet](https://taxonomy.coppica.com/resolve/lead-magnet)) lets you follow up instead of losing them.
+
+## A note on claims
+
+Joint pain is a regulated area. In the US, supplements can make "supports joint comfort" style claims (structure/function claims) with the FDA disclaimer. Saying the product treats arthritis or other diseases can get your ads rejected by Meta and creates FTC/FDA risk. Overblown claims also lower trust, which feeds problem #2.
+
+## How to confirm the cause
+
+Once you know where the leak is, test one change at a time. If people bounce, test a new first screen that matches the ad. If they read but don't buy, test a version with strong proof next to the main claim against your current page.
+
+If you paste your ad copy, the landing page text and whatever numbers you have (click-through rate, landing page views, scroll depth, add-to-carts), I can go through it line by line and show exactly where it's losing people.
+
+*Technique references: The Persuasion Taxonomy by Coppica (CC BY 4.0).*

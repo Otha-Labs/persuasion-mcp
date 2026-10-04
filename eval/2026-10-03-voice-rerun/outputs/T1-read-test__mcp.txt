@@ -1,0 +1,19 @@
+**Not yet.** B is ahead, but at 95% confidence the result isn't statistically significant.
+
+| | Visitors | Signups | Conversion rate |
+|---|---|---|---|
+| A (control) | 4,210 | 97 | 2.30% |
+| B | 4,180 | 121 | 2.89% |
+
+- **Lift:** +25.6% relative, or +0.59 percentage points.
+- **p-value:** 0.089. The usual cutoff is 0.05.
+- **95% confidence interval for the difference:** −0.09 to +1.27 percentage points. The low end is just below zero, so this data can't rule out that B is no better than A.
+- **Chance B is actually better than A:** about 96%.
+- **Traffic split:** the 4,210 vs 4,180 split looks even, so there's no sign of a randomization problem.
+
+**Should you switch?** It depends on what being wrong would cost you.
+
+- **If switching is cheap and you can easily switch back,** going with B is a reasonable bet. B is probably better, and at worst it's about the same as A. But don't plan around a 25% lift. When a winner barely clears the bar, the true effect usually turns out smaller than what the test showed.
+- **If you need a confirmed result** (for example, you'll report the lift or build more changes on top of B), keep the test running. To reliably detect a lift this size from a 2.3% baseline, you need about 12,000 visitors per version, roughly three times what you have. Choose that number up front and stop when you reach it. If you check repeatedly and stop as soon as the result looks significant, the p-value can't be trusted.
+
+**Before you decide, check revenue as well as signups.** This is a pricing page. If B changed the prices or which plan stands out, more signups can still mean less revenue. Compare revenue per visitor (or the plan mix) between A and B before you switch.

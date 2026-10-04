@@ -1,0 +1,125 @@
+I've planned next week around a small-batch drop: one real reason to buy now, aimed at the people who already like your work, plus one ad to reach people who've never seen it.
+
+## Why sales are probably flat
+
+I don't have your numbers, so this is my best guess. Instagram keeps showing your posts to the same people, and most of them have already decided whether to buy. Your product photos show the work but don't give anyone a reason to buy this week, so "I'll get one eventually" wins.
+
+Three questions also go unanswered for most followers: "Will it fit my plant?", "Will it survive shipping?" and "Why does it cost three times a store pot?"
+
+Before spending anything, check two things words can't fix:
+- **Shipping cost:** does it show up before checkout? Ceramics are heavy, and a surprise shipping charge loses sales.
+- **Your bio link:** does it go straight to the new pieces?
+
+## The week (Mon Oct 5 – Sun Oct 11)
+
+| Day | What we do |
+|---|---|
+| **This weekend** | Photograph every piece on its own: four sides, plus one shot with a plant in it and a hand for scale. Each listing should say which nursery pot size fits inside. DM 3 past customers for a photo and a line about their planter. |
+| **Mon** | Reel showing one pot from this batch, from the wheel to opening the kiln (~20s). Caption: "Batch opens Friday 10am. The email list gets it Thursday. Link in bio to join." This is how the list grows. |
+| **Tue** | Post a carousel of the whole batch **with prices on the slides**. If people can't see a price, they assume it's too much. Add a countdown sticker in Stories. |
+| **Wed** | Stories answering the four questions: will it fit, what if it breaks in shipping, does it drain, why the price. Repost the customer photos. |
+| **Thu 10am** | The shop goes live and **the email goes out**. Nothing goes on the Instagram feed. Answer every reply personally. |
+| **Fri 10am** | Feed post and Stories with a link sticker. **The ad starts** at about $25/day through Monday. Exclude current followers, and send clicks to the batch page, not your homepage. |
+| **Sat** | A Story with the real count of what's left. Only post it if it's accurate. |
+| **Sun** | Resend the email to people who didn't open it, with a new subject line: "[N] left from batch 14". |
+| **Mon Oct 12** | Compare: revenue against your average week, email click rate, orders from each link (tag them), ad cost per click, and **new list signups**. Long term, the signups matter most. |
+
+If the batch sells out, pause the ad or point it at a "next batch" waitlist so the clicks still become email addresses.
+
+## The email (sends Thursday 10am)
+
+```
+Subject: Batch 14: you get 24 hours first
+Preview: [31] pots, one of each. Instagram sees them Friday.
+
+Hi [first name],
+
+Every pot in this batch was about 12% bigger when I threw it. Clay shrinks
+as it dries, then shrinks again in the kiln, so I throw each one oversized
+and trust the math. This week I opened the kiln and [31] of them had come
+out right.
+
+They're in the shop as of this morning, and I'm not posting them on
+Instagram until Friday at 10am. Until then it's just you and the rest of
+this list.
+
+If you've looked at a pot from an earlier batch and thought "next time,"
+this is next time.
+
+Here's what came out:
+  [8] small, for a 4" nursery pot, $38 to $48
+  [15] medium, for a 6" nursery pot, $58 to $78
+  [8] large, for a 10" nursery pot, $95 to $120
+
+The glazes are [speckled oat, moss, and an iron red I've been testing since
+spring]. Each listing shows that exact pot from four sides, because no two
+came out alike and the one in the photos is the one you'll get.
+
+Here's what [customer name] wrote after the [spring] batch: "[real quote]"
+
+A few questions come up every time, so here are the answers.
+
+Will it fit my plant? Measure across the top of the plastic pot your plant
+lives in now. Every listing names the nursery pot size that drops straight in.
+
+What if it breaks in the mail? It ships double-boxed. If one still arrives
+cracked, send me a photo and I'll replace it or refund you, whichever you'd
+rather.
+
+Does it drain? Yes. Every one has a drainage hole, and the medium and large
+come with a matching saucer.
+
+Why $58 for a pot? Each one takes about three weeks and two firings. And
+fired stoneware will hold a plant for decades if nobody knocks it off the
+shelf, while the plastic one it replaces goes brittle after a couple of
+summers in the sun.
+
+You won't find a countdown timer on this. There are [31] pots. When they're
+gone, the next kiln load is [mid-November], and none of these will be in it,
+since each one only exists once.
+
+So if there's a plant on your windowsill still sitting in the plastic pot it
+came home in, this weekend is a good one to fix that.
+
+[See batch 14 →]
+
+[Name]
+[Studio]
+
+P.S. Not sure which size you need? Reply with a photo of your plant and I'll
+tell you which pot fits.
+```
+
+## The ad (Instagram, Fri–Mon, people who don't follow you yet)
+
+**Video (6–10s, vertical, shot on a phone):** a real plant shelf with a black plastic nursery pot in the middle. Hands lift the plant out, drop the nursery pot into one of your planters and put it back. It ends on the same shelf.
+
+```
+Primary text:
+Every photo of your plant shelf has the same black plastic nursery pot in it.
+You've cropped around it. You've tucked a trailing pothos in front of it.
+It's still there.
+
+Swap that one pot for one made by hand, put it back in the middle of the
+shelf, and take the photo again.
+
+Every planter in [Studio]'s new batch was thrown and glazed by hand in
+[city], so each one exists exactly once. They all have drainage holes, and
+every listing tells you which nursery pot size drops straight in, so you
+don't have to repot unless you want to.
+
+From $38. There are [31] in this batch, and the next kiln load isn't until
+[mid-November].
+
+Headline: Handmade planters from $38
+Button: Shop Now
+```
+
+## Before you send anything
+
+- **Fill in every bracket with a true fact.** I didn't have these details. The breakage promise, the saucers and the next-batch date matter most, because the email asks people to trust exactly those claims. Check the 12% figure against your own clay too; stoneware usually shrinks 10–15%.
+- **The checks I ran:** I tested both drafts against a framework of the nine questions readers ask before buying. Two things came back. Neither draft said what the problem costs the reader, so I added the "next time" line to the email and the cropped-out nursery pot to the ad. The ad's sentences were also all about the same length, so I rewrote them to vary.
+- **My first subject lines got cut off.** The reason to open was past the ~40 characters a phone shows, so I rewrote the subject to fit.
+- **This can't predict sales.** Only the Monday numbers will show whether this works. With ~$100 on the ad, judge it on cost per click rather than purchases; that's too few sales to read.
+
+Separately: your Sentry connection needs to be authorized before you can use it. This plan didn't need it.

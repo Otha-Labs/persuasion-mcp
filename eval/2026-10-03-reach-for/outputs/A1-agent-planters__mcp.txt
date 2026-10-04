@@ -1,0 +1,107 @@
+The plan is built around one idea, and the email and ad both serve it.
+
+## Why sales are probably flat
+
+When Instagram sales stay flat for months, the usual cause is that the same followers keep seeing the same product shots and nothing gives them a reason to buy today. You have a reason most brands have to fake: each piece is one of a kind and comes from one kiln load. Next week turns that into a dated event. Your email list gets the first 24 hours, and an ad brings in people who don't follow you yet.
+
+I don't have your numbers, so check two things on Monday. They tell us which problem we're actually solving:
+- **Instagram reach and profile visits over the last 3 months.** If they're flat or dropping, the problem is getting seen, and the ad matters most.
+- **Site visits from Instagram compared with orders.** If visits held steady but orders didn't, look at checkout first, especially shipping cost. Ceramics are heavy, and a surprise shipping charge at the last step is a common reason people abandon a cart.
+
+## Next week (Mon Oct 5 – Sun Oct 11)
+
+| Day | What happens |
+|---|---|
+| **Mon** | Pull the numbers above (30 min). Photograph every piece separately, in a real room with a plant in it rather than on a white backdrop. Measure the inside width and depth of each one. |
+| **Tue** | Post a Reel of the kiln opening or glaze close-ups, with the caption: "New batch goes to my email list Thursday, Instagram Friday at noon. Link in bio to get on the list." Add a Stories countdown sticker. This gives people a concrete reason to subscribe. |
+| **Wed** | Post a Reel of one planter from wheel to kiln. List each piece as its own one-of-a-kind listing. Build the ad. |
+| **Thu 10am** | **Send the email.** The batch goes live for subscribers. Post a Story saying "the list has it now." |
+| **Fri noon** | Release it to everyone: a carousel post of every piece with prices. **Start the ad.** Mark pieces "sold" in Stories as they go. That's real scarcity and social proof. |
+| **Sat–Sun** | Repost the customer photos that come in from email replies (ask permission first). |
+| **Next Mon** | Review the results (see "How we'll judge it" below). |
+
+**If you don't have a fresh batch ready:** run the same plan with your current stock, framed honestly, for example "the last [N] from the summer firing."
+
+## The email
+
+**Subject:** First pick of the new batch ([24] pieces)
+**Preview:** Clay shrinks about 12% in the kiln. Here's what came out.
+
+> Hi [First name],
+>
+> Clay shrinks about 12% in the kiln. So every planter in this batch went in bigger than it came out, and a few came out with glaze runs down the side that I couldn't have planned if I'd tried.
+>
+> There are [24]. That's one full kiln load, and it's all I'll have until the next firing in [early November].
+>
+> Because you're on this list, you see them first. The batch is open to you now, a full day before it goes up on Instagram on Friday at noon.
+>
+> **[See the batch]**
+>
+> If you've got a plant still sitting in its plastic nursery pot, waiting for the right home, this is a good batch to find it in. Before you pick, here are the questions I get most.
+>
+> **Will it fit?** Each listing gives the inside width and depth. Measure the pot your plant is in now and go 1 to 2 inches wider.
+>
+> **Does it drain?** Yes. Every planter has a drainage hole.
+>
+> **What if it breaks in the mail?** [I wrap each one by hand and double-box it.] And if one still arrives broken, send me a photo and I'll replace it or refund you, whichever you'd rather.
+>
+> **Why $38 to $120?** Most of the price is time. I throw, trim, glaze and fire every piece myself, and a large planter takes about [6] hours of hands-on work spread across two weeks of drying and two trips through the kiln.
+>
+> "[Real customer quote about how it looks in their home]" [Name, city]
+>
+> If you already have one of mine, hit reply and send me a photo of where it lives now. I read every one, and the good ones make my week.
+>
+> [Maker's first name]
+>
+> P.S. Every piece is a one-off. Once the [blue speckled one with the drip at the rim] sells, there won't be another like it.
+
+## The ad
+
+**Format:** a 15-second vertical video for Reels, Stories and Feed.
+- **0–2s:** A plant in a scuffed plastic nursery pot on a shelf. Text on screen: *Still in the plastic pot it came home in?*
+- **2–6s:** Hands lift it out and set it into one of your planters.
+- **6–11s:** Shots of the wheel, glazing and the kiln. Text: *[24] pieces from one kiln load*
+- **11–15s:** The plant back in place in the room. Text: *$38 to $120*
+
+**Caption:**
+> Still in the plastic pot it came home in?
+>
+> Most plants are. The nursery pot was supposed to be temporary, and two years later it's still the one thing in the room that looks like it never got unpacked.
+>
+> I make planters by hand in [City], one kiln load at a time, throwing each one on the wheel and glazing it myself. Glaze moves in the heat. So no two come out alike, and every one has a drainage hole.
+>
+> October's batch is [24] pieces, $38 to $120. When one sells, that one's gone.
+
+**Headline:** Out of the plastic pot · **Button:** Shop Now
+
+**Setup:**
+- **Budget:** about $20–25 a day for 7 days.
+- **Audience:** people aged 25–45 interested in houseplants and home decor, plus a lookalike of your past buyers if your ad account has enough of them.
+- **Second version:** run the same caption over a kiln-opening video so you can see which footage pulls more clicks.
+
+## How we'll judge it
+
+- **Email:** open rate, click rate, and orders in the first 24 hours compared with your last few sends.
+- **Ad:** cost per landing-page view and add-to-carts. Seven days and about $150 won't produce enough purchases to judge the ad on sales, so treat it as a test of which hook works, not the whole fix.
+- **Overall:** if the email sells well but the ad doesn't, your existing audience is fine and the problem is reach. If both stall, look at the shop and checkout.
+
+## Before anything goes out
+
+Everything in brackets is a placeholder I made up. Replace each one with your real details, or cut it:
+- **Breakage promise:** only include it if that's your actual policy.
+- **Quote:** use a real customer quote, or drop it.
+- **12% shrinkage:** typical for stoneware. Use your own clay's figure, which is on its spec sheet.
+- **"I" vs. "we":** I wrote both pieces in the maker's voice. If more than one person makes the pots, change "I" to "we."
+
+## Why the copy is built this way
+
+These are the persuasion techniques the copy uses, from the [Persuasion Taxonomy](https://taxonomy.coppica.com) (CC BY 4.0):
+- **[Strange Fact](https://taxonomy.coppica.com/disrupt/strange-fact):** the shrinkage opener.
+- **[Small Batch Signal](https://taxonomy.coppica.com/prove/small-batch-signal):** one kiln load as proof of the handwork.
+- **[Exclusive Access](https://taxonomy.coppica.com/elevate/exclusive-access):** the list gets a day's head start.
+- **[Preemptive Objection](https://taxonomy.coppica.com/resolve/preemptive-objection):** answering fit, drainage, breakage and price before they stop the sale.
+- **[Behavioral Mirror Hook](https://taxonomy.coppica.com/identify/behavioral-mirror-hook):** the ad's plastic-pot opener.
+
+I checked both drafts against that framework's copy checklist. Each covers what it needs for its goal, and I revised them so they read less like a list.
+
+**Two things would sharpen this:** roughly how many people are on your email list, and whether there's a batch out of the kiln this week.

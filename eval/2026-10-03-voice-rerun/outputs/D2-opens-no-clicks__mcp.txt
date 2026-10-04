@@ -1,0 +1,22 @@
+The fix depends on why people aren't clicking, so check two things before you rewrite anything.
+
+## First, make sure the numbers are real
+
+- **Your open rate is probably inflated.** Apple Mail Privacy Protection loads every email automatically, so it counts as "opened" whether or not anyone read it. If a lot of your list uses Apple Mail, your real open rate could be well under 35%. That would make clicks look worse than they are. Look at click-to-open rate, or clicks as a share of delivered emails, instead.
+- **Rule out mechanical problems.** These include broken or mis-tracked links, emails that are mostly images (many clients block images), and links that are hard to tap on a phone.
+
+## Then, the likely copy problems, most likely first
+
+1. **The first line doesn't deliver what the subject line promised.** If the subject promises something and the opening is a "hi everyone, here's what's new" warm-up, the open feels like bait and people stop reading. Read the first sentence under each recent subject line and check whether it pays off right away.
+
+2. **No link stands out, and nothing explains why to click.** Ten links with equal weight usually get zero clicks. Pick one main link per issue, put it near the top, and make the link text say what the reader gets. "See the 3 pricing pages we tore apart" works; "Read more" doesn't. Secondary links can go lower down.
+
+3. **The email gives everything away, so there's nothing left to click for.** If each item is fully summarized in the email, readers get the value without leaving. That's fine if reading is the goal. If you need clicks, stop at the interesting part and save the payoff (the full breakdown, the template, the data) for the other side of the link.
+
+4. **It's about you, not the reader.** Count "we/our" against "you/your." Newsletters slide into company news over time, and readers decide it's written for someone else. One fix is to describe the reader's problem through specific, recognizable symptoms instead of one general statement ([Symptom Enumeration](https://taxonomy.coppica.com/identify/symptom-enumeration)).
+
+## How to test it
+
+Change one thing per send and measure click rate, not opens. Start with #2: one main link with payoff-style link text, against your current format. It's the cheapest change and usually the biggest. If you tell me your list size, I can work out how many sends you'd need to trust the result.
+
+If you paste in a recent issue with its subject line, I can go through it line by line and point to exactly where readers drop off.

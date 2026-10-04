@@ -1,0 +1,22 @@
+**B is probably better, but the test hasn't proven it yet.**
+
+| | Visitors | Signups | Rate |
+|---|---|---|---|
+| A | 4,210 | 97 | 2.30% |
+| B | 4,180 | 121 | 2.89% (+25.6% relative) |
+
+- **p = 0.089.** That doesn't meet the usual 0.05 bar for a significant result.
+- **95% interval for the difference: −0.09 to +1.27 points.** In relative terms, B's real lift could be anywhere from about −4% to +55%. The range includes zero, so you can't rule out that B makes no difference.
+- **Chance B really is better than A: about 96%.** B is very likely the better page. What's uncertain is how much better.
+
+**Should you switch?** It depends on what a wrong call would cost you:
+
+- **If you can wait, keep the test running.** To reliably detect a lift of about 25% at a 2.3% baseline, you'd need roughly 11,000–12,000 visitors per version. That's about 2.5–3× what you have now. If the true lift is smaller, you'd need even more. Pick that number in advance and stop only when you reach it.
+- **If you need to decide now, B is the better bet.** It's 96% likely to be at least as good as A. Just don't plan around the +25%; the real lift is probably smaller.
+
+**Two things to check first:**
+
+1. **Did you stop when the results looked good?** If you checked repeatedly and stopped once B pulled ahead, the p-value makes the result look more certain than it is. That makes waiting for the fixed sample size more important.
+2. **Is it a pricing page?** If B changes the price or the plan structure, signups aren't the right measure. More signups at a lower price can still mean less money. Compare revenue per visitor, or paid conversions, before you switch.
+
+If you tell me what B changed, I can help work out why it may have performed better and what to test next.

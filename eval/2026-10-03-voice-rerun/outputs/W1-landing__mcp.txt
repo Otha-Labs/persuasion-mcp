@@ -1,0 +1,70 @@
+Here's the landing page copy, from the top of the page to the bottom.
+
+---
+
+# At 12:30, your dog heads out for a walk. At 1:01, you're at your desk looking at the photo.
+
+30-minute GPS-tracked walks for Austin dogs whose people work long days. $25 a walk. A route map and photos land on your phone after every one.
+
+**[Book your first walk]**
+
+---
+
+## Eleven hours is a long time to watch the door.
+
+You leave at 7:30 and get home around 6:30, later if MoPac has opinions. Your dog spends a good part of that lying by the door, listening for your car.
+
+You've probably tried to fix this already. Maybe a neighbor said "no problem" and meant it for about two weeks. Maybe you tried an app and got a different walker every Tuesday. Either way, you ended up with the same question at 2 p.m.: did they actually walk the dog, or just do one lap and leave? You had no way to know, so you wondered about it all afternoon.
+
+## One walk splits the day in half.
+
+Eleven hours alone is a long stretch for a dog. Two shorter stretches with a walk in the middle make a completely different day. Your dog gets outside, sniffs every fence post on the block, works off the restlessness, and comes back ready for a long nap. Then you come home to a dog who's tired in the good way. And a rug that's still clean.
+
+All of that costs $25, about what lunch downtown runs you.
+
+## You don't have to take our word for any of it.
+
+Every walk is GPS-tracked. When it's over, you get the route on a map with start and end times, plus photos of your dog out on the walk. So if a walk ever ran short, you'd see it on the map before we could explain it. We set it up that way on purpose. You've heard "trust us" before.
+
+- **GPS on every walk.** See where your dog went and for how long.
+- **Photos after every walk.** Your dog, outside, today.
+- **A full 30 minutes.** The start and end times are right there on the map.
+
+> [Client quote. Best if it mentions the photos or the map. First name, dog's name, neighborhood.]
+
+## How it works
+
+1. **Book your first walk.** Tell us about your dog and what time of day works.
+2. **Meet your walker.** We come by, meet your dog, and sort out keys.
+3. **Get back to work.** Each walk ends with a photo and a map on your phone.
+
+## Pricing
+
+**$25 per 30-minute walk.** GPS tracking and photos come with every walk.
+[Weekly plans or packages, if you offer them]
+
+## Questions
+
+**How do you get into my home?** [Your key handoff or lockbox process]
+**What happens when it's 104 out?** [Your summer policy: early or late slots, shaded routes, shorter loops, water]
+**Will it be the same walker every time?** [Keep this only if it's true]
+**Are you insured?** [Insurance and bonding details]
+**What if I need to cancel?** [Your cancellation window]
+
+## Tomorrow at 1:01, check your phone.
+
+Book today, and your dog's first walk could be as soon as tomorrow at lunch.
+
+**[Book your first walk]**
+
+---
+
+**Things to confirm before this goes live:**
+- **Can owners see the route map and the start and end times?** I assumed "GPS-tracked" means yes. The trust section depends on it, because it tells readers they can check every walk themselves. If they only get photos, that section needs rewriting.
+- **Step 2 and the last line.** Step 2 assumes you meet the dog and sort out keys in person before the first walk. The last line assumes you can sometimes start the next day. Change either one if that's not how you work.
+- **Testimonials.** You didn't give me any, so I left a placeholder instead of making one up. It's the weakest part of the page. One real quote mentioning the map or photos would help most. A real client's photo update shown as a screenshot would be even better.
+- **The heat question.** Austin owners will want to know what you do in summer, so give it a real answer.
+
+I planned and checked the draft with the persuasion-taxonomy tools. The check found that every question the page needs to answer was covered. It flagged two things, which I then fixed: the headline didn't make clear who the page is for, and the sentences were all about the same length.
+
+One unrelated thing: the Sentry server needs authorizing (run `/mcp` in an interactive session), and the GitHub and Firecrawl servers failed to connect this session.

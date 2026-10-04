@@ -1,0 +1,66 @@
+[
+ {
+  "id": "W1-landing",
+  "prompt": "Write the copy for a landing page for my dog-walking business in Austin. We do 30-minute walks for $25, GPS-tracked, and owners get photo updates after every walk. Most of our clients are people who work long office days."
+ },
+ {
+  "id": "W2-fb-ads",
+  "prompt": "Write 3 Facebook ad variations for my online course 'Bookkeeping for Freelancers', $197 one-time. It teaches designers and writers to do their own books in 2 hours a month."
+ },
+ {
+  "id": "W3-welcome-email",
+  "prompt": "Write a welcome email for people who just started a trial of Freshbox, our meal kit (first box 50% off, 3 recipes a week, 20-minute meals)."
+ },
+ {
+  "id": "W4-saas-headline",
+  "prompt": "I need a headline and subheadline for my SaaS homepage. Product: Nudge, which automatically chases late invoices for small creative agencies by email and SMS."
+ },
+ {
+  "id": "W5-cold-email",
+  "prompt": "Write a cold email to dental practice owners offering our patient-reactivation SMS service. We text lapsed patients and book them back in; the average practice recovers about $8k a month."
+ },
+ {
+  "id": "W6-sales-page",
+  "prompt": "Write a short sales page for my $49 ebook 'Sourdough Without Fear' for total beginners."
+ },
+ {
+  "id": "R1-ad-review",
+  "prompt": "Is this Facebook ad any good?\n\nTired of back pain? \ud83d\ude29 Our revolutionary ergonomic chair is the best solution for remote workers. It's not just a chair \u2014 it's an investment in your health. Unlock all-day comfort today! Shop now \ud83d\udc49"
+ },
+ {
+  "id": "R2-roast-hero",
+  "prompt": "Roast my landing page hero section:\n\nHeadline: Empowering teams to do their best work\nSubheadline: Flowly is the all-in-one platform that streamlines collaboration, boosts productivity, and drives results.\nButton: Get Started"
+ },
+ {
+  "id": "R3-subject-lines",
+  "prompt": "Which of these email subject lines is best for our Black Friday sale on hiking boots?\nA) Black Friday Sale: 40% Off Everything\nB) Your boots are on sale (finally)\nC) Don't miss our biggest sale of the year!"
+ },
+ {
+  "id": "R4-product-desc",
+  "prompt": "Can you make this product description more persuasive?\n\nOur organic cotton t-shirt is soft, durable and sustainably made. Available in 6 colors. Machine washable. Fits true to size. $34."
+ },
+ {
+  "id": "A1-agent-planters",
+  "prompt": "You're our marketing lead. We sell handmade ceramic planters online ($38-$120), mostly through Instagram. Sales have been flat for three months. Plan next week's marketing and write the email and one ad we should run."
+ },
+ {
+  "id": "D1-clicks-no-buys",
+  "prompt": "My Facebook ads get a lot of clicks but almost nobody buys. It's a joint-pain supplement, $39 a bottle, and the landing page is a long-form article. What's going wrong?"
+ },
+ {
+  "id": "D2-opens-no-clicks",
+  "prompt": "Our newsletter open rate is fine (about 35%) but almost nobody clicks the links. What should we change?"
+ },
+ {
+  "id": "D3-trials-no-paid",
+  "prompt": "We get plenty of free trial signups but very few convert to paid. B2B SaaS, $49/month project management for small architecture firms. Why, and what should we do?"
+ },
+ {
+  "id": "T1-read-test",
+  "prompt": "I ran an A/B test on my pricing page. Version A: 4,210 visitors, 97 signups. Version B: 4,180 visitors, 121 signups. Did B win? Should I switch?"
+ },
+ {
+  "id": "T2-plan-test",
+  "prompt": "How long do I need to run an A/B test on my checkout page? About 600 visitors a day, converting at 2.1%. I want to know if a new headline helps."
+ }
+]

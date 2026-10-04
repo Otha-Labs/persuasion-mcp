@@ -1,0 +1,42 @@
+Most likely, people who sign up for the trial never get far enough to see what the product does for them. The sales pitch is probably a smaller problem. Your numbers would tell us which cause applies, but for a $49/month project management tool sold to small architecture firms, these are the usual ones, most likely first.
+
+## Likely causes
+
+1. **Trial users never reach the point where the product is useful.** Before a project management tool does anything, someone has to set up a real project, enter its phases and fees, and invite the team. A busy firm owner signs up, sees an empty dashboard, plans to come back, and the trial ends. Someone trying it alone also misses the main benefit, which is the whole team working in one place.
+   - *Check:* what share of trial users create a real project and invite a colleague in their first few days? Compare the ones who paid with the ones who didn't.
+
+2. **Many signups aren't potential buyers.** In a niche this small, lots of signups is a warning sign. Students, interns, people from other trades and competitors all sign up and never pay. Even at real firms, it's often a staff architect who can't approve spending, not the owner.
+   - *Check:* sort your signup list by email domain and job role. If many are personal Gmail addresses with no firm, your real conversion rate is better than it looks.
+
+3. **It looks like a generic tool.** Small firms will compare you to their spreadsheets and to architecture-specific tools like Monograph and BQE. If the trial doesn't use their terms (design phases, fees per phase, hours against fee, consultants, invoicing), it looks like Asana at a higher price, and the free spreadsheet wins. Owners pay for an answer to "are we making money on this project?" If the trial can't show that, the tool is a nice-to-have.
+
+4. **The trial is shorter than their work cycle.** Projects run for months. In 14 days nobody sees a phase go over budget or sends an invoice, so the benefit stays theoretical. Firms also rarely move a project into a new tool halfway through.
+
+5. **Trial emails push the sale instead of helping.** Price probably isn't the barrier, since $49/month is small for a firm. A sequence of "your trial ends in 3 days!" emails doesn't change how they think about the problem.
+
+## What to do, in order
+
+1. **Call 10–15 people who didn't convert and 5 who did.** Do it yourself. In a niche this size, a call from the founder usually gets answered. Ask what they wanted to do when they signed up and what stopped them. This will show you which cause applies faster than analytics will.
+
+2. **Find the action that predicts payment.** It's probably something like "set up a real project with phases and invited one colleague." Make getting people to do that the only goal of onboarding and of every trial email.
+
+3. **Don't let trials start empty.**
+   - Provide project templates with standard architecture phases and a fee structure already filled in.
+   - Include a sample project with realistic data.
+   - Let people import from a spreadsheet.
+   - Offer a free 30-minute call where you set up their first real project for them. A customer who stays two years is worth about $1,200, so the call pays for itself if it lifts conversion even a little.
+
+4. **Screen people at signup.** Ask for firm size and role. Steer owners of real firms toward the setup call. Give students a free education plan and leave them out of your conversion numbers.
+
+5. **Send emails based on what users have done, not on how many trial days are left.** Two approaches fit this audience:
+   - [**Consolidation Reframe**](https://taxonomy.coppica.com/reframe/consolidation-reframe): show their current setup as a pile of separate tools (the fee spreadsheet, the timesheet app, the shared-drive folders, the email threads with consultants) and pull it all into one place. That's how small firms already experience the problem.
+   - **Proof from a firm their size:** a short, specific story about a 3–8 person practice that spotted a phase going over budget early.
+
+6. **Then test changes to the trial itself, one at a time.** Options include a longer trial, extending it once they invite their team, or requiring a credit card. Requiring a card means fewer signups but a much higher conversion rate, and clearer data on who actually intends to buy.
+
+To narrow this down, send me:
+- trial length
+- whether a card is required
+- your actual trial-to-paid rate
+- the share of trial users who create a project or invite a teammate
+- where signups come from

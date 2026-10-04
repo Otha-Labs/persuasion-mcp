@@ -1,0 +1,40 @@
+Plenty of signups but few conversions almost always means trial users never reach the point where the product clearly pays for itself. That's especially hard for a project management tool, because an empty one is useless until someone loads real projects into it. A principal at a six-person architecture firm rarely has time to do that during a trial. So the likely cause is activation, not price and probably not copy.
+
+## Likely causes, most likely first
+
+1. **They never set it up.** They see a blank workspace and realise they'd have to enter projects, phases, fees and staff. They decide to do it next week, and the trial runs out. **Check:** what share of trials create a real project with a fee and log any time?
+2. **Only one person tried it.** A project management tool only works if the whole team uses it. If one person signs up alone and never invites staff, it never becomes the firm's system, so there's nothing worth paying for. **Check:** compare conversion for trials with two or more active users against trials with one.
+3. **It looks like generic project management.** If the trial mostly shows tasks and Gantt charts, you're up against Trello, Asana and a spreadsheet that already works. What small-firm principals worry about is fees: is this project profitable, are we using up the design development (DD) fee before DD is finished, who's over their hours, what can we invoice? If the trial doesn't answer that for their own projects, $49 feels like a cost rather than a fix.
+4. **Switching feels like a big project.** Moving eight live jobs out of a spreadsheet partway through is scary.
+5. **The wrong people are signing up.** Students, solo designers, competitors and browsers can inflate the numbers. Also, the person who signs up may not be the one who holds the credit card.
+
+## What to do
+
+**First, find out which of these it is (about a week):**
+- Pull the last 90 days of trials. For each, record firm size, the person's role, projects created, time entries, teammates invited, and whether they logged in after day 3. Compare the people who converted with those who didn't; one or two of these will usually stand out.
+- Call 10 people who didn't convert and 5 who did, and ask where they stopped. Small firms will usually give you 15 minutes, and these calls will tell you more than any dashboard.
+
+**Then make the changes that usually help most:**
+
+1. **Get rid of the blank slate.** Offer project templates with the standard phases already set up: schematic design, design development, construction documents and construction administration (SD/DD/CD/CA), with typical fee splits. Add spreadsheet import, and a demo project with realistic data.
+2. **Offer setup help.** For example: "Book 20 minutes and we'll set up your first three projects with you." At $49 a month in a niche this size, a person doing setup is cheap, and those calls double as customer research.
+3. **Show the money in the first session.** Pick one activation event, such as "a real project with a fee budget and a week of time logged," and build onboarding around reaching it. The reward should be a screen like "Project X: 62% of DD fee used, phase 40% complete." That screen is what sells the subscription.
+4. **Ask for team invites during setup**, not on a settings page nobody visits.
+5. **Base trial emails on what each user has done**, not on a fixed schedule. No project by day 2: offer the setup call. A project but no time logged: show them how. Fully set up: show what they'd lose if they stopped.
+6. **Change how the copy frames the decision.** This matters less than the points above but is cheap to do:
+   - [Consolidation Reframe](https://taxonomy.coppica.com/reframe/consolidation-reframe): show their current timesheet spreadsheet, QuickBooks, email threads and whiteboard replaced by one tool.
+   - [Implementation Reframe](https://taxonomy.coppica.com/reframe/implementation-reframe): "Start with your next new project and leave the rest where they are." This answers the fear of switching.
+   - [The Conversion Story](https://taxonomy.coppica.com/prove/conversion-story): a short case study from a skeptical principal at a similar firm. Proof from a peer works better than a feature list.
+
+**What I wouldn't do yet:**
+- **Cut the price.** $49 a month is less than one billable hour, so price is rarely the real objection. Discounts also teach people to wait for the next one.
+- **Lengthen the trial.** A longer trial mostly means people put off setup for longer. Faster setup helps more than extra days.
+- **Require a card up front.** Your conversion rate will look better because fewer people sign up, but the setup problem will still be there.
+
+## What would help me narrow it down
+- How long the trial is, and whether a card is required.
+- Your actual trial-to-paid rate. As a rough guide, no-card B2B trials often convert at around 15–25%, and card-required trials much higher, so "very few" means different things depending on your setup.
+- What share of trials create a project, log time, or invite a teammate.
+- What people are switching from, or choosing instead of you.
+
+The technique links come from the Persuasion Taxonomy by Coppica (CC BY 4.0).

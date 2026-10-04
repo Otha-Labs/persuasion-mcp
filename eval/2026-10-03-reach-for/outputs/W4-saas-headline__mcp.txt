@@ -1,0 +1,19 @@
+**Headline:**
+Net 30 shouldn't mean day 74.
+
+**Subheadline:**
+Nudge sends the follow-ups you keep putting off. It chases late invoices by email and text, automatically, so your agency gets paid without you having the awkward conversation.
+
+**Why this works**
+
+- **The headline** uses [Normalization Inversion](https://taxonomy.coppica.com/agitate/normalization-inversion). Agency owners have come to treat 70-day payments as normal, and this line says plainly that they aren't. Every agency owner knows what "Net 30" means, so the line also tells them the page is for them. It scored highest (9/10) of the eight options I tested.
+- **"The follow-ups you keep putting off"** uses [Behavioral Mirror Hook](https://taxonomy.coppica.com/identify/behavioral-mirror-hook) and a light [Root Cause Reframe](https://taxonomy.coppica.com/reframe/root-cause-reframe). The reader sees themselves in it, and it suggests the real problem is the follow-up nobody wants to send, not the client.
+- **The second sentence** says what Nudge does, through which channels, and why that matters: it handles the part they dread.
+
+**Alternate to A/B test:**
+> **Nudge asks for the money, so you don't have to.**
+> Automatic email and text reminders for late invoices, built for small creative agencies that would rather make the work than chase the payment.
+
+**Before you ship:**
+- **"Day 74" is an example, not a real figure.** If your customer data shows how late agency invoices actually run, use that number. A real figure is stronger, and you can say where it comes from.
+- **Put proof and a reason to act below the fold.** The copy check flagged both as missing, but a headline and subheadline can't carry everything. Right under the hero, add a stat or a short customer quote (e.g. "paid 3 weeks faster"), plus the trial button and something that lowers the risk, like "no card required."

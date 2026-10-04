@@ -1,0 +1,17 @@
+With 600 visitors a day and a 2.1% conversion rate, plan on about **10 weeks** if you want to detect a 20% lift. The exact length depends on the smallest improvement you'd care about catching.
+
+| Smallest lift you want to detect | Conversion rate goes from → to | Visitors per version | Run time at 600/day |
+|---|---|---|---|
+| +10% | 2.10% → 2.31% | ~76,800 | **~37 weeks** |
+| +20% | 2.10% → 2.52% | ~20,100 | **~10 weeks** |
+| +30% | 2.10% → 2.73% | ~9,300 | **~5 weeks** |
+
+These assume a 50/50 split between two versions, 95% confidence and 80% power, which are the usual defaults. I checked the visitor counts against the standard two-proportion sample-size formula and they match. I rounded each run time up to whole weeks so weekday and weekend behavior both count equally.
+
+**The catch:** a new headline usually moves conversion by single-digit percentages, not 20–30%. At your traffic, the test can only detect big changes. If the new headline is a small wording tweak, you'll probably get "no significant difference" even if it helps a little. To give the test a real chance:
+
+1. **Make the headline different in substance, not just in wording.** For example, one version could reassure people about security or returns while the other leads with the value of the purchase. Big differences in approach produce big effects, and the result tells you something you can reuse.
+2. **Pick the length now and stick to it.** Choose 5 or 10 weeks before you start, and don't stop early because B looks ahead on a good day. Checking repeatedly and stopping when it looks good is the most common way A/B tests produce false winners.
+3. **Check the 2.1% figure.** That's typical for a whole site, but it's low for people who have already reached checkout, where rates are often 30–60%. Make sure both numbers count only visitors who actually see the headline. If checkout visitors really complete their purchase at, say, 40%, a 10% lift could be detected in about a week.
+
+If you tell me the smallest lift that would be worth acting on, or the right conversion rate if 2.1% turns out to be the site-wide number, I'll recalculate.

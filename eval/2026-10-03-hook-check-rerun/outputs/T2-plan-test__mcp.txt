@@ -1,0 +1,23 @@
+With 600 visitors a day at 2.1%, the answer depends on how small a lift you want to be able to detect. These figures use 95% confidence and 80% power:
+
+| Smallest lift you want to detect | Conversion rate goes from → to | Visitors per version | Run time |
+|---|---|---|---|
+| +10% | 2.10% → 2.31% | 76,757 | **~37 weeks** |
+| +20% | 2.10% → 2.52% | 20,081 | **~10 weeks** |
+| +30% | 2.10% → 2.73% | 9,320 | **~5 weeks** |
+
+**A headline test probably isn't worth running here.** A new headline on a checkout page usually changes conversion by single digits, if at all. In 5 weeks you can only reliably spot a 30%+ lift. A real 5–10% improvement would probably come back "no significant difference," and you'd drop a change that actually helped.
+
+**Your two numbers don't quite fit together.** People who reach a checkout page usually buy at well over 2%. If 600/day and 2.1% are site-wide figures, the test should use only checkout-page visitors and their purchase rate. That means fewer visitors but a much higher rate, which could shorten the test a lot. Send me those two numbers and I'll rerun it.
+
+**Ways to make the test practical:**
+- **Test a bigger difference.** Instead of rewording the headline, try two versions that answer a different buyer worry. For example, one could deal with trust ("Is this safe or legit?") and the other with hesitation ("What if I regret it?"). Bigger differences produce bigger effects, and the result tells you which worry matters more to your buyers.
+- **Measure an earlier step with more traffic**, such as clicks through to the payment step, alongside purchases.
+- **Accept that you'll only catch a large effect.** Then run it for the full 5 or 10 weeks.
+
+**Rules either way:**
+- Decide the run length before you start.
+- Run whole weeks so weekdays and weekends are both included.
+- Don't stop early because one day looks good. Checking results repeatedly and stopping on a good day is the most common way A/B tests mislead people.
+
+When it's done, I can help you read the results.

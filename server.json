@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.coppica/persuasion-taxonomy",
+  "title": "Persuasion Taxonomy",
+  "description": "Plan and check marketing copy against the nine questions every reader asks. Free, no API key.",
+  "websiteUrl": "https://taxonomy.coppica.com",
+  "repository": {
+    "url": "https://github.com/Otha-Labs/persuasion-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://taxonomy.coppica.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@coppica/persuasion-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

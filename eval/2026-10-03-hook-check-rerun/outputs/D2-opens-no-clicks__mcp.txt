@@ -1,0 +1,25 @@
+A 35% open rate with almost no clicks usually means the email body is the problem, not the subject line. Before changing the copy, check two things.
+
+## Check these first
+
+- **Your 35% may be too high.** Apple Mail Privacy Protection counts many emails as "opened" that nobody read. If a big share of your list uses Apple Mail, fewer people are actually reading than you think, and part of your click gap is just bad numbers. Look at click-to-open rate (clicks ÷ opens), not only clicks ÷ sends.
+- **Make sure the links work.** Send a test to Gmail, Outlook and a phone and click everything. Broken tracking links, image-only emails (images are often blocked by default) and buttons that don't render on mobile are common causes.
+
+## Likely causes, most likely first
+
+1. **The email doesn't deliver what the subject promised.** If the subject promises X and the first lines are about something else, readers leave. **Fix:** make the first two lines pay off the subject line, and make the main link the next step on that same topic.
+
+2. **There's no single obvious link, or no reason to click it.** Ten links of equal weight means none of them stand out. And if the email already contains the whole story, there's nothing left to click for. **Fix:**
+   - Choose one main link per issue and put it in the top third.
+   - Write link text that says what the reader gets ("See the 3 pricing pages we tested"), not "Read more."
+   - Give a short teaser in the email and keep the full content behind the link.
+
+3. **The email is about you, not the reader.** Count how often you write "we" versus "you." Readers who feel an email is for someone else skim it and leave. **Fix:** tie each link to the reader's situation. One way is [Pre-Qualified "Because" Framing](https://taxonomy.coppica.com/identify/pre-qualified-because-framing): open by naming who the reader already is ("Since you're running paid ads this quarter…") so the click feels like the obvious next step.
+
+## How to confirm it
+
+Change one thing per send and keep everything else the same. The best first test is one clear main link with specific link text against your current layout. If you tell me your list size and current click rate, I can work out how many sends you need to get a reliable result.
+
+The fastest next step is to paste a recent issue here. I'll go through it line by line and show which of these problems it has.
+
+*The diagnosis framework and linked technique come from [The Persuasion Taxonomy by Coppica](https://taxonomy.coppica.com) (CC BY 4.0).*

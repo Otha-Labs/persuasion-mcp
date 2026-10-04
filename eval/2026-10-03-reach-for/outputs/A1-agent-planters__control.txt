@@ -1,0 +1,105 @@
+# Marketing plan for Oct 5–11
+
+## The likely problem
+
+When an Instagram-led shop is flat for three months, it's usually selling to the same followers over and over. Reach has plateaued, and the people who were going to buy already have. This week works on both sides of that:
+
+1. **Bring back people who already know you**, by email.
+2. **Reach people who've never seen you**, with a paid ad and a few partner accounts.
+
+The theme is seasonal and true: **plants come inside for winter this month.** That's a real reason to buy a new planter now.
+
+The offer is **free shipping through Sunday.** I'm not discounting the pieces themselves, because markdowns on handmade work cheapen the brand. If shipping costs make that offer too expensive, use a free saucer with any planter instead.
+
+## The week
+
+| Day | What to do | Why |
+|---|---|---|
+| **Mon 10/5** | **Pull the numbers (30 min).** Compare the last 90 days to the 90 before: IG reach, profile visits, link clicks, site sessions, conversion rate, average order value. **Fix product pages:** add the inner diameter, a "fits a __-inch nursery pot" line, drainage-hole details and saucer info. Set up the email and ad. | The numbers tell us what's actually broken (see below). Sizing doubts are the most common reason people don't buy planters. |
+| **Tue 10/6** | Send the email in the morning. Post a Reel of the making process (throwing, trimming or glazing). | Your list is your warmest audience. Process videos show what "handmade" means. |
+| **Wed 10/7** | Launch the ad (details below). | This is where new customers come from. |
+| **Thu 10/8** | DM 10 local plant shops or small plant creators. Offer a free planter in return for a feature, or ask about wholesale. | Their audiences are your future customers. |
+| **Fri 10/9** | Post a Story: "Send us a photo of your plant and we'll tell you what size fits." Resend the email to people who didn't open it, with the other subject line. | Personal sizing help is something a big retailer can't offer. |
+| **Sun 10/11** | One last Story that evening. Free shipping ends at midnight. | Actually end it on time. A deadline that keeps getting extended teaches people to wait. |
+| **Mon 10/12** | Review the week (see "How we'll judge it"). | |
+
+**How to read Monday's numbers:**
+- **Reach and profile visits are down:** this is an audience problem, so the ad and partner accounts matter most.
+- **Traffic is steady but conversion fell:** the problem is on the site (product pages, photos, shipping cost at checkout).
+- **Both are steady but almost nobody buys twice:** this is a retention problem, so email needs to become a weekly habit.
+
+---
+
+## The email
+
+**Subject A:** Bringing your plants in for winter?
+**Subject B (for the Friday resend):** The planter sizing cheat sheet
+**Preview text:** Plus free shipping through Sunday.
+
+> Hi [First name],
+>
+> This is the week a lot of plants come in off the porch, and a lot of them end up in whatever pot happens to be lying around. They deserve better.
+>
+> The question we get most is "what size do I need?" Here's the short answer:
+>
+> - **4" nursery pot** → [Small planter], $[38]
+> - **6" nursery pot** → [Medium planter], $[xx]
+> - **8" nursery pot** → [Large planter], $[xx]
+> - **10"+ nursery pot** → [Floor planter], $[120]
+>
+> Rule of thumb: pick a planter 1–2" wider than the pot your plant came in. Every one has a drainage hole [and comes with a saucer].
+>
+> Each piece is thrown by hand in [city], so no two glazes come out quite the same. Right now I have [real number] [glaze name] pieces from the latest firing.
+>
+> **Free shipping on everything through Sunday at midnight.** No code needed.
+>
+> [Shop planters →]
+>
+> [Maker name]
+>
+> P.S. Not sure what fits? Reply with a photo of your plant and I'll tell you which size I'd use.
+
+Notes:
+- Only keep the "[real number] pieces" line if it's true.
+- The P.S. replies are the most valuable part of this email. Answer every one.
+
+---
+
+## The ad (Instagram Reels, Stories and Feed)
+
+**Creative:** A vertical video of 15–20 seconds.
+- **0–2s:** Hands lifting a plant out of a plastic nursery pot and setting it into one of your planters. This is the hook.
+- **2–10s:** Glaze close-ups and a quick clip of you at the wheel.
+- **10–15s:** The finished planter in a real living room, in daylight.
+- Use real footage, not a polished studio shoot. It works better for handmade goods.
+
+**Primary text:**
+> Your plants are coming inside for winter. Give them something better than the plastic nursery pot.
+>
+> Every planter is thrown by hand in [city]. Drainage hole included, with sizes for 4" to 10"+ pots. From $38.
+>
+> Free shipping through Sunday.
+
+**Headline:** Handmade planters, from $38
+**Button:** Shop Now
+**After Sunday:** Change the last line to "Not sure about size? DM us a photo of your plant."
+
+**Targeting:** Start with about $150 total for Wed–Sun, split across two audiences:
+- **Retargeting:** People who engaged with your Instagram in the last 90 days or visited your site in the last 30, excluding past buyers. Expect this to bring the cheapest sales.
+- **New audience:** Meta's broad targeting (Advantage+), or a lookalike of your past customers if you have a few hundred of them. This is the real test of whether paid ads can get you past the plateau.
+
+---
+
+## How we'll judge it (Mon 10/12)
+- **Break-even cost per purchase:** Before the ad goes live, work out your average profit per order. That's the most you can pay in ads per sale without losing money. If the new-audience ad costs more than that per sale, change the video before raising the budget.
+- **Email:** Revenue from the email, click rate, and how many people replied to the P.S.
+- **Partners:** How many of the 10 shops and creators replied.
+
+## What I need from you
+Four things would make this sharper:
+- How big your email list is
+- Your best-selling sizes
+- Your margins
+- Whether Monday's numbers point to traffic or conversion
+
+If your email list is tiny, that's probably part of why sales are flat. In that case we'd add a way to collect emails on your site and Instagram as next week's priority.

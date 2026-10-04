@@ -1,0 +1,36 @@
+Here's a rewrite:
+
+---
+
+**Stop buying T-shirts.**
+**Buy one that lasts.**
+
+Every drawer has one favorite tee: the soft one that still fits right and goes with everything. The rest were bought to fill a gap, and you know how that went. Seams twisted. Collars went wavy. One by one, they got demoted to sleep shirts.
+
+So we made the favorite on purpose. It starts with organic cotton, grown without synthetic pesticides or fertilizers. It's soft from the first wear and sturdy enough to hold its shape wash after wash.
+
+A cheap tee is only cheap until you replace it. We'd rather sell you one shirt you keep than five you throw out.
+
+**Fits true to size.** Order your usual.
+**Machine washable.** No special care.
+**Six colors.** Start with the one you'd wear tomorrow.
+
+**[Pick your color · $34]**
+
+---
+
+**What changed**
+
+- **The opening says something unexpected.** "Stop buying T-shirts" is an odd thing for a T-shirt brand to say, so people stop scrolling. It uses [The Enemy of Conventional Wisdom](https://taxonomy.coppica.com/disrupt/enemy-of-conventional-wisdom).
+- **The $34 price gets an argument.** Your shoppers are comparing it to $10 tees. The "only cheap until you replace it" line makes the price about how long the shirt lasts instead of what it costs today ([The Hidden Cost Reveal](https://taxonomy.coppica.com/agitate/hidden-cost-reveal)).
+- **"Sustainable" now means something.** "One shirt you keep than five you throw out" connects sustainability to durability, so the two claims back each other up instead of sitting in a list ([The Values Declaration](https://taxonomy.coppica.com/bond/values-declaration)).
+- **The practical details answer doubts.** "Order your usual" deals with worry about fit, and "No special care" deals with worry about washing.
+
+I checked the draft with the persuasion-taxonomy diagnostic. It covers 8 of the 9 questions shoppers ask before buying. The one it only partly covers is "why buy now?" I didn't make up a deadline or deal, and I kept to what you told me: no fabric weights, reviews or test results. The last three lines are short on purpose so they're easy to scan. The diagnostic marks that list style down, but on a product page it's the right call.
+
+**Before you publish, confirm or add:**
+1. **"Without synthetic pesticides or fertilizers"** is true for certified organic cotton. Make sure your certification covers it, and name it if you can (e.g., GOTS). A named certification is stronger proof than "organic."
+2. **A reason to buy now**, if you have one: a 2-for-$60 bundle, a free-shipping threshold or easy exchanges. Any of these would cover the missing question honestly.
+3. **One specific detail** like fabric weight, where it's made or a short customer quote. That would make "soft" and "durable" much more believable.
+
+I can also write a shorter version for product cards or ads.

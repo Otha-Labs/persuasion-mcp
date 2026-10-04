@@ -1,0 +1,13 @@
+I'd go with **B, "Your boots are on sale (finally)"**, and test it against **A**. I'd drop C.
+
+**B** is the only one that tells readers this email is for them. "Your boots" is about something they want, not just a store having a sale. "(finally)" sounds like a real person and suggests you don't discount often, which helps it stand out among dozens of other Black Friday emails. Two catches:
+- It works best if you send it to people who have browsed, wishlisted or carted boots. Sent to your whole list, "your boots" may not mean anything to some readers.
+- "(finally)" only works if you rarely run sales. If you discount every month, it will sound false.
+
+**A** has the strongest specific detail: "40% off everything" is a real reason to open. Its weakness is that any outdoor retailer with the same deal could send the exact same line, and on Black Friday many will. Lines with a number did slightly better in the headline-test data (54% of 3,316 tests), but that data comes from news headlines and the effects were small, so don't read much into it.
+
+**C** has no specific detail at all. "Biggest sale of the year" is an unsupported claim readers tend to ignore, and every brand will send something like it that week.
+
+**A version that combines both:** "Your boots are 40% off (finally)". It keeps B's personal angle, adds A's number, and at 31 characters fits within the roughly 40 characters a phone inbox shows.
+
+Nobody can predict the winner from the wording alone. If your list is big enough, send A to part of it and B (or the combined version) to another part. Those lines rely on different appeals (the deal versus "this is for you"), so whichever wins will tell you something useful for future emails.

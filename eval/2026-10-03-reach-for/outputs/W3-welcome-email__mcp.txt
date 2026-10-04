@@ -1,0 +1,50 @@
+Here's the welcome email:
+
+---
+
+**Subject:** Your first box is 50% off. Pick your 3 recipes by [day].
+**Preview text:** Three dinners, 20 minutes each. Choosing them takes about two.
+
+Hi [First name],
+
+It's 6:10 on a Tuesday. You're standing at the open fridge, looking at half an onion and a yogurt that might be expired, while someone behind you asks what's for dinner.
+
+Starting with your first box, three nights a week, you'll already know the answer. Welcome to Freshbox.
+
+That first box is set aside for you at 50% off. All it's missing is your choice of what goes in it.
+
+**[Pick my 3 recipes]**
+
+Here's what happens next:
+
+1. **Pick 3 recipes by [day, time].** Miss the cutoff and we'll choose for you, so nothing's lost, but you'll probably like your own picks better.
+2. **Your box arrives [delivery day]**, every ingredient measured out.
+3. **Cook.** Each recipe takes about 20 minutes, cutting board to plate. If one takes you a lot longer, reply and tell us which one, because we want to know.
+
+One tip. Save your first Freshbox dinner for the busiest night of your week, the one where you'd normally give up and order something. That's the night it has to earn its place.
+
+Honestly? A meal kit won't fix your whole week. You might still order pizza on Friday. But three weeknights where dinner is already decided, and already in your fridge, is a pretty good place to start.
+
+You can skip a week, swap recipes, or cancel from your account anytime. Questions go to a real person when you reply here.
+
+Happy cooking,
+[Name]
+Freshbox
+
+P.S. The 50% off covers this box only. That makes it the cheapest chance you'll get to try the recipe that sounds a little outside your comfort zone.
+
+---
+
+**Before you send it, check these.** I assumed some details you didn't give me, so confirm each one or cut it:
+- If someone doesn't pick by the cutoff, Freshbox chooses recipes for them.
+- People can skip, swap or cancel from their account.
+- Replies to this email reach a real person.
+- **The price after the first box.** Trial customers should know what the second box costs. Adding one line like "After this, boxes are $X/week" builds trust and heads off cancellations from people who feel surprised later.
+
+**Why it's written this way:** Your readers have already signed up, so the email doesn't sell Freshbox again. Its main job is to get them to pick their recipes.
+- **Opening:** It starts in the middle of a familiar 6 p.m. scene ([In Medias Res Open](https://taxonomy.coppica.com/disrupt/in-medias-res-open)) instead of opening with "Welcome to Freshbox!"
+- **The first box:** The discounted box is described as already theirs, waiting for them to fill it ([Endowment Effect](https://taxonomy.coppica.com/compel/endowment-effect)).
+- **Modest promise:** The "you might still order pizza" line promises less than they might expect, which makes the rest easier to believe ([Hedged Transformation Promise](https://taxonomy.coppica.com/bond/hedged-transformation-promise)).
+- **The P.S.:** It presents the discount as a cheap chance to try a more adventurous recipe, not just a saving.
+
+Technique links are from the Persuasion Taxonomy by Coppica (CC BY 4.0).

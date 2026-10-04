@@ -1,0 +1,17 @@
+I'd go with **B**, and I'd add the discount to it: **"Your boots are 40% off (finally)"**
+
+**Why B:**
+- **It's the only one that mentions boots.** On Black Friday, inboxes fill up with "X% off everything" emails. Naming the product is what makes yours stand out.
+- **It sounds like a person wrote it.** The lowercase and "(finally)" read like a note from a friend. A and C read like ads.
+- **"(finally)" suggests the reader has been waiting**, which suits people who already looked at boots and held off on buying.
+- **What it's missing is a number.** "40% off" gives it the concrete offer that A has.
+
+**A** is your safe fallback. It's clear and specific, but it looks like every other Black Friday subject line. "Everything" also undersells the boots, and it's wrong if only boots are on sale. If you use it, switch to sentence case ("Black Friday: 40% off all boots"). Title case reads more like a broadcast ad.
+
+**C** is the weakest. It doesn't mention the product, the discount, or Black Friday. "Don't miss" plus an exclamation point is the kind of wording that gets skimmed past and sometimes flagged by spam filters.
+
+**A caveat on "Your boots":** it implies personalization. That works best for people who browsed or wishlisted boots. For people who never looked at boots, it can feel a little off. For a general send, use the boots version of A instead.
+
+I also ran the three through your persuasion-taxonomy headline scorer. It ranked them **C (8.8), A (8.0), B (7.8)**. I disagree with that order. The scores are close, and its checks reward things like urgency phrasing and penalize B for having only one specific detail. They don't account for C being generic in a crowded inbox. Its suggestions to add a second specific detail to B and to drop A's title case are worth taking, though.
+
+If you have the list size for it, A/B test "Your boots are 40% off (finally)" against "Black Friday: 40% off all boots." Open rates will tell you more than any of these scores.

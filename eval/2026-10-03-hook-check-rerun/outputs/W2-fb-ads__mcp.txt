@@ -1,0 +1,85 @@
+Each ad below takes a different angle, so you can test them against each other. Facebook shows only about the first 125 characters before "See more," so each ad's hook fits in that space.
+
+---
+
+## Variation 1: "You already do this" (best for designers)
+
+**Primary text**
+> You can find a client's hex code from 2021 in ten seconds. Finding last March's Adobe receipt takes you an afternoon.
+>
+> Same brain, same person. Your design files just have a system, and your money never got one, because nobody showed you how to build it.
+>
+> Here's the good news. For a solo freelancer, bookkeeping is mostly a filing system with a few numbers attached, and you already build filing systems for a living.
+>
+> Bookkeeping for Freelancers walks designers and writers through setting that system up once. After that, keeping it current takes 2 hours a month. Pick a morning, work through it, done by lunch.
+>
+> [Real student quote: name, what they do, what changed]
+>
+> Next spring, you email your accountant one tidy spreadsheet and get a one-line reply: "Got everything, thanks."
+>
+> $197, one time. Start this month, and this month's receipts are the first ones that land where they belong.
+
+**Headline:** A filing system for your money
+**Description:** Bookkeeping for Freelancers · $197 once
+**Button:** Learn More
+
+*Opening for a writer audience:* "You can find one quote in 60 pages of interview notes in ten seconds. Finding last March's software receipt takes you an afternoon."
+
+---
+
+## Variation 2: "Three numbers"
+
+**Primary text**
+> Freelance designers and writers: bookkeeping is three numbers. Every accounting term you've dodged is a nickname for one.
+>
+> Money in. Money out. The slice you owe in tax.
+>
+> It feels like more because most bookkeeping advice is written for businesses with payroll and inventory, so you end up wading through pages that were never about you.
+>
+> Bookkeeping for Freelancers cuts all of that. It teaches you to track your three numbers in 2 hours a month, with a simple system you set up once and no accounting background.
+>
+> [Real student quote]
+>
+> Fair warning: it won't make you love bookkeeping. It just makes it short.
+>
+> $197, one time. Every month you put it off is one more month you'll have to sort later.
+
+**Headline:** Bookkeeping, cut down to 3 numbers
+**Description:** 2 hours a month · $197 one-time
+**Button:** Learn More
+
+---
+
+## Variation 3: "The April weekend"
+
+**Primary text**
+> "AMZN MKTP US*2K4, $43.18." Freelancers lose whole April weekends trying to remember what lines like that were for.
+>
+> Then they promise themselves next year will be different. It rarely is, since nothing about the system changed.
+>
+> The fix is boring, which is exactly why it works: 2 hours a month, while you still remember what every charge was.
+>
+> Bookkeeping for Freelancers shows designers and writers what to do in those 2 hours. You set the system up once, and at tax season your part shrinks to handing over one clean file.
+>
+> [Real student quote]
+>
+> It's $197, one time.
+>
+> There are 3 months left in 2026. Start now and January opens with the system already running.
+
+**Headline:** End the April receipt hunt
+**Description:** For freelance designers & writers · $197
+**Button:** Learn More
+
+---
+
+**Check these before running:**
+- **All three ads lack proof.** A copy-review tool flagged this in every draft. I left a bracket where a real student quote or result should go. I didn't make one up, and you shouldn't run them with an invented one. If you don't have testimonials yet, delete the bracket line.
+- **Check the claims against the course.** All three say "set up once, then 2 hours a month." If setup takes much longer than 2 hours, say how long it takes so the claim stays honest. Variation 2 also only works if "three numbers" matches how the course actually teaches bookkeeping.
+- **Variation 3 has a date in it.** "3 months left in 2026" is correct today (Oct 3). Update it each month or remove it once the ad is running in December.
+- **How to test:** Run all three with the same image. Each one tests a different idea: Variation 1 says "you're already good at this," Variation 2 says "it's simpler than you think," and Variation 3 leans on the pain of tax season. The winner tells you which message to build the rest of your marketing on.
+
+Techniques used, from [The Persuasion Taxonomy](https://taxonomy.coppica.com) by Coppica (CC BY 4.0):
+- **Variation 1:** [Day-in-the-Life Frame](https://taxonomy.coppica.com/identify/day-in-the-life-frame), [Categorical Reframe](https://taxonomy.coppica.com/reframe/categorical-reframe), [Enargeia](https://taxonomy.coppica.com/elevate/enargeia)
+- **Variation 2:** [Three-Lever Reductive Framework](https://taxonomy.coppica.com/reframe/three-lever-reductive-framework), [Self-Deprecating Disclosure](https://taxonomy.coppica.com/bond/self-deprecating-disclosure), [Loss Aversion Framing](https://taxonomy.coppica.com/agitate/loss-aversion-framing)
+- **Variation 3:** [Negative Persona Confrontation](https://taxonomy.coppica.com/identify/negative-persona-confrontation), [Deadline](https://taxonomy.coppica.com/compel/deadline) (a real calendar date, not a made-up deadline)

@@ -1,0 +1,22 @@
+Not yet. The ad is clear and short, but every line is the stock version of what chair ads say, and it never gives a reason to believe the chair works. I ran it through the persuasion-taxonomy diagnostic. It found **none of the nine questions a reader silently asks were fully answered**, and the craft score was 3.3/10.
+
+**What works**
+- The opener names a real pain, and "remote workers" tells readers who it's for.
+
+**What's hurting it**
+1. **There's no proof.** "Revolutionary" and "the best solution" have nothing behind them: no reviews, no numbers, no named feature. The ad also never says *how* the chair helps your back. Promising "all-day comfort" without evidence makes readers discount it.
+2. **It sounds generic, even AI-written.** "Revolutionary," "unlock," and "It's not just a chair — it's an investment in…" were all flagged as stock phrasing. People scroll past copy they've seen a hundred times.
+3. **Nothing lowers the risk.** Chairs are expensive, and buyers worry about fit and returns. There's no trial, return policy or price.
+4. **The ask comes too soon.** "Shop now" lands before anything has earned belief. A first-person CTA like "Get my chair" usually beats it.
+5. **It may break Meta's ad policy.** Meta's personal attributes policy rejects ads that suggest the viewer has a health condition, and "Tired of back pain?" is the kind of line that gets flagged. Check before you spend on it.
+
+**A rewrite to work from** (the brackets need your real facts; don't publish invented proof):
+
+> Hour six at the kitchen table, and you've lost count of how many times you've shifted in your seat.
+> [Chair name] has [the one feature that's actually different, e.g. lumbar support that adjusts as you lean]. [Real proof: review count + rating, or a named customer quote].
+> Sit in it for [30] days. If it's not for you, we'll pick it up free.
+> **Get my chair →**
+
+The opening line is an [In Medias Res Open](https://taxonomy.coppica.com/disrupt/in-medias-res-open): it drops the reader into a moment instead of asking a question. It also describes a situation rather than a medical condition, which avoids the policy risk.
+
+If you send me the chair's real features, reviews and return policy, I can tighten this into two or three versions you can A/B test.

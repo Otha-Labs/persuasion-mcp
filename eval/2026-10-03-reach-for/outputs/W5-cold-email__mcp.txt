@@ -1,0 +1,40 @@
+Here's the email. I checked it against the Persuasion Taxonomy before showing it to you: it answers all six reader questions that a cold email asking for a reply needs, and the subject line scored 9/10.
+
+---
+
+**Subject:** patients you haven't seen since 2024
+
+Hi Dr. [Last name],
+
+Somewhere in your [Dentrix / Open Dental / Eaglesoft] there's a list of patients who haven't been in since 2024. At most practices it runs to a few hundred names, and it's probably the most valuable list in the building.
+
+Most of those patients didn't switch dentists. They drifted. Your front desk meant to call them, but they're also checking people in and fighting with insurance all day, so recall is the first thing that slides.
+
+That's a shame, because these are patients you already paid to bring in once. They know you, they have a chart, and plenty of them have unscheduled treatment sitting in it.
+
+We text them for you. When they reply, we handle the back-and-forth and book them straight into your open slots. Across the practices we work with, that comes to about $8k a month on average. [Practice name] in [City] booked [X] patients in the first 30 days.
+
+Now is a good time to start. A lot of those patients have insurance benefits that reset December 31, which makes "come in before year-end" an easy yes.
+
+(If your hygiene schedule is already booked solid through December, ignore all of this.)
+
+Otherwise, reply with roughly how many patients are overdue and I'll send back what that list is likely worth. No call needed.
+
+[Your name]
+[Company] | [Phone]
+
+---
+
+**Why it's built this way**
+- **The opening tells them about money they already have.** It points at revenue sitting in their own software instead of pitching a service ([Latent Value Reveal](https://taxonomy.coppica.com/disrupt/latent-value-reveal)). Naming their software makes it read like it came from someone who knows dental offices ([Vertical Specificity](https://taxonomy.coppica.com/identify/vertical-specificity)).
+- **The problem is the front desk running out of time.** Saying patients "drifted" because no one had time to call puts the blame on workload, not on the practice ([Hidden Bottleneck](https://taxonomy.coppica.com/agitate/hidden-bottleneck)). The line "you already paid to bring them in once" sets reactivation apart from the ad and SEO agencies they hear from every week.
+- **The deadline is real.** Insurance benefits resetting on December 31 matches how big the problem is, so it won't feel like made-up pressure.
+- **The ask is easy to answer.** They can reply with one number instead of booking a call, and the line telling them to ignore the email if they're fully booked makes it read honest rather than pushy ([Cold Confession](https://taxonomy.coppica.com/disrupt/cold-confession)).
+
+**Before you send**
+1. **Fill in the example practice, or cut that line.** Don't make one up. Skeptical owners will check, and a fake example sinks the $8k figure too.
+2. **Say what the $8k measures.** Is it booked production or collected revenue? A dentist will ask. If it's booked production, write "about $8k a month in booked production."
+3. **Have the "what it's worth" estimate ready.** You'll need a quick formula, such as overdue count × your typical reactivation rate × average visit value, so you can answer replies the same day.
+4. **This version only works this fall.** The December 31 hook stops working after January. Swap in another reason then, like open hygiene slots after the new year.
+5. **"Since 2024" assumes you count patients as lapsed after 18 months.** If you use 12 months, change it to "since last fall" or similar.
+6. **Expect a compliance question.** Owners will ask about HIPAA and consent to receive texts. It doesn't belong in the first email, but have a one-line answer ready for the reply.

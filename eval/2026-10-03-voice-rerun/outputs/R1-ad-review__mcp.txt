@@ -1,0 +1,25 @@
+It's not a good ad yet. Nothing in it is wrong, but any chair brand could post it word for word, and it gives a skeptical reader nothing to believe. I ran it through the Persuasion Taxonomy checks. It clearly answers none of the four questions a click ad needs to answer, and it scored 3.3/10 on how it reads.
+
+**Problems, worst first:**
+
+1. **The hook won't stop the scroll.** "Tired of back pain?" is the most common opener in this category, so people scroll past it. Question headlines also won only 39% of 4,217 head-to-head tests. That data comes from news headlines, so treat it as a hint. There's also a policy risk. Meta's personal-attributes rule bans ads that assert or imply the viewer has a health condition, and "Tired of back pain?" said to the viewer is the kind of line that gets rejected.
+2. **Every claim is unproven.** "Revolutionary" and "the best solution" have no source, number or mechanism behind them, so readers ignore them. "An investment in your health" is empty. The ad never says what the chair actually does for your back.
+3. **It sounds AI-written.** Words like "revolutionary" and "unlock," and the "It's not just X — it's Y" pattern, are now strongly associated with machine-written copy. The sentences are also all about the same length.
+4. **Most of it is hidden.** Facebook shows about 125 characters before "See more," so the preview cuts off around "It's not just a chair —". The benefit and the call to action are below the fold for most readers.
+5. **There's no reason to click now.** "Today" doesn't give one, and nothing lowers the risk of buying.
+
+**What works:** it names an audience (remote workers), it's short, and the order is fine.
+
+**A rewrite.** Replace the brackets with your real figures, and leave out any you can't back up:
+
+> Kitchen chairs are built for a 20-minute dinner. Remote workers sit in them for eight hours, and their backs pay for it.
+>
+> [Chair]'s backrest moves as you lean, so your lower back stays supported from your first call to your last. [3,100] buyers rate it [4.8] stars. Try it for [100] nights, and if it isn't right, we'll pick it up free.
+
+- The first two sentences fit in the preview. They stop the scroll, name the reader and state the problem without claiming the viewer has it.
+- The specific mechanism, real ratings and the free return replace the empty superlatives.
+- It answers 3 of the 4 click questions clearly and scored 8.0/10 on how it reads.
+- **One weak spot remains: there's still no reason to act now.** If you have a real deadline or launch price, add it. Don't make one up.
+- I removed "Shop now 👉" from the text. Facebook's button comes from a fixed list, so you can leave it set to "Shop Now."
+
+To find out which version actually gets more clicks, run the original against the rewrite as an A/B test. I can work out how much traffic you'd need if you tell me your current click-through rate.

@@ -1,0 +1,33 @@
+Draft below. Before writing it I planned it with the persuasion-taxonomy tools and checked the draft and three subject lines with them.
+
+---
+
+**Subject:** {Practice}'s patients from 2024
+
+Hi Dr. {LastName},
+
+Somewhere in {Practice}'s software is a list of patients who haven't been in since 2024. Most of them didn't leave on purpose. They missed one cleaning, and then the next reminder felt awkward to answer, so they didn't. Some have since found a dentist closer to work, and the crown you'd have caught at their six-month visit gets done there.
+
+Recall is supposed to catch them before that happens. But recall runs on front desk time, and front desk time goes to whoever is standing at the desk. So the calls go out late and mostly land in voicemail. A text gets read.
+
+That's the whole service: we text your lapsed patients and book them back in. It won't bring you a single new patient, because it only works on people who already chose you once. Even so, the average practice we work with recovers about $8k a month from that list, and every month it sits, a few more of those patients settle in somewhere else.
+
+If you reply with a rough count of your overdue patients, I'll send back what we'd expect to book from them. No call needed.
+
+{Your name}
+{Company}
+
+---
+
+**How it's built**
+- **Opening:** It starts from money they already have ([Latent Value Reveal](https://taxonomy.coppica.com/disrupt/latent-value-reveal)) instead of from your company.
+- **The problem:** One missed cleaning leads to a lost crown, step by step ([Domino Chain](https://taxonomy.coppica.com/agitate/domino-chain)). Then it names the real cause: the front desk has no time for recall ([Hidden Bottleneck](https://taxonomy.coppica.com/agitate/hidden-bottleneck)).
+- **"It won't bring you a single new patient":** Admitting a limit makes the $8k easier to believe, especially for owners who get pitched by agencies all the time ([Cold Confession](https://taxonomy.coppica.com/disrupt/cold-confession)).
+- **The ask:** A free estimate by reply with no call ([Lead Magnet](https://taxonomy.coppica.com/resolve/lead-magnet)). That's a much smaller yes than booking a demo.
+- **Subject line:** Of the three I tested, "{Practice}'s patients from 2024" was the only one that passed. The $8k version cut off before its key words on mobile.
+
+**Check before sending**
+1. **Know exactly what the $8k means.** Say whether it's production or collections, and whether it's before or after your fee. A dentist who replies will ask.
+2. **Keep the year current.** "2024" works now, in October 2026, because it points at patients gone about 18 months or more. Move it forward as time passes.
+3. **Add a CAN-SPAM footer** with a physical address and an opt-out line.
+4. **Have an answer ready on patient consent** (TCPA/HIPAA). Owners will ask whether you're allowed to text their patients. I didn't put it in the email because I don't know how you handle it.

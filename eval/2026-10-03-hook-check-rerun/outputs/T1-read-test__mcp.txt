@@ -1,0 +1,22 @@
+**No, B hasn't clearly won yet. It's ahead, but the result isn't statistically significant at the usual 95% level.**
+
+| | Visitors | Signups | Rate |
+|---|---|---|---|
+| A | 4,210 | 97 | 2.30% |
+| B | 4,180 | 121 | 2.89% (+25.6% relative) |
+
+- **p = 0.089.** If A and B actually performed the same, you'd see a gap this big about 9% of the time by chance alone. The usual cutoff is 5%.
+- **95% interval for the difference: −0.09 to +1.27 percentage points.** In relative terms, B's true effect could be anywhere from about −4% to +55%. Zero is still in the range.
+- **There's roughly a 96% chance B is better than A.** That's why it looks like a win, but the size of the gain is still very uncertain.
+
+I checked these numbers by hand and they match. Bash was blocked, so I couldn't run a script to confirm them.
+
+**Should you switch?** It depends on what B changed and what it costs you to wait:
+
+1. **If B lowers prices or changes plans, don't switch based on signups.** More signups at a lower price can still mean less revenue. Compare revenue per visitor, or paid conversions, before deciding.
+2. **If B is only copy or layout and costs nothing extra, switching is a reasonable bet.** The worst plausible case is about flat. Just don't expect a reliable 25% lift; the real gain is probably smaller. A large early lift from a small number of signups usually shrinks.
+3. **If you can wait, keep the test running.** To reliably detect a lift this size from a 2.3% baseline, you need about 12,000 visitors per version, roughly 3× what you have now. Decide on that number before you continue and stop only when you reach it. If you've been checking results as you go and planned to stop when it looked good, the p-value already overstates how certain this is.
+
+My default recommendation is to keep running to about 12k per version, unless B is a free change and waiting has a real cost. In that case, switch and treat the lift as unproven.
+
+What did B actually change? If it touches price, I'd look at revenue before signups.

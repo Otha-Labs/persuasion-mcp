@@ -1,0 +1,13 @@
+**I'd go with B, "Your boots are on sale (finally)."** I ran all three through a headline check, and B was the only one that did the full job of a subject line.
+
+A subject line has one job, which is getting the email opened. To do that, the reader has to feel it's meant for them and have a reason to open it now.
+
+- **B works.** "Your boots" speaks to the reader directly, and "(finally)" sounds like a person talking, which makes people curious. It's also short enough to show in full on a phone, where only about 40 characters fit.
+- **A partly works.** "40% off" is concrete, and in real headline tests, lines with a number won slightly more often. But any outdoor store could send this exact line. Nothing in it is about your boots or your customers.
+- **C doesn't work.** "Biggest sale of the year" makes a big claim without backing it up, so readers ignore it. Every inbox gets this same line on Black Friday. The exclamation mark doesn't help either: headlines with one did worse in those tests.
+
+**Two things to check before sending B:**
+1. **Does "(finally)" hold up?** It tells readers you almost never discount. If you ran a sale last month, they'll know it isn't true, and they'll trust the rest of the email less.
+2. **B leaves out the discount.** You could combine B and A: **"Your boots are 40% off (finally)"**. That's 32 characters, so it fits on a phone, and it keeps B's voice while adding A's number.
+
+**If your list is big enough, test it.** Nobody can predict a winner from the wording alone. The most useful test is B (or the combined line) against A, because they work in different ways: one feels personal, the other just states the deal. Whichever wins tells you something you can use in your next campaign. I can work out how many sends you'd need for a clear result if you want.

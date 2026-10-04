@@ -1,0 +1,40 @@
+## The roast
+
+**Headline: "Empowering teams to do their best work"**
+
+Try putting Asana's logo above this headline, then Monday's, then ClickUp's or Notion's. It works for all of them. It even works without swapping anything, since the headline never mentions Flowly. Microsoft's mission statement is "to empower every person and every organization on the planet to achieve more," so this headline is basically that statement shortened.
+
+- **"Empowering"** is one of the words readers now skim past. It sounds like machine-written copy, and it never says who empowers whom or how.
+- **"Teams"** means everyone. A 4-person design studio and a 4,000-person bank both qualify, so neither feels like you're talking to them.
+- **"Do their best work"** promises a result without naming one.
+
+**Subheadline: "the all-in-one platform that streamlines collaboration, boosts productivity, and drives results"**
+
+- **"All-in-one"** doesn't say what's included. After reading the whole hero, a visitor still can't tell whether Flowly is chat, a task tracker, docs or a calendar. That's the worst problem on the page.
+- **Streamlines, boosts, drives** is buzzword bingo. Each verb needs a specific object and never gets one. "Results" is the word people write when they can't say what the product does.
+- It has no number, no mechanism and no proof, so a skeptic has nothing to check.
+
+**Button: "Get Started"**
+
+Get started on what? A free trial, a credit card form or a sales call? Visitors can't tell what clicking will cost them, so the cautious ones don't click.
+
+## What the check found
+
+I ran the hero through the persuasion-taxonomy diagnostic. It found that the copy clearly answers **0 of the 6 reader questions a signup page needs**. Nothing grabs attention, nothing names the reader, no problem gets named and nothing proves the claims. It promises a better future before it has earned any belief. It also scored the writing **4/10**: all three lines have the same rhythm and read like a list instead of building on each other.
+
+## How to fix it
+
+The rewrite has to say something only Flowly could say. Here's the shape it could take, with placeholders for facts I don't have:
+
+> **Headline:** Your team pays for Slack, Asana and Notion. Flowly replaces all three.
+> **Sub:** Chat, tasks and docs live in one workspace, so nobody spends Monday hunting for last week's decision. [Real proof: "Used by 1,200 agencies" or "Teams save $X per seat".]
+> **Button:** Start free, no card needed
+
+Two other ways to open:
+- **[The Pointed Question](https://taxonomy.coppica.com/disrupt/question-open):** "How many apps did your team open to ship one project last week?"
+- **[The Enemy of Conventional Wisdom](https://taxonomy.coppica.com/disrupt/enemy-of-conventional-wisdom):** pick a belief your buyers hold, such as "more tools means more productivity," and argue against it.
+
+Only use the replacement claim if it's true. If you tell me three things, I'll write real versions:
+1. What Flowly actually replaces or does
+2. Who it's built for
+3. One real number or customer name you can put next to the claim

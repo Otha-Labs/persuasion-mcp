@@ -1,0 +1,23 @@
+The answer depends on the smallest lift you need to detect. At 95% confidence and 80% power, with 600 visitors a day split evenly between the two versions (about 300 each):
+
+| Lift you need to detect | Conversion rate goes from → to | Visitors per version | How long to run |
+|---|---|---|---|
+| 10% | 2.10% → 2.31% | 76,757 | ~256 days (37 weeks) |
+| **20%** | **2.10% → 2.52%** | **20,081** | **~67 days (10 weeks)** |
+| 30% | 2.10% → 2.73% | 9,320 | ~32 days (5 weeks) |
+
+I checked the 20% row by hand and got the same result, about 20,080 per version.
+
+**Your traffic is too low to detect small changes.** A new headline usually changes conversion by a few percent at most. A test of about 10 weeks can only detect a lift of 20% or more. If the new headline really helps by 5–8%, the test will most likely come back inconclusive.
+
+**Ways to get a result sooner:**
+- **Test a bigger change.** Don't just reword the same message. Make the new headline give a different reason to buy than the current one. For example, if the current headline is about price, try one about trust or guarantees. A bigger change is more likely to produce a lift your traffic can detect, and you'll learn which kind of message works for your buyers.
+- **Measure an earlier step that more people complete,** like clicking from the checkout page to the payment step. More people do that than finish buying, so the test needs fewer visitors.
+- **Accept that you'll only catch big wins.** Plan to run for 5 weeks, the 30% row. If neither headline clearly wins, keep whichever one you prefer and move on to the next test.
+
+**How to run it:**
+- Choose the end date before you start.
+- Run in whole weeks so weekdays and weekends are both counted equally.
+- Don't stop early because one version is ahead after a few days. Early leads at these numbers are mostly random.
+
+If you send me both headlines, I can check them before you launch. When the test ends, give me the visitor and conversion numbers for each version and I'll tell you what the result means.

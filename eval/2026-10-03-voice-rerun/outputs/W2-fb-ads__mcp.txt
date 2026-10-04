@@ -1,0 +1,73 @@
+Here are three ads, each built on a different angle so a test tells you which one your audience responds to. I planned them with the persuasion-taxonomy tool, ran a diagnosis on each draft, and revised them based on what it found.
+
+---
+
+### Ad 1: The $89 charge (opens with a scene from their own year)
+
+**Primary text:**
+> Freelance designers and writers: what was that $89 charge last July? Software? A client lunch? You'll be guessing the week your taxes are due.
+>
+> Lost sleep is the least of it. You skip deductions you can't prove. You estimate what you owe by feel. And every so often you find an invoice nobody paid, five months after you could have chased it without it getting awkward.
+>
+> Bookkeeping for Freelancers fixes that with one monthly routine. It's built for one-person creative businesses and takes 2 hours, so when tax week comes, your numbers are already done.
+>
+> Start this month and you have one month to sort. Put it off until tax season and you'll have twelve.
+>
+> $197, one time.
+
+**Headline:** Do your own books in 2 hours a month
+**Description:** For freelance designers and writers. $197 one-time.
+**CTA:** Learn More
+
+---
+
+### Ad 2: "Not a numbers person" (changes how they see the problem)
+
+**Primary text:**
+> "I'm just not a numbers person." If you're a freelance designer or writer, you've probably said it about your books. Then you put them off another month.
+>
+> Freelance bookkeeping involves very little math. The software does the adding, and your job is sorting: this charge is software, this one is travel, this payment came from that client. You already sort for a living. Layers, drafts, file versions, rounds of feedback.
+>
+> What makes it feel impossible is the pile. Every month you skip adds more to sort, so the job keeps growing while you avoid it.
+>
+> Most bookkeeping advice doesn't help either, because it's written for businesses with payroll, inventory and staff. A one-person creative business needs a handful of categories and one monthly habit.
+>
+> Bookkeeping for Freelancers teaches designers and writers that habit. Two hours a month, $197 one-time, and the pile stops growing.
+
+**Headline:** Your books are a sorting job. You're good at those.
+**Description:** Bookkeeping for Freelancers. $197 one-time.
+**CTA:** Learn More
+
+---
+
+### Ad 3: Three questions (the reader tests themselves)
+
+**Primary text:**
+> Three money questions. If you're a freelance designer or writer, try answering them without opening your bank app:
+>
+> 1. What did you earn last quarter?
+> 2. Which client invoices are unpaid right now?
+> 3. How much of your next payment should go to taxes?
+>
+> Stuck on one? Then you're making money decisions from your balance and a gut feeling, and you're far from the only one.
+>
+> Most freelancers think of their books as paperwork for the tax office. Kept monthly, they also tell you whether you can afford to turn down a bad client or take a month off.
+>
+> Bookkeeping for Freelancers teaches you to keep books that answer all three questions, in 2 hours a month. It's $197 once. If your day rate is above that, it costs less than a day of client work.
+>
+> And question 3 comes back with your very next payment.
+
+**Headline:** Answer these 3 questions without your bank app
+**Description:** Bookkeeping for Freelancers. $197 one-time.
+**CTA:** Learn More
+
+---
+
+**Before you run them:**
+
+- **None of the ads include proof.** You didn't give me any, so I didn't make any up. The diagnosis flagged this in all three ads. For a $197 sale to people who don't know you yet, this is the biggest thing you can add. If you have student results, a testimonial or a refund guarantee, put one line in just before the price.
+- **Be careful with "2 hours a month."** If the first month of setup or catching up takes longer, say that on your sales page. Otherwise someone who spends 8 hours in month one will feel they were misled.
+- **The openings are written for the cutoff.** Facebook shows about the first 125 characters before "See more." Each opening names the reader and gives them a reason to keep reading within that space.
+- **The urgency is real, not made up.** Ads 1 and 3 give a reason to act now that's true: the backlog grows every month, and the tax question comes up with every payment. I didn't add a fake deadline.
+
+If you have a testimonial or guarantee, send it and I'll work it into all three.

@@ -1,0 +1,31 @@
+It's readable, but it isn't good yet. It looks like the hundred other chair ads in someone's feed, and nothing in it gives a reader a reason to believe it.
+
+## What's working
+- **"Tired of back pain?"** names the right problem for the right person. That's the strongest line.
+- It's short and has a clear ask.
+
+## What's holding it back
+
+**1. It doesn't stop the scroll.** "Tired of X?" is the most common opening there is, so readers have learned to skip it. It names a pain but tells them nothing new. (In one large archive of news-headline tests, question headlines beat their rivals only 39% of the time. That's weak evidence for ads, but it points the same way.)
+
+**2. It makes claims with nothing behind them.** "Revolutionary" and "the best solution" are claims every competitor also makes, and readers ignore them. There's no number, feature, review count, or trial period to back them up. It also never explains *how* the chair helps your back, which is what someone in pain wants to know.
+
+**3. It sounds AI-written.** "Unlock," "revolutionary," and especially "It's not just a chair — it's an investment in your health" are phrasings people now recognize as AI copy. That costs you trust.
+
+**4. Much of it is cut off.** Facebook shows about 125 characters before "See more." That's about as far as "It's not just a chair —". Most people never see the health reframe, the comfort promise, or the CTA.
+
+**5. "Shop now 👉" repeats the button.** Facebook already shows a CTA button. Use that space for something that earns the click.
+
+## Rewrite direction
+One fix is to open in the middle of a moment ([In Medias Res Open](https://taxonomy.coppica.com/disrupt/in-medias-res-open)). Then add one concrete mechanism and one piece of proof, all inside the first 125 characters:
+
+> 3pm. You've shifted in your kitchen chair for the 40th time, and your lower back started aching before lunch.
+>
+> [Chair name] has [specific mechanism, e.g. lumbar support that moves when you lean]. [Proof, e.g. 4.8★ from 2,300 remote workers · 30-day free returns].
+
+Fill in the brackets with real facts only. Proof you can't back up is worse than none. If you don't have reviews yet, a generous trial or return policy also gives people a reason to trust you.
+
+## Before you spend money
+Test two openings that make different bets. For example, the "3pm moment" version against a plain-statement version like "Your kitchen chair is why your back hurts." That will tell you more than any critique. I can set up the test plan if you share your budget and current click-through rate.
+
+The technique reference comes from [The Persuasion Taxonomy](https://taxonomy.coppica.com) by Coppica (CC BY 4.0).

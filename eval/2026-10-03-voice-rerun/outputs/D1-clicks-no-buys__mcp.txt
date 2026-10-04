@@ -1,0 +1,24 @@
+You haven't told me where people leave, and the fix depends on it. "Clicks but no sales" usually means one of two things: people leave within seconds, or they read the article and still don't buy. Look at two numbers first: scroll depth or time on page, and how many visitors reach checkout. (I ran your situation through the Persuasion Taxonomy's conversion diagnostic for both cases. Without the ad and page in front of me, what follows is the likely list, not a verdict.)
+
+## Rule these out first
+- **Mobile load speed.** Most Facebook clicks open in Facebook's in-app browser. A heavy long-form page that takes 4+ seconds to load loses people no matter how good the copy is.
+- **Tracking.** Compare actual orders in your store with what Ads Manager reports. A broken pixel can make sales look missing.
+- **The buy button.** On a long article, check that a link to the offer is easy to find and that the path from the article to checkout has few steps.
+
+## If they leave in the first few seconds
+For supplement advertorials this is the most common cause. **The page doesn't continue what the ad promised.** A high click-through rate can be a warning sign: curiosity-style ads ("the kitchen habit that fixed my knees") get cheap clicks from people who were never going to buy. Then the article opens on something that doesn't match the ad, and they leave.
+
+- Put the ad next to the first screen of the page. They should make the same promise, in close to the same words, to the same person.
+- The headline should continue the thought that got them to click, not start fresh.
+- Name the reader clearly, for example "for people over 50 whose knees ache on the stairs." This is the [Precision Audience Signal](https://taxonomy.coppica.com/identify/precision-audience-signal) technique.
+
+## If they read but don't buy
+The likely gaps, most likely first:
+
+1. **They don't believe it.** Joint-pain buyers are skeptical, and many have already tried glucosamine with no result. Every big claim needs evidence right next to it: a study, a named customer, a specific number. The page also needs to say honestly why this product is different from what they already tried. Showing exactly how it's made and tested, called [Process Transparency Proof](https://taxonomy.coppica.com/prove/process-transparency-proof), is less common in supplements than reassurance language, so it stands out more. Keep claims to what you can back up; supplement health claims get legal and Facebook ad-review scrutiny.
+2. **Their objections go unanswered.** The big one at $39 is "what if it doesn't work for me?" Joint supplements often take weeks to show anything, so one bottle feels like a gamble. A clear money-back guarantee helps. So does a multi-bottle bundle that matches how long results actually take, with the value of each part laid out ([The Stack](https://taxonomy.coppica.com/resolve/the-stack)).
+3. **Nothing gives them a reason to buy today.** If there's no honest reason to act now, they plan to come back and never do. Use a real reason, like a launch price or a bonus that actually ends, not a fake countdown timer.
+4. **They can't picture the result.** The page describes ingredients but never shows what their days look like afterward: the stairs, the morning walk, getting down on the floor with the grandkids.
+
+## How to confirm it
+Once you know which group you're in, change only that one thing and A/B test it. For example, test two different ways of proving the main claim, or two first screens that match the ad. If you send me the ad and the landing page copy, I can go through them line by line and tell you which of these it actually is.

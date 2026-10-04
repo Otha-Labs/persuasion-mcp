@@ -1,0 +1,21 @@
+Before changing the copy, check two things that often explain a gap between "fine opens" and "almost no clicks."
+
+**First, make sure the numbers are real**
+- **Your 35% open rate is probably too high.** Apple Mail Privacy Protection counts many emails as "opened" whether or not anyone read them. Some of the gap may be people who never actually saw the email. Judge it by **click-to-open rate (CTOR)**, meaning clicks divided by opens. For newsletters, 5–15% is normal. If you're below about 3%, something is wrong.
+- **Look for technical problems.** Check for broken or mis-tracked links, links that only live in images (they're invisible when images are blocked), and Gmail clipping. Gmail cuts off emails over about 102KB, so links near the bottom may never be seen.
+
+**Then ask what a click is for.** If the whole value of the newsletter is in the email itself, people read it and leave satisfied, and that isn't a failure. You only need clicks if the content is built to need them. Then tease what's behind the link instead of summarizing it.
+
+**What to change in the email itself, most likely culprits first:**
+
+1. **Have one main link, near the top.** Ten equal links means readers pick none. Choose one main thing you want clicked, put it in the first screen, and make everything else secondary.
+2. **Say what the reader gets from clicking.** "Read more" and "Check it out" give no reason. "See the 3 pricing pages we tore apart" does. Write every link as a promise of what's on the other side.
+3. **Make the first line pay off the subject line.** If the subject promises something and the body opens with "Hi friends, what a month it's been…", the open feels like bait and readers stop trusting your links.
+4. **Write about the reader, not about you.** Count how often you say "you" versus "we." Newsletters drift toward company news. One less common fix is an [**Archetype Label Callout**](https://taxonomy.coppica.com/identify/archetype-label-callout): name a type of reader ("If you're the person who rewrites every subject line six times…") so the right people recognize themselves and click.
+5. **Give a reason to click today.** Without one, people mean to click later and don't. The reason should be real: a limited-time resource, an answer to something topical, or a part 2 that only exists online.
+
+**How to tell what worked:** change one thing at a time and track CTOR, not opens. Start with #1 and #2, the single top link with outcome-focused wording. That's usually the biggest gain for the least work.
+
+If you paste in a recent issue, I can go through it line by line and point out where readers are probably dropping off.
+
+*Technique reference: [The Persuasion Taxonomy](https://taxonomy.coppica.com) by Coppica, CC BY 4.0.*

@@ -1,0 +1,5 @@
+node_modules/
+dist/
+# raw eval transcripts and scratch dirs stay local
+eval/*/results/
+eval/*/work/

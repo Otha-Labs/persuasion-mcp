@@ -1,0 +1,28 @@
+Most likely, most of your trials never get to the point where the product is useful. Without your numbers I can't be sure, but this is the usual cause for project management tools.
+
+Project management software is worth nothing when it's empty. A firm only sees the value once a real project is in it, with its phases, its fee and the team. That takes an hour or more of setup, and a busy principal keeps putting it off until the trial ends. Then the choice is "pay $49 for something we never really used, or keep the spreadsheet," and the spreadsheet wins.
+
+Other causes to rule out:
+- **The signups aren't buyers.** Students, solo freelancers, people from other industries and competitors all sign up. Plenty of signups doesn't mean plenty of small architecture firms.
+- **One person tried it, but the firm never did.** The person who signed up may not be able to make the team use it.
+- **It looks like a generic tool.** If the first session doesn't show architecture-specific features, like SD/DD/CD/CA phases, fees per phase and consultants, people compare it to Asana, to their spreadsheet, or to tools like Monograph that are built for this market.
+- **Price probably isn't the problem.** $49 a month costs less than one billable hour. If people mention price, it usually means they never saw the value.
+
+## First, find out which one it is (a week of work)
+1. **Segment your signups.** What share are actually small architecture firms? Work out the conversion rate for that group alone.
+2. **Define "activated" and compare.** For example: they created a real project with phases and a fee, invited at least one teammate and came back on a second day. If activated trials convert many times better than the rest, the problem is getting people activated, not the product or the price.
+3. **Call about 10 people who didn't convert and 5 who did.** Ask what they actually did during the trial and what they use now.
+
+## Then fix activation
+- **Cut the setup work.** Add architecture templates with the phases already in place, a spreadsheet import and a sample project. Better still, offer to set up a trial user's first real project on a 20-minute call. That doesn't scale, but each paid account is worth about $590 a year right now, and the calls will show you what's stopping people.
+- **Show them a number they've never been able to see.** Many small firms only find out a project went over its fee after it's too late. Suppose on the first day the trial shows something like "Smith Residence: 78% of DD fee used, 40% of DD work done." At that point the $49 sells itself. This technique is called [Make Invisible Measurable](https://taxonomy.coppica.com/reframe/make-invisible-measurable) (Coppica's Persuasion Taxonomy). Build onboarding around getting to that moment, and repeat it in the upgrade prompt.
+- **Get the team in during setup.** A firm where three people use the tool is much more likely to pay than one where only the principal logged in.
+- **Change the trial clock.** Start it when a firm activates, or extend it for activated firms that haven't paid yet. Don't extend it for people who never activated.
+- **Rewrite the trial emails.** Each email should move people to the next setup step, not tour features. They should also answer the questions that don't matter for a free signup but do matter before paying: how long setup takes, whether staff will actually use it, whether they can export their data, and whether it handles consultant fees. Send them from the founder, and make sure replies reach a real person.
+- **Put proof next to the upgrade prompt.** Name one similar firm and give one number, such as fees recovered or hours saved.
+
+Don't require a card at signup yet. It would cut signups and raise your conversion rate, but it wouldn't tell you why people aren't buying.
+
+**About testing:** with only a few dozen conversions a month, an A/B test probably can't detect a real difference. Make the changes, compare monthly groups of signups, and rely on the calls.
+
+If you send me your numbers (signups per month, trial length, card or no card, conversion rate), I can tell you whether a test is workable and which cause looks most likely. I can also review your trial emails and upgrade page line by line.

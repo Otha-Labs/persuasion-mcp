@@ -1,0 +1,30 @@
+# Feedback on your Facebook ad
+
+**Verdict:** The structure works (problem → solution → call to action), but the ad is generic. Almost any chair brand could run these exact words, so it gives people no reason to pick yours.
+
+## What works
+- **It opens on a real pain point.** Back pain is a strong reason to buy, and it comes first, where people will see it.
+- **It's short.** On mobile, Facebook cuts the text off after about 125 characters, and your hook appears before that point.
+- **The call to action is clear.**
+
+## What doesn't
+1. **"Tired of back pain?" may get the ad rejected.** Meta's rules don't let ads assert or imply things about the viewer's health ("Do you suffer from…", "Tired of your…"). This one is borderline, but it's the kind of line that gets flagged. Telling the story in first person avoids the problem.
+2. **"Revolutionary" and "the best solution" don't persuade anyone.** People skip over claims they can't check. If you have a reason it's the best, state the reason instead.
+3. **"It's not just a chair — it's an investment in your health"** is a cliché. It also suggests a health benefit without backing it up, which is weak and could create compliance trouble.
+4. **"Unlock all-day comfort"** is another stock phrase that says nothing specific.
+5. **The ad has nothing concrete.** There's no product name and no explanation of *why* it helps (lumbar support? adjustable seat depth?). There's also no proof (reviews, number of customers), no price or offer, and nothing that lowers the risk of buying (a trial or free returns). These details are what actually get clicks.
+
+## A stronger version
+Replace the brackets with your real details:
+
+> I worked from a $40 kitchen chair for two years. By 3pm every day, my lower back was done.
+>
+> [Product] has lumbar support that adjusts to *your* spine, a seat depth you can set for your legs, and [one more concrete feature].
+>
+> ⭐ [4.8] from [3,000+] remote workers. Try it for [100 nights]. If you don't feel the difference, we'll pick it up free.
+>
+> Shop now 👉
+
+This version tells a story people recognize instead of describing their health back to them. It explains how the chair works, adds proof, and removes the risk of buying. Only use numbers you can back up.
+
+If you tell me the product's actual features, price, and offer, I can write two or three versions with different angles for you to A/B test.

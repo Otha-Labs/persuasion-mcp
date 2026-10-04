@@ -1,0 +1,40 @@
+Here's the email:
+
+---
+
+**Subject:** Half off your first Freshbox. Now pick your 3 dinners.
+**Preview text:** Each one's on the table in about 20 minutes.
+
+Hi [First name],
+
+You know how it goes. You buy spinach on Sunday fully meaning to cook it. By Wednesday it's gone soft, so you order takeout, and then the chicken you were saving for Thursday quietly passes its date too.
+
+Not this week.
+
+Welcome to Freshbox. Your trial has started and your first box is 50% off. All that's left before Wednesday's dinner is sorted is picking three recipes.
+
+Each recipe comes with its ingredients portioned for that one meal, so there's nothing left over to wilt in the crisper drawer. Every recipe takes about 20 minutes from cutting board to plate. You can walk in the door at 6:40 and be sitting down to eat by 7.
+
+So, pick your three.
+
+**[Choose my recipes]**
+
+It takes about two minutes. Browse this week's menu, tap the three that look good, and you're done. Just get your picks in by [cutoff day and time] so your box arrives [delivery day].
+
+Can't choose? Go with whatever you'd order if someone else were cooking. It's usually the right call.
+
+See you at dinner,
+[Name]
+Freshbox
+
+P.S. Need to skip a week or change your plan? You can do it anytime from your account.
+
+---
+
+**Check these before sending.** I assumed a few things you didn't tell me, so please confirm or cut them:
+- **Ingredients are pre-portioned for each recipe.** The spinach opening depends on this, because it answers the worry that a kit will rot in the fridge. If it isn't true, the hook needs to change.
+- **Customers can skip a week or change their plan anytime from their account** (the P.S.).
+- **Picking recipes takes about two minutes.**
+- **Fill in the placeholders** for the selection cutoff and delivery day. The cutoff is a real deadline, so it's the honest reason to act today.
+
+**How it was built and checked:** I planned and checked the draft with the persuasion-taxonomy tools. The check found that it covers everything a click email needs. I then made the subject line specific to Freshbox, mixed up the sentence lengths, and turned the opening into a short chain where the wilting spinach leads to takeout, which leads to the wasted chicken. The check also noticed there's no proof anywhere. If you have a real number, like a customer rating or how many dinners you've delivered, one line of it just above the button would help. I didn't make one up.

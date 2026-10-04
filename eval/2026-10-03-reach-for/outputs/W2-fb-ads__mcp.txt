@@ -1,0 +1,89 @@
+Here are three variations, each built on a different angle so you can test which one works best for your audience.
+
+---
+
+### Variation A: "It's not you, it's the advice"
+
+**Primary text:**
+
+Most bookkeeping advice is useless to a freelance designer or writer.
+
+It's written for accountants, with forty-tab spreadsheets and phrases like "accrual basis." So you put it off, and eventually you decide you're just not a numbers person. Then April arrives and a whole year of receipts has to be sorted in one miserable week.
+
+You aren't the problem. Your books are far simpler than that advice assumes. A freelancer has a few income sources and a short list of regular costs, which means the whole job comes down to four habits: log what comes in, log what goes out, set aside your tax, and check it all once a month.
+
+Bookkeeping for Freelancers teaches that routine in plain English, using examples from how creative work actually gets paid (deposits, late invoices, the client who pays in three installments). Because you do it monthly, nothing piles up. After the first setup, it takes about 2 hours a month.
+
+There are three months left in the tax year. Start now and this is the last April you spend digging through a shoebox.
+
+$197, one time. No subscription.
+
+**Headline:** Do your own books in 2 hours a month
+**Description:** Plain-English bookkeeping for designers & writers
+**CTA button:** Learn More
+
+---
+
+### Variation B: "The receipts folder"
+
+**Primary text:**
+
+There's a folder on your desktop called something like "receipts FINAL v2," and you haven't opened it since spring.
+
+You meant to. Every time a client paid, you thought "I should log that." Then a deadline landed.
+
+That folder costs you more than one bad week in April. Without clean numbers you're guessing at quarterly tax payments and can't tell which clients are worth keeping. Deductions slip by too, because finding the receipt feels harder than paying the tax.
+
+The fix is smaller than the dread. Freelance books get messy because they're done once a year, all at once. Bookkeeping for Freelancers teaches designers and writers a monthly routine that takes about 2 hours, so the pile never forms in the first place.
+
+Next tax season, you export one clean report, send it to your accountant, and finally delete "receipts FINAL v2."
+
+Start in October and you'll have three clean months behind you before the year closes. $197, one-time.
+
+**Headline:** Close "receipts FINAL v2" for good
+**Description:** A 2-hour monthly routine for freelancers
+**CTA button:** Learn More
+
+---
+
+### Variation C: "The third option" (in your own voice)
+
+**Primary text:**
+
+Quick question for freelance designers and writers: when did you last look at your books on purpose?
+
+If the honest answer is "when my accountant asked," you're in good company. Most of us went freelance to make things, and bookkeeping wasn't on the list.
+
+So the books pile up until you're stuck choosing between two bad options. You can lose a weekend every spring sorting a year of transactions, or you can pay someone every month to do it for you.
+
+There's a third. Once you know the routine, freelance bookkeeping is a small, repeatable job: the same few categories, the same monthly check, roughly 2 hours. I've kept my own books this way for [X] years as a freelance [designer/writer].
+
+Bookkeeping for Freelancers teaches you that routine once, and you keep it for every year you freelance. It's $197, one time.
+
+With three months left in the 2026 tax year, starting now means you walk into tax season with clean books instead of a shoebox.
+
+**Headline:** $197 once, or a bookkeeper every month
+**Description:** Learn it once. Use it every year.
+**CTA button:** Learn More
+
+---
+
+### Check these before you run them
+
+- **Fill in the bracket in C.** Variation C only works if you're a freelancer yourself. If you aren't, swap that line for a real student result.
+- **The "2 hours a month" claim.** I wrote it as "after the first setup" because setup usually takes longer. Change the wording if your course says something different.
+- **Course details in A and B.** The "four habits" and the payment examples (deposits, installments) should match what your modules actually cover.
+- **Tax timing.** "Three months left in the tax year" and "quarterly tax payments" assume US or Canadian calendar-year filers. If you target the UK, where the tax year ends April 5, change those lines.
+- **Refund guarantee.** If you offer one, add a line like "Full refund within 30 days if it's not for you." It's the most common way to lower the risk of buying at this price.
+
+### Why these choices
+
+I planned the ads with the Persuasion Taxonomy, then checked and revised each draft against it. All three cover what a reader needs to know before buying. C covered the most; A is lightest on how bad the problem is, and B on why to trust the person talking.
+
+- **A** opens by [dismissing a whole category](https://taxonomy.coppica.com/disrupt/category-dismissal-then-redirect) (most bookkeeping advice). It then [boils the job down to a few habits](https://taxonomy.coppica.com/reframe/three-lever-reductive-framework) and gives a plain [reason why](https://taxonomy.coppica.com/prove/reason-why-copy) 2 hours is enough.
+- **B** describes [how the problem feels](https://taxonomy.coppica.com/identify/felt-sense-description), [follows the mess to what it costs later](https://taxonomy.coppica.com/agitate/downstream-effect), [paints a specific tax-season moment](https://taxonomy.coppica.com/elevate/enargeia), and [comes back to the opening folder](https://taxonomy.coppica.com/bond/callback) at the end.
+- **C** uses a [peer-to-peer voice](https://taxonomy.coppica.com/bond/peer-voice-open) and compares $197 once with paying a bookkeeper every month.
+
+None of the ads use a fake deadline. The urgency is the real end of the tax year. Run all three as separate ads in one ad set and you'll see whether rethinking the problem, the pain of the mess, or the price comparison works best.
+
+Techniques are from the Persuasion Taxonomy by Coppica (CC BY 4.0).

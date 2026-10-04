@@ -1,0 +1,40 @@
+Here's the email:
+
+---
+
+**Subject:** the patients your recall system gave up on
+
+Hi Dr. [Last Name],
+
+Pull up every patient who hasn't been in since spring of 2025. The list is probably longer than you'd expect.
+
+Your recall system sent each of them a reminder or two, and when nobody booked, it went quiet. Plenty of them never meant to leave. They skipped one cleaning, got busy, and a year and a half went by.
+
+But they still know your name. So we text them from your practice and book whoever replies straight into your open slots. The practices we work with recover about $8,000 a month on average. Yours depends on how long that list is, which is the first thing we'd check.
+
+October is the month to do it. Many of those patients have dental benefits that reset on December 31, and if they don't come in before then, that coverage is gone.
+
+Worth 15 minutes next week to see what your list adds up to?
+
+[Your name]
+[Company] · [Phone]
+
+---
+
+**How it's built:**
+- **The opening** doesn't talk about getting new patients, which is what most pitches to dentists do. It asks the reader to picture a list of patients they already have.
+- **It agrees with what they already believe** ("my recall system handles this") before showing them where that system stops.
+- **The $8k figure is presented as an average.** The email then says plainly that their own number depends on the size of their list. That's more believable than a promise, and it sets up the call.
+- **The December 31 benefits reset** gives a real reason to act in October, so the deadline isn't invented.
+
+**Check these before you send:**
+1. **"From your practice."** I assumed the texts go out under the practice's name. If they don't, change that line. Owners who are protective of their patients will care about it.
+2. **The benefits reset** is true for most US calendar-year dental plans, but not all of them. That's why the email says "many."
+3. **Add a named result if you have one.** A P.S. like "Dr. Patel's office in Tucson booked 41 patients in the first month" would be stronger than the average alone.
+4. **Texting compliance.** Expect owners to ask whether texting lapsed patients is allowed under the TCPA (the US law on texting consumers). Have a one-line answer ready for your follow-up.
+
+**Another subject line to A/B test:** "their dental benefits reset Dec 31." It leads with the deadline instead of the curiosity hook.
+
+I ran an earlier draft through the persuasion-taxonomy plan and diagnose tools. That draft covered all six reader questions a signup email needs, but it got a weak 4.6/10 on how it reads because the sentences were too similar in length. The tool also said the subject line could have come from any competitor. This version fixes both. I didn't re-run the tool on it, since the structure didn't change.
+
+Separately, the Sentry MCP server needs authorization (via `/mcp` in an interactive session), and the GitHub and Firecrawl servers failed to connect. None of them were needed for this.
