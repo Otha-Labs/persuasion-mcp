@@ -94,7 +94,7 @@ Every word the server shows a model reads the way a good direct-response writer 
 
 ## License
 
-The code is MIT. The catalog data in `data/` is CC BY 4.0 and belongs to The Persuasion Taxonomy by Coppica. See [LICENSE](LICENSE).
+The code is [MIT](LICENSE). The catalog data in `data/` is [CC BY 4.0](data/LICENSE.md) and belongs to The Persuasion Taxonomy by Coppica.
 
 ## About
 
