@@ -50,9 +50,9 @@ export function questionsNeeded(groups: Role[][]): string {
   return choices.length ? `${joinList(singles)}, plus ${joinList(choices)}` : joinList(singles)
 }
 
-// ── evidence: traits that replicated in all three Upworthy splits (data/trait-evidence.json) ──
-const EVIDENCE_SOURCE = 'The evidence comes from the Upworthy Research Archive, thousands of real headline tests run on news stories between 2013 and 2015, ' +
-  'each one measuring clicks with the image held the same. The effects are small, and they come from news headlines and not ads, so treat them as a nudge and never as a verdict.'
+// ── evidence: traits that replicated in all three splits of our headline-test analysis (docs/trait-evidence.json) ──
+const EVIDENCE_SOURCE = 'These figures come from our analysis of more than 30,000 real headline A/B tests, each run on a news story with the image held the same. ' +
+  'The effects are small, and they come from news headlines and not ads, so treat them as a nudge and never as a verdict.'
 const TRAIT_EVIDENCE: { name: string; test: (s: string) => boolean; text: string; good: boolean }[] = [
   { name: 'question', test: (s) => s.includes('?'), text: 'Headlines phrased as a question won only 39% of 4,217 real head-to-head tests, so consider saying it as a statement.', good: false },
   { name: 'exclamation', test: (s) => s.includes('!'), text: 'Headlines with an exclamation mark won only 40% of 761 tests.', good: false },
