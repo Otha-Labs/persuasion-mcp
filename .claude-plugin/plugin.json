@@ -1,0 +1,10 @@
+{
+  "name": "persuasion-taxonomy",
+  "version": "1.0.0",
+  "description": "Plan, check and fix marketing copy against the nine questions every reader asks, with 766 persuasion techniques from real ads and A/B test math. Free, no API key.",
+  "author": { "name": "Coppica", "url": "https://coppica.com" },
+  "homepage": "https://taxonomy.coppica.com",
+  "repository": "https://github.com/Otha-Labs/persuasion-mcp",
+  "license": "MIT",
+  "keywords": ["persuasion taxonomy", "coppica", "persuasion-taxonomy"]
+}

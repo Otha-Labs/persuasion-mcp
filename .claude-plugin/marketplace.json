@@ -1,0 +1,14 @@
+{
+  "name": "persuasion-taxonomy",
+  "owner": { "name": "Coppica", "url": "https://coppica.com" },
+  "description": "The Persuasion Taxonomy plugin by Coppica.",
+  "plugins": [
+    {
+      "name": "persuasion-taxonomy",
+      "source": "./",
+      "description": "Plan, check and fix marketing copy against the nine questions every reader asks, with 766 persuasion techniques from real ads and A/B test math. Free, no API key.",
+      "homepage": "https://taxonomy.coppica.com",
+      "license": "MIT"
+    }
+  ]
+}

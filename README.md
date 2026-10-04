@@ -28,6 +28,13 @@ The hosted server lives at `https://taxonomy.coppica.com/mcp`. Any client that a
 claude mcp add --transport http persuasion-taxonomy https://taxonomy.coppica.com/mcp
 ```
 
+**Claude Code plugin.** This adds the server along with a short skill that tells Claude when to reach for it.
+
+```
+/plugin marketplace add Otha-Labs/persuasion-mcp
+/plugin install persuasion-taxonomy@persuasion-taxonomy
+```
+
 **Claude, ChatGPT and other apps with custom connectors.** Add a custom connector and paste in the URL above. There's nothing to sign in to.
 
 **Cursor** (`.cursor/mcp.json`)

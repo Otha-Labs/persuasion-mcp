@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "persuasion-taxonomy": {
+      "type": "http",
+      "url": "https://taxonomy.coppica.com/mcp"
+    }
+  }
+}
