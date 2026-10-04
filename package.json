@@ -1,6 +1,6 @@
 {
   "name": "@coppica/persuasion-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A free MCP server that helps any AI write and check marketing copy: the nine questions every reader asks, 766 persuasion techniques from real ads, copy diagnostics and A/B test math. No API key, no AI calls.",
   "mcpName": "com.coppica/persuasion-taxonomy",
   "type": "module",
@@ -66,5 +66,8 @@
     "@supabase/supabase-js": "^2.45.0",
     "@types/node": "^20.0.0",
     "typescript": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
