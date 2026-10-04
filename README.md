@@ -1,5 +1,7 @@
 # Persuasion Taxonomy MCP
 
+[![npm](https://img.shields.io/npm/v/@coppica/persuasion-mcp)](https://www.npmjs.com/package/@coppica/persuasion-mcp) [![AllMCPs Verified](https://allmcps.com/api/badge/persuasion-taxonomy-mcp?style=shields)](https://allmcps.com/mcp/persuasion-taxonomy-mcp) [![Glama](https://glama.ai/mcp/servers/Otha-Labs/persuasion-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Otha-Labs/persuasion-mcp)
+
 Most AI-written marketing copy fails for the same reason. The model answers every question the reader has with the most expected move, and the most expected move is exactly what readers have learned to skim past.
 
 This server gives your AI a better model of the reader. Everyone who reads an ad, a page or an email is silently asking nine questions:
