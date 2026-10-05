@@ -3,7 +3,7 @@ import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { ROLE_NAMES, ROLES, GOAL_REQUIREMENTS, GOAL_NOUN, GOAL_CLAUSE, FORMAT_LABEL, AWARENESS_WEIGHT, COHERENCE_CHECKS, expectedRoles, roleLabel, type Role } from '../roles.js'
 import { pickMoves, resolveCategory } from '../data.js'
 import { goalSchema, formatSchema, awarenessSchema, categorySchema, modeSchema } from '../schemas.js'
-import { text, techniqueLine } from '../format.js'
+import { text, techniqueLine, tracked } from '../format.js'
 import { cap, joinList } from '../voice.js'
 
 const NUM = ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
@@ -84,7 +84,7 @@ export function registerPlanTool(server: McpServer) {
         lines.push(`${cap(GOAL_NOUN[goal])} doesn't strictly need these, but one well-placed line can still help.`)
         for (const role of optional) {
           const [p] = pickMoves(role, { n: 1, format, category: cat, seed, context, mode, exclude: used })
-          lines.push(`- ${roleLabel(role)}${p ? ` One way in is **${p.t.name}** (${p.t.pt_id}). ${p.t.url}` : ''}`)
+          lines.push(`- ${roleLabel(role)}${p ? ` One way in is **${p.t.name}** (${p.t.pt_id}). ${tracked(p.t.url)}` : ''}`)
         }
       }
 

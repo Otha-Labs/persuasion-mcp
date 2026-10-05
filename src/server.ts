@@ -4,6 +4,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { ROLE_NAMES, ROLES } from './roles.js'
 import { TECHNIQUES, CATALOG_META } from './data.js'
 import { cap } from './voice.js'
+import { tracked } from './format.js'
 import { registerPlanTool } from './tools/plan.js'
 import { registerDiagnoseTool } from './tools/diagnose.js'
 import { registerWhyTool } from './tools/why.js'
@@ -44,14 +45,14 @@ function nineQuestionsDoc(): string {
   const lines = [
     '# The nine reader questions',
     '',
-    'From The 18 Theses, Thesis VIII: https://taxonomy.coppica.com/the-18-theses',
+    `From The 18 Theses, Thesis VIII: ${tracked('https://taxonomy.coppica.com/the-18-theses')}`,
     '',
     'Everyone who reads an ad, a page or an email is silently asking nine questions. Copy persuades when it answers the ones its goal needs, truthfully, and the answers hold together.',
     '',
   ]
   for (const r of ROLE_NAMES) {
     const i = ROLES[r]
-    lines.push(`${i.num}. **${i.question}** (${r}) This one is about ${i.gloss}. Leave it unanswered and here is what happens: "${i.ifMissing}" https://taxonomy.coppica.com/${r.toLowerCase()}`)
+    lines.push(`${i.num}. **${i.question}** (${r}) This one is about ${i.gloss}. Leave it unanswered and here is what happens: "${i.ifMissing}" ${tracked(`https://taxonomy.coppica.com/${r.toLowerCase()}`)}`)
   }
   lines.push('', 'Real persuasion happens when every question a piece needs is answered, in the same person, at the same time, and the answers agree with each other. ' +
     'When one answer contradicts another, the reader feels that something is off, and they discount everything.')
