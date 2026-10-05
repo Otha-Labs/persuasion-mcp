@@ -82,6 +82,7 @@ const calls = [
 ]
 
 let failed = 0
+const bodies = {}
 for (const [name, args] of calls) {
   try {
     const res = await client.callTool({ name, arguments: args })
@@ -89,6 +90,7 @@ for (const [name, args] of calls) {
     console.log(`\n==================== ${name} ${res.isError ? '(ERROR)' : ''} ${body.length} chars (~${Math.round(body.length / 4)} tokens)`)
     console.log(body)
     if (res.isError) failed++
+    else bodies[name] = body
   } catch (e) {
     failed++
     console.log(`\n==================== ${name} THREW: ${e.message}`)
@@ -96,5 +98,20 @@ for (const [name, args] of calls) {
 }
 await client.close()
 httpServer?.close()
-console.log(`\n${calls.length - failed}/${calls.length} tools OK${useHttp ? ' over HTTP' : ''}`)
-process.exit(failed ? 1 : 0)
+
+// Link attribution (1.0.3): links a reader follows carry ?utm_source=mcp so the Taxonomy's analytics can
+// count AI-assistant visits; the citation line and the CC BY footer stay clean, since people paste them.
+const linkFailures = []
+const techniqueLinks = (bodies.find_persuasion_techniques ?? '').match(/https:\/\/taxonomy\.coppica\.com\/[a-z]+\/\S+/g) ?? []
+if (!techniqueLinks.length || techniqueLinks.some((u) => !u.includes('?utm_source=mcp'))) {
+  linkFailures.push('find_persuasion_techniques: every technique link must carry ?utm_source=mcp')
+}
+const cite = (bodies.get_persuasion_technique ?? '').match(/Cite it as [^\n]*?(https:\/\/\S+)/)
+if (!cite || cite[1].includes('utm_source')) linkFailures.push('get_persuasion_technique: the citation link must be present and untagged')
+for (const [name, body] of Object.entries(bodies)) {
+  if (!body.includes('free to use under CC BY 4.0 at https://taxonomy.coppica.com. ')) linkFailures.push(`${name}: the CC BY footer is missing or changed`)
+}
+for (const f of linkFailures) console.log(`LINK CHECK FAILED: ${f}`)
+
+console.log(`\n${calls.length - failed}/${calls.length} tools OK${useHttp ? ' over HTTP' : ''}, link attribution ${linkFailures.length ? 'FAILED' : 'OK'}`)
+process.exit(failed || linkFailures.length ? 1 : 0)
