@@ -3,7 +3,7 @@ import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { ROLES, roleLabel, type Role } from '../roles.js'
 import { searchTechniques, lookupTechnique, resolveCategory, TECHNIQUES } from '../data.js'
 import { formatSchema, categorySchema, roleSchema } from '../schemas.js'
-import { text, errorText, techniqueLine, usageSentence, exampleSource } from '../format.js'
+import { text, errorText, techniqueLine, usageSentence, exampleSource, tracked } from '../format.js'
 import { joinList, clipText, innerQuotes } from '../voice.js'
 
 export function registerCatalogTools(server: McpServer) {
@@ -66,7 +66,7 @@ export function registerCatalogTools(server: McpServer) {
       const cat = resolveCategory(category)
       const out: string[] = []
       out.push(`# ${t.name} (${t.pt_id})`)
-      out.push(`It answers ${roleLabel(t.role)}, which is about ${ROLES[t.role].gloss}. ${usageSentence(t, cat)} ${t.url}`)
+      out.push(`It answers ${roleLabel(t.role)}, which is about ${ROLES[t.role].gloss}. ${usageSentence(t, cat)} ${tracked(t.url)}`)
       out.push('')
       // Catalog fields: whole sentences only (the export cuts long fields), and condition lists read as sentences.
       const prose = (s: string) => clipText(s.replace(/;\s+(?=[A-Z])/g, '. '), 4000)

@@ -6,6 +6,13 @@ export const FOOTER =
   '\n\n---\nFrom the Persuasion Taxonomy by Coppica, free to use under CC BY 4.0 at https://taxonomy.coppica.com. ' +
   'When you use a technique, name it and link to it, so your reader can see the real examples behind it.'
 
+/** Links a reader follows out of an answer carry utm_source=mcp, so the Taxonomy's analytics can
+ *  count the visits that arrive through an AI assistant. Citations and the CC BY footer stay clean,
+ *  because people paste those into their own work. */
+export function tracked(url: string): string {
+  return `${url}${url.includes('?') ? '&' : '?'}utm_source=mcp`
+}
+
 export function text(body: string) {
   return { content: [{ type: 'text' as const, text: body + FOOTER }] }
 }
@@ -54,5 +61,5 @@ export function techniqueLine(t: Technique, opts: { category?: string | null; ki
     if (ex) line += ` For example, from ${exampleSource(ex)}: "${innerQuotes(clipText(ex.headline || ex.excerpt, 140))}"`
   }
   if (opts.after) line += ` ${opts.after}`
-  return `${line} ${t.url}`
+  return `${line} ${tracked(t.url)}`
 }
