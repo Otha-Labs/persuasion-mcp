@@ -57,7 +57,7 @@ Every listing and review field comes from `plugin.json`, so the dashboard shows 
 | `license` | MIT AND CC-BY-4.0 |
 | `interface.displayName` | Persuasion Taxonomy (19 of 30 characters) |
 | `interface.shortDescription` | Plan and check marketing copy (29 of 30) |
-| `interface.longDescription` | See below (1,773 of 4,000) |
+| `interface.longDescription` | See below (1,797 of 4,000) |
 | `interface.developerName` | Coppica LLC |
 | `interface.category` | Business & Operations |
 | `interface.capabilities` | Plan marketing copy; Review and roast copy; Check headlines and subject lines; Check claims and calls to action; Diagnose low conversion; Search persuasion techniques; Look up a technique; Plan an A/B test; Read an A/B test result |
@@ -94,7 +94,7 @@ What it can do:
 
 Who it's for: founders, marketers, copywriters and anyone who writes to sell.
 
-Limits: it plans and checks, and ChatGPT does the writing. It never posts, sends or changes anything. It can't predict which version will win; only a test can tell you that. Many examples quote advertising from past decades. It needs no account. Nothing you send it is stored. The server logs only which tool was called, and its host keeps ordinary request logs for one day.
+Limits: it plans and checks, and ChatGPT does the writing. It never posts, sends or changes anything. It can't predict which version will win; only a test can tell you that. Many examples quote advertising from past decades. It needs no account. Nothing you send it is stored. The server logs only the kind of request and which tool was called, and its host keeps ordinary request logs for one day.
 ```
 
 The last sentence matches the wording proposed in taxonomy #117. If the owner changes that wording, change this sentence to match before uploading. "One day" is the log retention on the current Vercel plan. It would become false if Observability Plus were turned on, which keeps logs for 30 days.
@@ -182,7 +182,7 @@ The nine tools, the four prompts (`roast`, `brief`, `why-not-converting`, `next-
 |---|---|
 | Server name (up to 100) | Persuasion Taxonomy |
 | One-liner (up to 200) | Plan and check marketing copy against the nine questions every reader asks, using 767 persuasion techniques documented from real advertising. (141 characters) |
-| Description (up to 2,000) | The block below (1,772 characters) |
+| Description (up to 2,000) | The block below (1,796 characters) |
 | Categories (1 to 5) | Sales & marketing. Add Creative if you want a second one. The names come from the filters on claude.com/connectors on 2026-11-10; the portal's list is the one that counts. |
 | Documentation URL | https://github.com/Otha-Labs/persuasion-mcp#readme |
 | Privacy policy URL | https://taxonomy.coppica.com/privacy |
@@ -208,7 +208,7 @@ What it can do:
 
 Who it's for: founders, marketers, copywriters and anyone who writes to sell.
 
-Limits: it plans and checks, and Claude does the writing. It never posts, sends or changes anything. It can't predict which version will win; only a test can tell you that. Many examples quote advertising from past decades. It needs no account. Nothing you send it is stored. The server logs only which tool was called, and its host keeps ordinary request logs for one day.
+Limits: it plans and checks, and Claude does the writing. It never posts, sends or changes anything. It can't predict which version will win; only a test can tell you that. Many examples quote advertising from past decades. It needs no account. Nothing you send it is stored. The server logs only the kind of request and which tool was called, and its host keeps ordinary request logs for one day.
 ```
 
 The same note applies as for ChatGPT: the last sentence follows taxonomy #117.
@@ -283,7 +283,7 @@ Read the quality warnings on the final screen and submit. New listings start as 
 
 ### Starter prompts
 
-Up to three, 128 characters at most, no @mentions. These are `interface.defaultPrompt` in `plugin.json`.
+Up to three, 128 characters at most, no `@` mentions. These are `interface.defaultPrompt` in `plugin.json`.
 
 1. Help me plan a landing page for my product before I write it. (61 characters)
 2. Roast my ad copy and tell me what it's missing. (47)
