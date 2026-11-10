@@ -5,6 +5,7 @@ import { pickMoves, resolveCategory } from '../data.js'
 import { goalSchema, formatSchema, awarenessSchema, categorySchema, modeSchema } from '../schemas.js'
 import { text, techniqueLine, tracked } from '../format.js'
 import { cap, joinList } from '../voice.js'
+import { readOnlyTool } from '../annotations.js'
 
 const NUM = ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
@@ -12,7 +13,7 @@ export function registerPlanTool(server: McpServer) {
   server.registerTool(
     'plan_marketing_copy',
     {
-      title: 'Plan marketing copy (the nine reader questions)',
+      ...readOnlyTool('Plan marketing copy (the nine reader questions)'),
       description:
         "Plan any piece of marketing copy before you write it, whether it's an ad, a landing page, a sales page or sales letter, an email, a subject line, a social post, a headline or a video script. " +
         'Give it the goal, the reader and the offer, and it tells you which of the nine questions every reader silently asks this piece has to answer, which ones deserve the most words for this reader, ' +
@@ -29,7 +30,6 @@ export function registerPlanTool(server: McpServer) {
         persuasion_mode: modeSchema,
         options_per_question: z.number().int().min(2).max(6).default(4).describe('How many ways to answer each question you want to see. The default is 4.'),
       },
-      annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
     },
     async ({ goal, format, audience, offer, awareness_level, category, persuasion_mode, options_per_question }) => {
       const cat = resolveCategory(category)

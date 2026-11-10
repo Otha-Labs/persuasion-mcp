@@ -7,6 +7,7 @@ import { text, techniqueLine } from '../format.js'
 import { scoreFlow, type FlowContext } from '../scorers/flow-framework.js'
 import { checkHook, describeCheck, VERDICT_LABEL, type Slot } from '../hookcheck/index.js'
 import { flowGateSentence, joinList, plural } from '../voice.js'
+import { readOnlyTool } from '../annotations.js'
 
 export const OPENING_SLOT: Record<Format, Slot> = {
   ad: 'ad_opening', landing_page: 'landing_page_headline', sales_letter: 'sales_letter_headline', email: 'first_line',
@@ -51,7 +52,7 @@ export function registerDiagnoseTool(server: McpServer) {
   server.registerTool(
     'diagnose_marketing_copy',
     {
-      title: 'Diagnose marketing copy (roast / review)',
+      ...readOnlyTool('Diagnose marketing copy (roast / review)'),
       description:
         "Review, critique or roast any piece of marketing copy, whether it's an ad, a landing page, an email, a sales page, a social post or a script, and find out why it might not persuade. " +
         'Before you call it, read the copy and label each line with the one reader question it mainly answers, quoting the words exactly. Those labels go in the moves array. ' +
@@ -80,7 +81,6 @@ export function registerDiagnoseTool(server: McpServer) {
           proof: z.string().max(400).optional(),
         }).optional().describe('The brief, if you have it: the brand, product, offer, audience and proof. With it, the opening line gets the swap test, which asks whether a competitor could send it unchanged.'),
       },
-      annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
     },
     async ({ copy, goal, format, moves, awareness_level, category, headline, persuasion_mode, brief }) => {
       const cat = resolveCategory(category)

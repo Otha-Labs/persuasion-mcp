@@ -16,7 +16,7 @@ This server gives your AI a better model of the reader. Everyone who reads an ad
 8. Why should I act right now?
 9. Do I like and trust who's speaking?
 
-Copy persuades when it answers the questions its goal needs, answers them truthfully, and the answers fit together. The server helps your AI plan copy around those questions, check a draft against them before anyone sees it, and reach past the obvious move for one of 766 persuasion techniques documented from real advertising. It also does the math behind A/B tests.
+Copy persuades when it answers the questions its goal needs, answers them truthfully, and the answers fit together. The server helps your AI plan copy around those questions, check a draft against them before anyone sees it, and reach past the obvious move for one of 767 persuasion techniques documented from real advertising. It also does the math behind A/B tests.
 
 It's free and needs no API key. It makes no AI calls of its own, either: your model does the thinking, and the server only serves the catalog and runs plain code.
 
