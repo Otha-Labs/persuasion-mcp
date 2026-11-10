@@ -16,8 +16,8 @@ export function registerCatalogTools(server: McpServer) {
         `Search the Persuasion Taxonomy, ${TECHNIQUES.length} named persuasion techniques documented from real advertising and organized by the nine reader questions they answer. ` +
         'Describe what you want the copy to do, like build trust without testimonials, create urgency without fake scarcity, handle a price objection, make an opening less generic, ' +
         'prove a claim or reframe a problem. It finds the techniques that do it. Each one comes with its name and ID, a one-line definition, a real example, ' +
-        'how common it is in a category if you name one, and a link. So reach for it when a draft relies on the obvious move and you want a less expected one, ' +
-        'or when someone asks for tactics, angles, hooks or ideas.',
+        'how common it is in a category if you name one, and a link. ' +
+        'Use it when someone asks for tactics, angles or a less expected way to make a point.',
       inputSchema: {
         query: z.string().min(2).max(300).describe('What you want the copy to do, in plain words, like "prove it works without testimonials".'),
         question: roleSchema.optional().describe('Set this to see only the techniques that answer one reader question.'),

@@ -37,7 +37,7 @@ export const INSTRUCTIONS = [
   "and check_marketing_claims does the same for claims and buttons. If a funnel isn't converting, start with explain_why_not_converting. " +
   "And when it's time to test, plan_ab_test sizes the test and read_ab_test_result tells you what it found.",
 
-  'Whenever you use a technique, name it and link to it. The catalog is free under CC BY 4.0, and that link lets your reader see the real examples behind the advice.',
+  'Each technique comes with a link to its page, which shows the real examples behind it.',
 ].join('\n\n')
 
 function nineQuestionsDoc(): string {
