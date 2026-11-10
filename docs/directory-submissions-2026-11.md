@@ -4,17 +4,62 @@ This is the pack for listing the hosted server, `https://taxonomy.coppica.com/mc
 
 Everything here was checked on 2026-11-10 against the official docs linked in each section. Nothing has been submitted yet.
 
-## Do these first
+## The two submissions at a glance
 
-Both directories scan the live server, so submit only after version 1.0.4 is live at `taxonomy.coppica.com/mcp`. Production runs 1.0.3 today. Its tools have `readOnlyHint` and `openWorldHint` but no `destructiveHint`, and OpenAI requires all three as explicit booleans on every tool.
+Each submission is one form under the owner's own account. Everything the team can do is done. What is left is listed under "Only the owner", in the order the form asks for it.
 
-1. Merge the persuasion-mcp pull request that carries this file. It sets explicit annotations on all nine tools, refreshes the data to 767 techniques and bumps the version to 1.0.4.
-2. Publish 1.0.4 to npm from `main` with `npm publish`. `prepublishOnly` runs the build, both smoke tests and the voice check first.
-3. Publish 1.0.4 to the MCP Registry with `mcp-publisher publish`, using the same login as 1.0.3. The registry shows 1.0.3 as the latest version today.
-4. In persuasion-taxonomy, bump `@coppica/persuasion-mcp` to `^1.0.4` (package.json and package-lock.json), merge, and let Vercel deploy production.
-5. Check production. `tools/list` should show `destructiveHint: false` on all nine tools, and `initialize` should report version 1.0.4.
+### What is already live
 
-Two changes in persuasion-taxonomy are already live: the support page at `/support` and the OpenAI domain-check route (taxonomy #118), and the rate limit that no longer counts all Claude or ChatGPT users behind one shared address as a single caller (taxonomy #116). The privacy wording in taxonomy #117 is a draft that waits on the owner.
+Checked against production on 2026-11-10 at 22:09 UTC:
+
+- **The server.** `https://taxonomy.coppica.com/mcp` runs 1.0.4. `initialize` reports 767 techniques, and `tools/list` shows all nine tools with `readOnlyHint: true`, `destructiveHint: false` and `openWorldHint: false`. All nine tools were called on production and each returned a result with no error.
+- **npm and the MCP Registry.** Both list 1.0.4. The registry shows `com.coppica/persuasion-taxonomy` 1.0.4 as the latest version.
+- **Privacy.** `https://taxonomy.coppica.com/privacy` returns 200 and carries the one-day log wording (taxonomy #117, merged 2026-11-10 at 21:42 UTC). Observability Plus is off for the Vercel team, and the team has no log drains, so "one day" is true on the current plan.
+- **Support.** `https://taxonomy.coppica.com/support` returns 200.
+- **Terms.** `https://taxonomy.coppica.com/use-policy` returns 200, and `plugin.json` already points `termsOfServiceURL` at it. `/terms` returns 404, so don't use that address anywhere.
+- **Domain check.** The route at `/.well-known/openai-apps-challenge` is deployed (taxonomy #118). It returns 404 until `OPENAI_APPS_CHALLENGE` is set, which is expected.
+- **The rate limit.** It counts each caller separately, so ChatGPT or Claude users behind one shared address aren't treated as one caller (taxonomy #116).
+
+### ChatGPT: one link
+
+**Open:** [platform.openai.com/plugins](https://platform.openai.com/plugins), then **Upload new or existing plugin**.
+
+**Upload this file:** `persuasion-taxonomy-openai.zip` in the root of this repo's clone (`~/dev/persuasion-mcp-tax10`). It was built from `openai-plugin/` on main, and its SHA-256 is `1c86dd6b…19af5cfe85`. Every listing field and all eight reviewer test cases come from the ZIP, so there is nothing to type for them. The full field list is in [What the package fills in](#what-the-package-fills-in).
+
+**Only the owner:**
+
+1. **Identity.** Choose Coppica LLC as the developer identity. If the dashboard says the organization isn't verified, verify it first at [organization settings](https://platform.openai.com/settings/organization/general). This can't be checked without his login. It is a one-time step for every Coppica plugin.
+2. **Connect.** Under **MCPs**, choose **Connect** and paste:
+   - MCP Server URL: `https://taxonomy.coppica.com/mcp`
+   - Authentication: **No authentication**
+3. **Domain token.** The Connect step shows a token. Only his login can see it. Paste it as the value of `OPENAI_APPS_CHALLENGE` (Production only, no trailing space or newline) at [the taxonomy project's environment variables](https://vercel.com/thedruidjedi-9481s-projects/persuasion-taxonomy/settings/environment-variables), then redeploy production. Or send the token to the team. It is a public proof value, not a secret, but setting it still needs a production redeploy. `https://taxonomy.coppica.com/.well-known/openai-apps-challenge` should then show only the token.
+4. **Demo video.** Review requires one. It has to be recorded in his ChatGPT with the plugin connected, because the team has no ChatGPT login. It should run the five positive prompts in [Starter prompts](#starter-prompts) and [Positive cases](#positive-cases). Upload it somewhere a reviewer can open without signing in, and paste the link under **Review information > Review details > Demo recording URL**.
+5. **Countries.** This is his choice in the dashboard. `plugin.json` leaves them out on purpose, and OpenAI's docs don't say what a new plugin defaults to.
+6. **Submit.** Choose **Submit for review** and make the policy attestations. After approval, **Publish plugin** is a separate click. Email press@openai.com before any public announcement.
+
+### Claude: one link
+
+**Open:** [claude.ai/directory/manage](https://claude.ai/directory/manage), then **Submit new**, then **MCP connector**.
+
+**Paste, step by step.** Every answer is in [section 2](#2-claude-connectors-directory). The short version:
+
+| Form step | Answer |
+|---|---|
+| 1. Connection | `https://taxonomy.coppica.com/mcp`. Leave **Users connect to different URLs** unselected. |
+| 2. Tools | Filled in by the scan. |
+| 3. Listing | The name, tagline, description, categories and links in [Step 3](#step-3-listing). |
+| 4. Use cases | The text in [Step 4](#step-4-use-cases). |
+| 5. Company | Coppica LLC, https://coppica.com. The contact for review updates is his choice. |
+| 6. Authentication | No authentication. |
+| 7. Data handling | Our own API. No personal health data. No sponsored content. |
+| 8. Test & launch | Paste the reviewer-access block in [Step 8](#step-8-test--launch). |
+| 9. Compliance | Seven acknowledgments only he can make. The facts behind each are in [Step 9](#step-9-compliance). |
+
+**Only the owner:**
+
+1. **A paid Claude plan.** The portal needs one. This can't be checked from here.
+2. **Run every tool.** The Test & launch step asks him to confirm that he ran every tool, as a custom connector in Claude or with the MCP Inspector. The team called all nine tools on production at 22:09 UTC on 2026-11-10, and each returned a result. The Inspector's `tools/list` also ran against production. Neither was run inside Claude. The quickest way to run it in Claude: add `https://taxonomy.coppica.com/mcp` at [Customize > Connectors](https://claude.ai/customize/connectors), then paste the eight reviewer prompts from Step 8 into one chat.
+3. **The seven acknowledgments**, then **Submit**.
 
 ## 1. ChatGPT (OpenAI plugin directory)
 
@@ -97,7 +142,7 @@ Who it's for: founders, marketers, copywriters and anyone who writes to sell.
 Limits: it plans and checks, and ChatGPT does the writing. It never posts, sends or changes anything. It can't predict which version will win; only a test can tell you that. Many examples quote advertising from past decades. It needs no account. Nothing you send it is stored. The server logs only the kind of request and which tool was called, and its host keeps ordinary request logs for one day.
 ```
 
-The last sentence matches the wording proposed in taxonomy #117. If the owner changes that wording, change this sentence to match before uploading. "One day" is the log retention on the current Vercel plan. It would become false if Observability Plus were turned on, which keeps logs for 30 days.
+The last sentence matches the privacy page as published in taxonomy #117. If that page changes, change this sentence to match before uploading. "One day" is the log retention on the current Vercel plan. It would become false if Observability Plus were turned on, which keeps logs for 30 days.
 
 Left out on purpose:
 
@@ -261,7 +306,7 @@ Then confirm you ran every tool yourself, as a custom connector in Claude or wit
 npx @modelcontextprotocol/inspector --cli https://taxonomy.coppica.com/mcp --transport http --method tools/list
 ```
 
-Change `--method` to `tools/call` and add `--tool-name` and `--tool-arg` to call one tool. These Inspector commands were not run for this pack.
+Change `--method` to `tools/call` and add `--tool-name` and `--tool-arg` to call one tool. The `tools/list` command ran against production on 2026-11-10. The `tools/call` form was not run with the Inspector; all nine tools were called directly over HTTP instead (see [the two submissions at a glance](#the-two-submissions-at-a-glance)).
 
 ### Step 9. Compliance
 
@@ -429,4 +474,3 @@ Neither is fixed in 1.0.4.
 - The rate limit for platform traffic (taxonomy #116) was tested with unit tests and direct calls, not with real ChatGPT or Claude traffic.
 - Whether OpenAI's upload accepts the `extensions` block in `mcp.json`.
 - Claude's icon requirements, which the docs don't state, and the default country list for a new ChatGPT plugin.
-- Whether Observability Plus is turned on for the Vercel team. Queries for logs older than about a day failed, which fits the one-day retention.
