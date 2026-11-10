@@ -405,7 +405,7 @@ Production (1.0.3) on the same day returned the same titles and `readOnlyHint`, 
 
 ## 5. Wording a reviewer may flag
 
-Both directories reject descriptions that push a model to call a tool beyond what the user asked for. Anthropic: "Describe what the tool does, and don't tell Claude how to behave." OpenAI: descriptions "must not recommend overly broad triggering beyond the explicit user intent". Three passages lean that way. Changing them is the owner's call and needs a new server release.
+Both directories reject descriptions that push a model to call a tool beyond what the user asked for. Anthropic: "Describe what the tool does, and don't tell Claude how to behave." OpenAI: descriptions "must not recommend overly broad triggering beyond the explicit user intent". Three passages leaned that way. The owner approved the replacements on 2026-11-10, and 1.0.5 ships them: the first two as below, and the third as "Use it when someone asks ... and to check a draft you wrote for them before you present it."
 
 - `plan_marketing_copy` description, current: "One option is always the established move and the rest are less expected, because left to itself a model answers every question with the move everyone else makes, and readers have learned to skim past it. So call it before you draft, even when you're sure you know how to write the piece, and when the draft is done, check it with diagnose_marketing_copy."
   Possible replacement: "One option is always the established move and the rest are less expected. Use it before you draft, and check the finished draft with diagnose_marketing_copy."
@@ -415,9 +415,9 @@ Both directories reject descriptions that push a model to call a tool beyond wha
 
 ## 6. Output problems a reviewer will see
 
-Neither is fixed in 1.0.4.
+The first is fixed in 1.0.5. The rest are not.
 
-- `get_persuasion_technique` prints a double period in "When it lands" and "When it backfires" for 513 of the 767 entries, for example "from their own experience.. The question". The cause is `src/tools/catalog.ts` line 71, which turns "; " into ". " even after a period. Changing the pattern to `/\.?;\s+(?=[A-Z])/g` would fix it.
+- Fixed in 1.0.5: `get_persuasion_technique` printed a double period in "When it lands" and "When it backfires" for 513 of the 767 entries, for example "from their own experience.. The question". The cause is `src/tools/catalog.ts` line 71, which turns "; " into ". " even after a period. Changing the pattern to `/\.?;\s+(?=[A-Z])/g` would fix it.
 - In case 5, the entry for The Socratic Objection has a first-example explanation that stops mid-sentence and a third example whose explanation quotes Spanish text. That is catalog data, fixed in persuasion-taxonomy and then exported again.
 - `read_ab_test_result` can start "Before you act" with "And" when no other warning comes first, as in the golden call above.
 - `find_persuasion_techniques` always returns results, even for queries with nothing to do with marketing, as the weather and Python probes show.

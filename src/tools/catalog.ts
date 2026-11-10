@@ -68,7 +68,7 @@ export function registerCatalogTools(server: McpServer) {
       out.push(`It answers ${roleLabel(t.role)}, which is about ${ROLES[t.role].gloss}. ${usageSentence(t, cat)} ${tracked(t.url)}`)
       out.push('')
       // Catalog fields: whole sentences only (the export cuts long fields), and condition lists read as sentences.
-      const prose = (s: string) => clipText(s.replace(/;\s+(?=[A-Z])/g, '. '), 4000)
+      const prose = (s: string) => clipText(s.replace(/\.?;\s+(?=[A-Z])/g, '. '), 4000)
       out.push(prose(t.lede))
       if (t.what_it_does) out.push(`\n**What it does.** ${prose(t.what_it_does)}`)
       if (t.why_it_works) out.push(`\n**Why it works.** ${prose(t.why_it_works)}`)

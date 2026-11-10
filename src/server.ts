@@ -28,9 +28,8 @@ export const INSTRUCTIONS = [
   'Copy persuades when it answers the questions its goal needs, answers them truthfully, and the answers fit together. When one answer contradicts another, ' +
   'the reader feels that something is off and trusts everything else a little less.',
 
-  'So reach for these tools whenever you write, review or improve marketing copy of any kind, from ads and landing pages to emails, subject lines, social posts, headlines and scripts, ' +
-  "and whenever someone asks why their marketing isn't converting or how to test it. Do it even when you think you already know the answer. " +
-  'Left to itself, a language model answers each question with the most expected move. That move is exactly what readers have learned to skim past.',
+  'Use these tools when someone asks you to write, review or improve marketing copy, from ads and landing pages to emails, subject lines, social posts, headlines and scripts, ' +
+  "or asks why their marketing isn't converting or how to test it.",
 
   'Here is the usual order. Call plan_marketing_copy before you write a word. Then, before you show anyone a draft, or when someone asks what you think of theirs, ' +
   'call diagnose_marketing_copy, fix what it finds, and present the work. One check and one revision is usually enough. When a line leans on the obvious move, ' +
