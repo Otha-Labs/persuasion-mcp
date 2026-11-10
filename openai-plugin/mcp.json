@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "persuasion-taxonomy": {
+      "type": "streamable-http",
+      "url": "https://taxonomy.coppica.com/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "none"
+          }
+        }
+      }
+    }
+  }
+}

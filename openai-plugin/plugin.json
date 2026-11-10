@@ -1,0 +1,116 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "persuasion-taxonomy",
+  "version": "1.0.0",
+  "description": "Plan and check marketing copy against the nine questions every reader asks, using 767 persuasion techniques documented from real advertising.",
+  "author": {
+    "name": "Coppica LLC",
+    "email": "support@coppica.com",
+    "url": "https://coppica.com"
+  },
+  "homepage": "https://taxonomy.coppica.com",
+  "repository": "https://github.com/Otha-Labs/persuasion-mcp",
+  "license": "MIT AND CC-BY-4.0",
+  "keywords": [
+    "marketing",
+    "copywriting",
+    "persuasion",
+    "headlines",
+    "landing pages",
+    "email",
+    "ab testing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Persuasion Taxonomy",
+        "shortDescription": "Plan and check marketing copy",
+        "longDescription": "Persuasion Taxonomy helps you plan, write and check marketing copy: ads, landing pages, sales pages, emails, subject lines, headlines, social posts and video scripts.\n\nIt is built on one idea. Everyone who reads an ad, a page or an email is silently asking nine questions, from \"Why am I even reading this?\" to \"Why should I act right now?\" Copy persuades when it answers the questions its goal needs, truthfully, and the answers fit together.\n\nWhat it can do:\n- Plan a piece before you write it: which of the nine questions it has to answer for this reader, and a few ways to answer each, one established and the rest less expected.\n- Review a draft line by line: which questions it answers, which it skips, the biggest gap, and the words that read as machine-written.\n- Check headlines, hooks and subject lines, and compare options against each other.\n- Check claims and buttons for vague superlatives and promises with no proof behind them.\n- Work out why an ad, a page or an email isn't converting, starting with the problems copy can't fix.\n- Search a catalog of 767 named persuasion techniques documented from real advertising. Each comes with a definition, a real example and a link to its page on taxonomy.coppica.com.\n- Size an A/B test and read its result, with warnings about what makes a result unreliable.\n\nWho it's for: founders, marketers, copywriters and anyone who writes to sell.\n\nLimits: it plans and checks, and ChatGPT does the writing. It never posts, sends or changes anything. It can't predict which version will win; only a test can tell you that. Many examples quote advertising from past decades. It needs no account. Nothing you send it is stored. The server logs only which tool was called, and its host keeps ordinary request logs for one day.",
+        "developerName": "Coppica LLC",
+        "category": "Business & Operations",
+        "capabilities": [
+          "Plan marketing copy",
+          "Review and roast copy",
+          "Check headlines and subject lines",
+          "Check claims and calls to action",
+          "Diagnose low conversion",
+          "Search persuasion techniques",
+          "Look up a technique",
+          "Plan an A/B test",
+          "Read an A/B test result"
+        ],
+        "websiteURL": "https://taxonomy.coppica.com",
+        "supportURL": "https://taxonomy.coppica.com/support",
+        "privacyPolicyURL": "https://taxonomy.coppica.com/privacy",
+        "termsOfServiceURL": "https://taxonomy.coppica.com/use-policy",
+        "defaultPrompt": [
+          "Help me plan a landing page for my product before I write it.",
+          "Roast my ad copy and tell me what it's missing.",
+          "My trial signups rarely turn into paying customers. What should I change?"
+        ],
+        "brandColor": "#B8811D",
+        "brandColorDark": "#E8A225",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      },
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Plan a landing page before writing it",
+              "prompt": "Plan the landing page copy for my dog-walking service in Austin before you write it. It's $25 for a 30-minute GPS-tracked walk with a photo update after every walk, for people who work long office days.",
+              "tools_triggered": "plan_marketing_copy",
+              "expected_behavior": "Returns a plan for a landing page that has to make the sale: the nine reader questions in order, which ones deserve the most words for this reader, and three or four named techniques for each, every one with a PT-ID and a link to taxonomy.coppica.com. ChatGPT may then write a draft and check it with diagnose_marketing_copy."
+            },
+            {
+              "description": "Review and roast existing copy",
+              "prompt": "Roast my landing page hero. Headline: Empowering teams to do their best work. Subheadline: Flowly is the all-in-one platform that streamlines collaboration, boosts productivity, and drives results. Button: Get Started",
+              "tools_triggered": "diagnose_marketing_copy",
+              "expected_behavior": "ChatGPT labels each line with the reader question it answers and calls the tool. The result lists which of the nine questions the copy answers, answers weakly or skips, names the biggest gap (nothing gives the reader a reason to keep reading), and suggests named techniques with links to fill it."
+            },
+            {
+              "description": "Compare email subject lines",
+              "prompt": "Which of these subject lines should I send for our Black Friday sale on hiking boots? A) Black Friday Sale: 40% Off Everything B) Your boots are on sale (finally) C) Don't miss our biggest sale of the year!",
+              "tools_triggered": "check_headlines",
+              "expected_behavior": "For each line it says whether it does a subject line's job, what it is betting on, whether a competitor could send it unchanged, and how to fix it. It says which lines come closest, suggests testing two lines that make different bets, and does not claim to predict the winner."
+            },
+            {
+              "description": "Explain why trials don't convert",
+              "prompt": "We get plenty of trial signups but few become paying customers. It's $49 a month project management software for small architecture firms, with a 14-day trial. Why, and what should we change?",
+              "tools_triggered": "explain_why_not_converting",
+              "expected_behavior": "Starts with what to rule out that copy can't fix (lead quality and follow-up speed), then the reader questions most likely going unanswered, most likely first, each with what to check. The top suspects come with named techniques and links, and it ends with a test that would confirm the diagnosis."
+            },
+            {
+              "description": "Find and explain a persuasion technique",
+              "prompt": "What are some ways to handle a price objection? Pick the best fit and explain it in detail.",
+              "tools_triggered": "find_persuasion_techniques, get_persuasion_technique",
+              "expected_behavior": "Lists named techniques for handling a price objection, each with a PT-ID, a one-line definition, a real advertising example and a link. Then gives the full entry for the chosen technique: what it does, why it works, when it backfires, examples and a link to cite."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Unrelated request. The plugin only plans and checks marketing copy, so it has nothing to offer for a weather question and should not be called.",
+              "prompt": "What's the weather in Chicago this weekend?",
+              "expected_behavior": "ChatGPT calls no Persuasion Taxonomy tool. It answers with its own tools, or says it can't check live weather."
+            },
+            {
+              "description": "An action the plugin can't take. Every tool is read-only and none can send, post or schedule anything, so the plugin should not be called as if it could send this email.",
+              "prompt": "Send this promo email to my 5,000 subscribers right now.",
+              "expected_behavior": "ChatGPT calls no Persuasion Taxonomy tool to send anything and does not say the email was sent. It says it can't send email from here, and may offer to check the copy first."
+            },
+            {
+              "description": "Unrelated request. General coding has nothing to do with marketing copy, so the plugin should not be called.",
+              "prompt": "Write a Python function that removes duplicates from a list.",
+              "expected_behavior": "ChatGPT calls no Persuasion Taxonomy tool and writes the function itself."
+            }
+          ]
+        },
+        "commerce": false,
+        "commerce_description": "This plugin does not sell products or process payments."
+      },
+      "publication": {
+        "release_notes": "First release: nine read-only tools to plan and check marketing copy, search persuasion techniques documented from real advertising, and size and read A/B tests. No sign-in."
+      }
+    }
+  }
+}
