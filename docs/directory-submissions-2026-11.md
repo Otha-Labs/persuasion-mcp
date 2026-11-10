@@ -12,8 +12,8 @@ Each submission is one form under the owner's own account. Everything the team c
 
 Checked against production on 2026-11-10 at 22:09 UTC:
 
-- **The server.** `https://taxonomy.coppica.com/mcp` runs 1.0.4. `initialize` reports 767 techniques, and `tools/list` shows all nine tools with `readOnlyHint: true`, `destructiveHint: false` and `openWorldHint: false`. All nine tools were called on production and each returned a result with no error.
-- **npm and the MCP Registry.** Both list 1.0.4. The registry shows `com.coppica/persuasion-taxonomy` 1.0.4 as the latest version.
+- **The server.** `https://taxonomy.coppica.com/mcp` runs 1.0.5 (checked 2026-11-10 at 23:48 UTC). `initialize` reports 767 techniques, and `tools/list` shows all nine tools with `readOnlyHint: true`, `destructiveHint: false` and `openWorldHint: false`. All nine tools were called on production and each returned a result with no error.
+- **npm and the MCP Registry.** Both list 1.0.5. npm's 1.0.5 was published by the release workflow with provenance, and the registry shows `com.coppica/persuasion-taxonomy` 1.0.5 as the latest version.
 - **Privacy.** `https://taxonomy.coppica.com/privacy` returns 200 and carries the one-day log wording (taxonomy #117, merged 2026-11-10 at 21:42 UTC). Observability Plus is off for the Vercel team, and the team has no log drains, so "one day" is true on the current plan.
 - **Support.** `https://taxonomy.coppica.com/support` returns 200.
 - **Terms.** `https://taxonomy.coppica.com/use-policy` returns 200, and `plugin.json` already points `termsOfServiceURL` at it. `/terms` returns 404, so don't use that address anywhere.
@@ -24,7 +24,7 @@ Checked against production on 2026-11-10 at 22:09 UTC:
 
 **Open:** [platform.openai.com/plugins](https://platform.openai.com/plugins), then **Upload new or existing plugin**.
 
-**Upload this file:** `persuasion-taxonomy-openai.zip` in the root of this repo's clone (`~/dev/persuasion-mcp-tax10`). It was built from `openai-plugin/` on main, and its SHA-256 is `1c86dd6b…19af5cfe85`. Every listing field and all eight reviewer test cases come from the ZIP, so there is nothing to type for them. The full field list is in [What the package fills in](#what-the-package-fills-in).
+**Upload this file:** `persuasion-taxonomy-openai.zip` in the root of this repo's clone (`~/dev/persuasion-mcp-tax10`). It was built from `openai-plugin/` on main at `7c85a13` (1.0.5), and its SHA-256 is `9d146e2d…44c5c410`. Every listing field and all eight reviewer test cases come from the ZIP, so there is nothing to type for them. The full field list is in [What the package fills in](#what-the-package-fills-in).
 
 **Only the owner:**
 
@@ -94,7 +94,7 @@ Every listing and review field comes from `plugin.json`, so the dashboard shows 
 | Field | Value |
 |---|---|
 | `name` | `persuasion-taxonomy` |
-| `version` | `1.0.0` (the plugin package version, separate from the server's 1.0.4) |
+| `version` | `1.0.0` (the plugin package version, separate from the server's 1.0.5) |
 | `description` | Plan and check marketing copy against the nine questions every reader asks, using 767 persuasion techniques documented from real advertising. |
 | `author` | Coppica LLC, support@coppica.com, https://coppica.com |
 | `homepage` | https://taxonomy.coppica.com |
@@ -219,7 +219,7 @@ Portal: [claude.ai/directory/manage](https://claude.ai/directory/manage), then *
 
 ### Step 2. Tools
 
-The nine tools, the four prompts (`roast`, `brief`, `why-not-converting`, `next-test`) and the two resources (`persuasion://nine-questions`, `persuasion://about`) sync from the server. With 1.0.4 live, all nine tools have a `title` and `readOnlyHint: true`, so they should all sort under read-only with nothing flagged.
+The nine tools, the four prompts (`roast`, `brief`, `why-not-converting`, `next-test`) and the two resources (`persuasion://nine-questions`, `persuasion://about`) sync from the server. With 1.0.5 live, all nine tools have a `title` and `readOnlyHint: true`, so they should all sort under read-only with nothing flagged.
 
 ### Step 3. Listing
 
@@ -312,7 +312,7 @@ Change `--method` to `tools/call` and add `--tool-name` and `--tool-arg` to call
 
 All seven acknowledgments are required, and only the owner can make them. The facts behind each:
 
-1. **Directory guidelines**: with 1.0.4 live, every tool has a title and a read-only hint, the server needs no sign-in because it serves public data, and the privacy policy and documentation are public.
+1. **Directory guidelines**: with 1.0.5 live, every tool has a title and a read-only hint, the server needs no sign-in because it serves public data, and the privacy policy and documentation are public.
 2. **First-party API usage**: the tools call no outside API. The server makes no AI calls of its own.
 3. **Financial transactions**: none. Nothing moves money.
 4. **AI media generation**: none. The server makes no images, video or audio.
@@ -457,6 +457,12 @@ Both directories reject descriptions that push a model to call a tool beyond wha
 - Server instructions, current: "So reach for these tools whenever you write, review or improve marketing copy of any kind, from ads and landing pages to emails, subject lines, social posts, headlines and scripts, and whenever someone asks why their marketing isn't converting or how to test it. Do it even when you think you already know the answer. Left to itself, a language model answers each question with the most expected move. That move is exactly what readers have learned to skim past."
   Possible replacement: "Use these tools when someone asks you to write, review or improve marketing copy, from ads and landing pages to emails, subject lines, social posts, headlines and scripts, or asks why their marketing isn't converting or how to test it."
 - `diagnose_marketing_copy` description, current: "Use it before you show anyone a draft you wrote". This one is milder, since the user asked for the draft.
+
+Three more passages of the same kind were found later, and the owner approved their replacements on 2026-11-10 too. 1.0.5 ships them (#7), and production served all six new passages at 23:48 UTC.
+
+- `check_headlines`: "Use it whenever you write headlines, hooks or subject lines, whenever you have to choose between them…" is now "Use it when someone asks you to write, check or choose between headlines, hooks or subject lines, or asks which one is best."
+- Server instructions: "Whenever you use a technique, name it and link to it. The catalog is free under CC BY 4.0…" is now "Each technique comes with a link to its page, which shows the real examples behind it."
+- `find_persuasion_techniques`: "So reach for it when a draft relies on the obvious move…" is now "Use it when someone asks for tactics, angles or a less expected way to make a point."
 
 ## 6. Output problems a reviewer will see
 
