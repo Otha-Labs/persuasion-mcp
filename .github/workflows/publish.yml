@@ -6,6 +6,9 @@ name: Publish
 on:
   push:
     branches: [main]
+  # A daily run publishes whatever an earlier run had to leave, such as a registry entry that waited for its key.
+  schedule:
+    - cron: '23 14 * * *'
   workflow_dispatch:
 
 permissions:
@@ -75,6 +78,17 @@ jobs:
           set -euo pipefail
           if [ -z "${MCP_PRIVATE_KEY}" ]; then
             echo "::warning::The MCP_PRIVATE_KEY secret is not set, so the registry entry waits. Run this workflow again once it is."
+            exit 0
+          fi
+          # The registry checks the key against coppica.com, so the step waits until the site serves this key's public half.
+          served="$(curl -fsS https://coppica.com/.well-known/mcp-registry-auth || true)"
+          ours="$(node -e '
+            const c = require("crypto")
+            const der = Buffer.concat([Buffer.from("302e020100300506032b657004220420", "hex"), Buffer.from(process.env.MCP_PRIVATE_KEY, "hex")])
+            const x = c.createPublicKey(c.createPrivateKey({ key: der, format: "der", type: "pkcs8" })).export({ format: "jwk" }).x
+            console.log(Buffer.from(x, "base64url").toString("base64"))')"
+          if ! printf '%s' "$served" | grep -qF "p=${ours}"; then
+            echo "::warning::coppica.com does not serve this key's public half yet, so the registry entry waits for the next run."
             exit 0
           fi
           os="$(uname -s | tr '[:upper:]' '[:lower:]')"
