@@ -33,7 +33,7 @@ export function registerCraftTools(server: McpServer) {
         'For each line it tells you whether the line does its job in that spot, meaning which of the nine reader questions it answers, and whether a competitor could send it unchanged. ' +
         'It also shows exactly what a reader sees before the cutoff, flags anything that fails outright, and brings in evidence from thousands of real headline tests. ' +
         'Then it tells you what each option is betting on and which two to test. Before you call it, list the reader questions each line answers and quote the exact words doing the work. ' +
-        'Use it whenever you write headlines, hooks or subject lines, whenever you have to choose between them, and whenever someone asks "which one is best?" ' +
+        'Use it when someone asks you to write, check or choose between headlines, hooks or subject lines, or asks which one is best. ' +
         "You won't get a score out of ten. Nobody can predict a winner from the words alone, and that includes this tool.",
       inputSchema: {
         slot: z.enum(SLOTS).describe(`Where the lines will appear: ${SLOTS.join(', ')}. Each spot has its own job, and the check tells you what it is.`),
