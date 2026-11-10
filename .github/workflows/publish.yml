@@ -66,6 +66,25 @@ jobs:
         if: steps.new.outputs.npm == 'true'
         run: npm publish --access public
 
+      # npm can take a minute or two to serve a version it has just accepted, and the registry checks that the version is on
+      # npm, so the registry step waits for it. On 2026-11-10 the registry step ran 4 seconds after npm accepted 1.0.5 and
+      # was refused with a 404, and the entry needed a second run by hand.
+      - name: Wait until npm serves this version
+        if: steps.new.outputs.registry == 'true'
+        run: |
+          set -euo pipefail
+          name="$(node -p "require('./package.json').name")"
+          version="$(node -p "require('./package.json').version")"
+          for i in $(seq 1 40); do
+            if npm view --prefer-online "$name@$version" version >/dev/null 2>&1; then
+              echo "npm serves $name $version."
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::error::npm still does not serve $name $version after 10 minutes, so the registry entry waits for the next run."
+          exit 1
+
       - name: Install cosign
         if: steps.new.outputs.registry == 'true'
         uses: sigstore/cosign-installer@6f9f17788090df1f26f669e9d70d6ae9567deba6 # v4.1.2
