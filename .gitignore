@@ -1,5 +1,7 @@
 node_modules/
 dist/
+# built from openai-plugin/ for upload, see docs/directory-submissions-2026-11.md
+persuasion-taxonomy-openai.zip
 # raw eval transcripts and scratch dirs stay local
 eval/*/results/
 eval/*/work/

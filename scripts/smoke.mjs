@@ -41,6 +41,22 @@ const instr = client.getInstructions()
 console.log(`instructions: ${instr?.length ?? 0} chars`)
 const { tools } = await client.listTools()
 console.log(`tools (${tools.length}): ${tools.map((t) => t.name).join(', ')}`)
+
+// Directory review (1.0.4): Claude's directory wants a title plus readOnlyHint or destructiveHint on
+// every tool, and OpenAI's plugin review wants readOnlyHint, destructiveHint and openWorldHint as
+// explicit booleans. Every tool here only reads, so read-only, not destructive, closed world.
+const annotationFailures = []
+for (const t of tools) {
+  const a = t.annotations ?? {}
+  if (!t.title || a.title !== t.title) annotationFailures.push(`${t.name}: needs a title, repeated in annotations.title`)
+  for (const hint of ['readOnlyHint', 'destructiveHint', 'openWorldHint', 'idempotentHint']) {
+    if (typeof a[hint] !== 'boolean') annotationFailures.push(`${t.name}: ${hint} must be an explicit boolean`)
+  }
+  if (a.readOnlyHint !== true || a.destructiveHint !== false || a.openWorldHint !== false) {
+    annotationFailures.push(`${t.name}: expected readOnlyHint true, destructiveHint false, openWorldHint false`)
+  }
+}
+for (const f of annotationFailures) console.log(`ANNOTATION CHECK FAILED: ${f}`)
 const { prompts } = await client.listPrompts()
 console.log(`prompts: ${prompts.map((p) => p.name).join(', ')}`)
 const { resources } = await client.listResources()
@@ -113,5 +129,5 @@ for (const [name, body] of Object.entries(bodies)) {
 }
 for (const f of linkFailures) console.log(`LINK CHECK FAILED: ${f}`)
 
-console.log(`\n${calls.length - failed}/${calls.length} tools OK${useHttp ? ' over HTTP' : ''}, link attribution ${linkFailures.length ? 'FAILED' : 'OK'}`)
-process.exit(failed || linkFailures.length ? 1 : 0)
+console.log(`\n${calls.length - failed}/${calls.length} tools OK${useHttp ? ' over HTTP' : ''}, link attribution ${linkFailures.length ? 'FAILED' : 'OK'}, annotations ${annotationFailures.length ? 'FAILED' : 'OK'}`)
+process.exit(failed || linkFailures.length || annotationFailures.length ? 1 : 0)

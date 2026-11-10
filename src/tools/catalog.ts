@@ -5,12 +5,13 @@ import { searchTechniques, lookupTechnique, resolveCategory, TECHNIQUES } from '
 import { formatSchema, categorySchema, roleSchema } from '../schemas.js'
 import { text, errorText, techniqueLine, usageSentence, exampleSource, tracked } from '../format.js'
 import { joinList, clipText, innerQuotes } from '../voice.js'
+import { readOnlyTool } from '../annotations.js'
 
 export function registerCatalogTools(server: McpServer) {
   server.registerTool(
     'find_persuasion_techniques',
     {
-      title: 'Find persuasion techniques',
+      ...readOnlyTool('Find persuasion techniques'),
       description:
         `Search the Persuasion Taxonomy, ${TECHNIQUES.length} named persuasion techniques documented from real advertising and organized by the nine reader questions they answer. ` +
         'Describe what you want the copy to do, like build trust without testimonials, create urgency without fake scarcity, handle a price objection, make an opening less generic, ' +
@@ -24,7 +25,6 @@ export function registerCatalogTools(server: McpServer) {
         category: categorySchema.optional(),
         limit: z.number().int().min(1).max(20).default(8),
       },
-      annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
     },
     async ({ query, question, format, category, limit }) => {
       const cat = resolveCategory(category)
@@ -45,7 +45,7 @@ export function registerCatalogTools(server: McpServer) {
   server.registerTool(
     'get_persuasion_technique',
     {
-      title: 'Get a persuasion technique',
+      ...readOnlyTool('Get a persuasion technique'),
       description:
         'Look up one persuasion technique by its ID (like PT-PRV-10000), its slug or its name. You get the full definition, why it works, when it lands and when it backfires, ' +
         'real examples from advertising, related and opposite techniques, and a link you can cite. ' +
@@ -54,7 +54,6 @@ export function registerCatalogTools(server: McpServer) {
         id: z.string().min(2).max(160).describe('The PT-ID, the slug or the exact name of the technique.'),
         category: categorySchema.optional(),
       },
-      annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
     },
     async ({ id, category }) => {
       const t = lookupTechnique(id)

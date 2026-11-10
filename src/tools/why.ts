@@ -4,12 +4,13 @@ import { ROLES, SYMPTOMS, SYMPTOM_MAP, roleLabel, type Role } from '../roles.js'
 import { pickMoves, resolveCategory } from '../data.js'
 import { formatSchema, categorySchema, modeSchema } from '../schemas.js'
 import { text, techniqueLine } from '../format.js'
+import { readOnlyTool } from '../annotations.js'
 
 export function registerWhyTool(server: McpServer) {
   server.registerTool(
     'explain_why_not_converting',
     {
-      title: 'Explain why marketing is not converting',
+      ...readOnlyTool('Explain why marketing is not converting'),
       description:
         "Work out why an ad, a landing page, an email or a whole funnel isn't converting. Start from what you can see. " +
         "Maybe people don't click (a low CTR), or they click and bounce, or they read and don't buy. Maybe they abandon the checkout or the form, the leads never buy, " +
@@ -28,7 +29,6 @@ export function registerWhyTool(server: McpServer) {
         category: categorySchema.optional(),
         persuasion_mode: modeSchema,
       },
-      annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
     },
     async ({ symptom, format, details, category, persuasion_mode }) => {
       const info = SYMPTOM_MAP[symptom]

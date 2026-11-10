@@ -5,6 +5,7 @@ import { roleSchema } from '../schemas.js'
 import { text, errorText } from '../format.js'
 import { sampleSizePerArm, compare, srmPValue } from '../stats.js'
 import { joinList, plural } from '../voice.js'
+import { readOnlyTool } from '../annotations.js'
 
 const pct = (v: number, d = 2) => `${(v * 100).toFixed(d)}%`
 const points = (v: number) => `${(v * 100).toFixed(2)}`
@@ -15,7 +16,7 @@ export function registerTestingTools(server: McpServer) {
   server.registerTool(
     'plan_ab_test',
     {
-      title: 'Plan an A/B test',
+      ...readOnlyTool('Plan an A/B test'),
       description:
         'Plan an A/B test for marketing copy. Give it the current conversion rate, the smallest lift worth detecting and the daily traffic, ' +
         'and it tells you how many visitors each version needs and how many days to run. It also frames the test as two different answers to the same reader question, ' +
@@ -32,7 +33,6 @@ export function registerTestingTools(server: McpServer) {
         version_a: z.string().max(600).optional().describe('How version A answers it.'),
         version_b: z.string().max(600).optional().describe('How version B answers it.'),
       },
-      annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
     },
     async (a) => {
       const base = a.baseline_conversion_rate_percent / 100
@@ -77,7 +77,7 @@ export function registerTestingTools(server: McpServer) {
   server.registerTool(
     'read_ab_test_result',
     {
-      title: 'Read an A/B test result',
+      ...readOnlyTool('Read an A/B test result'),
       description:
         "Read the result of an A/B test. You get each version's conversion rate and lift, whether the difference is statistically significant, the confidence interval, " +
         'and the chance each version really beats the original. It also warns you about the things that make a test result lie. Those include too few conversions, ' +
@@ -93,7 +93,6 @@ export function registerTestingTools(server: McpServer) {
         confidence: z.number().min(0.8).max(0.999).default(0.95),
         question: roleSchema.optional().describe('The reader question the versions answered in different ways.'),
       },
-      annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
     },
     async ({ versions, intended_split, confidence, question }) => {
       if (versions.some((v) => v.conversions > v.visitors)) return errorText('One of the versions has more conversions than visitors, so check the numbers.')

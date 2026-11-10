@@ -7,6 +7,7 @@ import { scoreClaims } from '../scorers/claim-framework.js'
 import { detectAISmell } from '../scorers/hook-framework.js'
 import { SLOTS, SLOT_INFO, checkHook, compareHooks, describeCheck, questionsNeeded, article, VERDICT_LABEL, EVIDENCE_SOURCE, type HookCheck } from '../hookcheck/index.js'
 import { claimGateSentence, smellSentences, joinList, plural, endSentence } from '../voice.js'
+import { readOnlyTool } from '../annotations.js'
 
 /** Unproven superlatives the claim scorer can read as "specific" (e.g. "#1"). */
 const SUPERLATIVE = /(#\s?1\b|\bnumber one\b|\bthe best\b|\bbest[- ]in[- ]class\b|\bleading\b|\bworld'?s (best|first|most)\b|\btop[- ]rated\b|\bunmatched\b|\brevolutionary\b|\bgame[- ]chang)/i
@@ -26,7 +27,7 @@ export function registerCraftTools(server: McpServer) {
   server.registerTool(
     'check_headlines',
     {
-      title: 'Check and compare headlines, hooks, and subject lines',
+      ...readOnlyTool('Check and compare headlines, hooks, and subject lines'),
       description:
         'Check headlines, email subject lines, ad openings, video hooks, social post openings and first lines, and compare options against each other. ' +
         'For each line it tells you whether the line does its job in that spot, meaning which of the nine reader questions it answers, and whether a competitor could send it unchanged. ' +
@@ -47,7 +48,6 @@ export function registerCraftTools(server: McpServer) {
         follows: z.string().max(600).optional().describe('What the reader saw just before this line, like the ad before a landing page headline, or the headline or subject before a first line.'),
         awareness_level: awarenessSchema.optional(),
       },
-      annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
     },
     async ({ slot, lines, brief, follows, awareness_level }) => {
       const info = SLOT_INFO[slot]
@@ -83,7 +83,7 @@ export function registerCraftTools(server: McpServer) {
   server.registerTool(
     'check_marketing_claims',
     {
-      title: 'Check marketing claims and CTAs',
+      ...readOnlyTool('Check marketing claims and CTAs'),
       description:
         'Check whether marketing claims and calls to action are specific enough to believe. It catches the vague superlative, like "the best" or "#1", that readers discount on sight. ' +
         'It catches promises with no proof behind them and results with no mechanism, and it flags the generic buttons everyone uses, like "Learn more" and "Get started". ' +
@@ -96,7 +96,6 @@ export function registerCraftTools(server: McpServer) {
           context: z.string().max(1500).optional().describe('For a claim in the body, the paragraph around it, so a mechanism named nearby still counts.'),
         })).min(1).max(30),
       },
-      annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
     },
     async ({ claims }) => {
       const out = [`# ${plural(claims.length, 'claim')}, checked`]
