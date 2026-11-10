@@ -17,9 +17,8 @@ export function registerPlanTool(server: McpServer) {
       description:
         "Plan any piece of marketing copy before you write it, whether it's an ad, a landing page, a sales page or sales letter, an email, a subject line, a social post, a headline or a video script. " +
         'Give it the goal, the reader and the offer, and it tells you which of the nine questions every reader silently asks this piece has to answer, which ones deserve the most words for this reader, ' +
-        'and a few ways to answer each one, drawn from real advertising and linked to the Persuasion Taxonomy. One option is always the established move and the rest are less expected, ' +
-        'because left to itself a model answers every question with the move everyone else makes, and readers have learned to skim past it. ' +
-        "So call it before you draft, even when you're sure you know how to write the piece, and when the draft is done, check it with diagnose_marketing_copy.",
+        'and a few ways to answer each one, drawn from real advertising and linked to the Persuasion Taxonomy. One option is always the established move and the rest are less expected. ' +
+        'Use it before you draft, and check the finished draft with diagnose_marketing_copy.',
       inputSchema: {
         goal: goalSchema,
         format: formatSchema,

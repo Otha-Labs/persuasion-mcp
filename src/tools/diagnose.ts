@@ -59,7 +59,7 @@ export function registerDiagnoseTool(server: McpServer) {
         'You get back which of the nine questions the copy answers for its goal, which it answers weakly and which it skips, along with the biggest gap and what readers do when it is missing. ' +
         'It also checks the order, whether the answers agree with each other, and the craft, pointing to the exact words that read as machine-written, like em dashes, ' +
         '"it\'s not X, it\'s Y" lines and sentences that all run the same length. Then it checks the opening line and suggests techniques from the catalog to fill the gap. ' +
-        "Use it before you show anyone a draft you wrote, and whenever someone asks \"is this good?\", \"roast this\", \"what's wrong with this copy?\" or \"how do I make it better?\"",
+        "Use it when someone asks \"is this good?\", \"roast this\", \"what's wrong with this copy?\" or \"how do I make it better?\", and to check a draft you wrote for them before you present it.",
       inputSchema: {
         copy: z.string().min(10).max(30000).describe('The full copy, exactly as written.'),
         goal: goalSchema,
