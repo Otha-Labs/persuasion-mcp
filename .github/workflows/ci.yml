@@ -1,0 +1,25 @@
+# Every PR is built and tested the way a release is, so a PR that would fail to publish never lands.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+      - run: npm ci
+      - run: npm run build
+      - run: node scripts/check-versions.mjs
+      - run: npm run smoke
+      - run: npm run smoke -- --http
+      - run: npm run voice

@@ -1,0 +1,93 @@
+# A version that lands on main publishes itself: first to npm through trusted publishing, which needs no stored token, then to
+# the MCP registry. Each step runs only when its target does not have this version yet, so a rerun or a merge with no version
+# bump publishes nothing. The registry step waits, with a warning, until the MCP_PRIVATE_KEY secret exists.
+name: Publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      MCP_PUBLISHER_VERSION: v1.8.1
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          registry-url: 'https://registry.npmjs.org'
+          package-manager-cache: false
+
+      - name: Check that every version agrees
+        run: node scripts/check-versions.mjs
+
+      - name: Find what is new
+        id: new
+        run: |
+          set -euo pipefail
+          name="$(node -p "require('./package.json').name")"
+          version="$(node -p "require('./package.json').version")"
+          server="$(node -p "require('./server.json').name")"
+          npm_new=true
+          if npm view "$name@$version" version >/dev/null 2>&1; then npm_new=false; fi
+          query="$(SERVER="$server" node -p 'encodeURIComponent(process.env.SERVER)')"
+          listed="$(curl -fsS "https://registry.modelcontextprotocol.io/v0/servers?search=$query" | SERVER="$server" VERSION="$version" node -e '
+            let s = ""; process.stdin.on("data", (d) => (s += d)).on("end", () => {
+              const all = (JSON.parse(s).servers ?? []).map((x) => x.server ?? x)
+              console.log(all.some((x) => x.name === process.env.SERVER && x.version === process.env.VERSION))
+            })')"
+          registry_new=true
+          if [ "$listed" = "true" ]; then registry_new=false; fi
+          echo "npm=$npm_new" >> "$GITHUB_OUTPUT"
+          echo "registry=$registry_new" >> "$GITHUB_OUTPUT"
+          echo "$name $version is new on npm: $npm_new. $server $version is new on the registry: $registry_new."
+
+      - name: Install
+        if: steps.new.outputs.npm == 'true'
+        run: npm ci
+
+      # prepublishOnly builds, runs both smoke tests and the voice check, so a broken build never publishes.
+      - name: Publish to npm
+        if: steps.new.outputs.npm == 'true'
+        run: npm publish --access public
+
+      - name: Install cosign
+        if: steps.new.outputs.registry == 'true'
+        uses: sigstore/cosign-installer@6f9f17788090df1f26f669e9d70d6ae9567deba6 # v4.1.2
+
+      - name: Publish to the MCP registry
+        if: steps.new.outputs.registry == 'true'
+        env:
+          MCP_PRIVATE_KEY: ${{ secrets.MCP_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${MCP_PRIVATE_KEY}" ]; then
+            echo "::warning::The MCP_PRIVATE_KEY secret is not set, so the registry entry waits. Run this workflow again once it is."
+            exit 0
+          fi
+          os="$(uname -s | tr '[:upper:]' '[:lower:]')"
+          arch="$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')"
+          archive="mcp-publisher_${os}_${arch}.tar.gz"
+          base="https://github.com/modelcontextprotocol/registry/releases/download/${MCP_PUBLISHER_VERSION}"
+          curl --fail --location --silent --show-error --output "$archive" "$base/$archive"
+          curl --fail --location --silent --show-error --output "$archive.sigstore.json" "$base/$archive.sigstore.json"
+          cosign verify-blob \
+            --bundle "$archive.sigstore.json" \
+            --certificate-identity "https://github.com/modelcontextprotocol/registry/.github/workflows/release.yml@refs/tags/${MCP_PUBLISHER_VERSION}" \
+            --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
+            "$archive"
+          tar xzf "$archive" mcp-publisher
+          ./mcp-publisher login http --domain coppica.com --private-key "${MCP_PRIVATE_KEY}"
+          ./mcp-publisher publish
