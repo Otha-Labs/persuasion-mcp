@@ -81,7 +81,7 @@ Nothing you send it. Your copy, your brief and your test numbers are used to ans
 
 ## Where the techniques come from
 
-Every technique is an entry in [The Persuasion Taxonomy](https://taxonomy.coppica.com), a catalog of persuasion techniques documented from real ads, sales letters, emails and pages, with examples from the 1920s to now. The catalog is free under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). When your AI uses a technique, it names the technique and links to its page, so your reader can see the real examples behind the advice.
+Every technique is an entry in [The Persuasion Taxonomy](https://taxonomy.coppica.com), a catalog of persuasion techniques documented from real ads, sales letters, emails and pages, with examples from the 1920s to now. The catalog is free under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Each technique comes with a link to its page, which shows the real examples behind the advice.
 
 ## Develop
 
