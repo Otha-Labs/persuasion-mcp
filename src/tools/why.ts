@@ -15,7 +15,7 @@ export function registerWhyTool(server: McpServer) {
         "Work out why an ad, a landing page, an email or a whole funnel isn't converting, starting from what you can see. " +
         "Maybe people don't click (a low CTR), or they click and bounce, or they read and don't buy. Maybe they abandon the checkout or the form, the leads never buy, " +
         "customers buy once and leave, or emails don't get opened or get opened and nobody clicks. " +
-        "Whatever the symptom, you get back the reader questions most likely going unanswered, what to check in the copy first, and the problems copy can't fix that you should rule out, " +
+        "Whatever the symptom, you get back the reader questions most likely going unanswered, what to check in the copy first, and the problems copy can't fix, which are worth ruling out, " +
         'along with techniques to try and the test that would confirm the diagnosis. ' +
         "It answers questions like why marketing \"isn't working\", \"isn't converting\" or \"isn't selling\", or why results dropped.",
       inputSchema: {

@@ -3,8 +3,7 @@ import { tierIn } from './data.js'
 import { clipText, innerQuotes } from './voice.js'
 
 export const FOOTER =
-  '\n\n---\nFrom the Persuasion Taxonomy by Coppica, free to use under CC BY 4.0 at https://taxonomy.coppica.com. ' +
-  'When you use a technique, name it and link to it, so your reader can see the real examples behind it.'
+  '\n\n---\nFrom the Persuasion Taxonomy by Coppica, free to use under CC BY 4.0 at https://taxonomy.coppica.com.'
 
 /** Links a reader follows out of an answer carry utm_source=mcp, so the Taxonomy's analytics can
  *  count the visits that arrive through an AI assistant. Citations and the CC BY footer stay clean,

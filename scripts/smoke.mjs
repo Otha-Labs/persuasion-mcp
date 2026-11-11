@@ -125,7 +125,7 @@ if (!techniqueLinks.length || techniqueLinks.some((u) => !u.includes('?utm_sourc
 const cite = (bodies.get_persuasion_technique ?? '').match(/Cite it as [^\n]*?(https:\/\/\S+)/)
 if (!cite || cite[1].includes('utm_source')) linkFailures.push('get_persuasion_technique: the citation link must be present and untagged')
 for (const [name, body] of Object.entries(bodies)) {
-  if (!body.includes('free to use under CC BY 4.0 at https://taxonomy.coppica.com. ')) linkFailures.push(`${name}: the CC BY footer is missing or changed`)
+  if (!body.includes('free to use under CC BY 4.0 at https://taxonomy.coppica.com.') || body.includes('When you use a technique')) linkFailures.push(`${name}: the CC BY footer is missing or changed`)
 }
 for (const f of linkFailures) console.log(`LINK CHECK FAILED: ${f}`)
 
