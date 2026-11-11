@@ -12,12 +12,12 @@ export function registerWhyTool(server: McpServer) {
     {
       ...readOnlyTool('Explain why marketing is not converting'),
       description:
-        "Work out why an ad, a landing page, an email or a whole funnel isn't converting. Start from what you can see. " +
+        "Work out why an ad, a landing page, an email or a whole funnel isn't converting, starting from what you can see. " +
         "Maybe people don't click (a low CTR), or they click and bounce, or they read and don't buy. Maybe they abandon the checkout or the form, the leads never buy, " +
         "customers buy once and leave, or emails don't get opened or get opened and nobody clicks. " +
         "Whatever the symptom, you get back the reader questions most likely going unanswered, what to check in the copy first, and the problems copy can't fix that you should rule out, " +
         'along with techniques to try and the test that would confirm the diagnosis. ' +
-        "So use it whenever someone says their marketing \"isn't working\", \"isn't converting\" or \"isn't selling\", or asks why results dropped.",
+        "It answers questions like why marketing \"isn't working\", \"isn't converting\" or \"isn't selling\", or why results dropped.",
       inputSchema: {
         symptom: z.enum(SYMPTOMS).describe(
           'What you can see happening. Use low_click_through when people see it and don\'t click, high_bounce when they click and leave fast, reads_but_no_action when they read and don\'t convert, ' +

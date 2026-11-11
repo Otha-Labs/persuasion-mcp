@@ -55,11 +55,11 @@ export function registerDiagnoseTool(server: McpServer) {
       ...readOnlyTool('Diagnose marketing copy (roast / review)'),
       description:
         "Review, critique or roast any piece of marketing copy, whether it's an ad, a landing page, an email, a sales page, a social post or a script, and find out why it might not persuade. " +
-        'Before you call it, read the copy and label each line with the one reader question it mainly answers, quoting the words exactly. Those labels go in the moves array. ' +
-        'You get back which of the nine questions the copy answers for its goal, which it answers weakly and which it skips, along with the biggest gap and what readers do when it is missing. ' +
+        'It takes the copy and line-by-line labels naming the reader question each persuasive line answers. ' +
+        'It returns which of the nine questions the copy answers for its goal, which it answers weakly and which it skips, along with the biggest gap and what readers do when it is missing. ' +
         'It also checks the order, whether the answers agree with each other, and the craft, pointing to the exact words that read as machine-written, like em dashes, ' +
         '"it\'s not X, it\'s Y" lines and sentences that all run the same length. Then it checks the opening line and suggests techniques from the catalog to fill the gap. ' +
-        "Use it when someone asks \"is this good?\", \"roast this\", \"what's wrong with this copy?\" or \"how do I make it better?\", and to check a draft you wrote for them before you present it.",
+        "It answers requests like \"is this good?\", \"roast this\", \"what's wrong with this copy?\" and \"how do I make it better?\"",
       inputSchema: {
         copy: z.string().min(10).max(30000).describe('The full copy, exactly as written.'),
         goal: goalSchema,
@@ -67,8 +67,8 @@ export function registerDiagnoseTool(server: McpServer) {
         moves: z.array(z.object({
           excerpt: z.string().min(2).max(400).describe('An exact quote from the copy, whether a sentence, a line or a short passage.'),
           question: roleSchema,
-          clarity: z.enum(['clear', 'partial']).default('clear').describe('Use clear when the line answers the question well, and partial when it only gestures at it.'),
-        })).min(1).max(80).describe('Your line-by-line labels. Quote each persuasive line exactly and name the one reader question it mainly answers. Skip lines that are pure filler.'),
+          clarity: z.enum(['clear', 'partial']).default('clear').describe('clear: the line answers the question well. partial: it only gestures at it.'),
+        })).min(1).max(80).describe('Line-by-line labels: each persuasive line quoted exactly, with the one reader question it mainly answers. Lines that are pure filler are left out.'),
         awareness_level: awarenessSchema.optional(),
         category: categorySchema.optional(),
         headline: z.string().max(300).optional().describe("The headline or opening line, if it isn't the first line of the copy."),

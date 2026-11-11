@@ -3,8 +3,8 @@ import { GOALS, FORMATS, AWARENESS, ROLE_NAMES, ROLES, normalizeRole } from './r
 import { CATEGORY_NAMES } from './data.js'
 
 export const goalSchema = z.enum(GOALS).describe(
-  'What the copy has to get the reader to do. Use purchase when they should buy now, signup for an opt-in, a trial, a demo or a lead form, ' +
-  'click when the whole job is the click (most ads and links), and engagement for nurture emails, newsletters and social posts that should be read, answered or followed.',
+  'What the copy has to get the reader to do: purchase means buy now, signup means an opt-in, a trial, a demo or a lead form, ' +
+  'click means the whole job is the click (most ads and links), and engagement covers nurture emails, newsletters and social posts that should be read, answered or followed.',
 )
 
 export const formatSchema = z.enum(FORMATS).describe(
@@ -12,8 +12,8 @@ export const formatSchema = z.enum(FORMATS).describe(
 )
 
 export const awarenessSchema = z.enum(AWARENESS).describe(
-  "How much the reader already knows, on Eugene Schwartz's scale. Use unaware if they don't know they have the problem, problem_aware if they feel it, " +
-  "solution_aware if they know solutions exist, product_aware if they know you, and most_aware if they're ready and only need the offer.",
+  "How much the reader already knows, on Eugene Schwartz's scale: unaware means they don't know they have the problem, problem_aware that they feel it, " +
+  "solution_aware that they know solutions exist, product_aware that they know you, and most_aware that they're ready and only need the offer.",
 )
 
 export const roleSchema = z.preprocess(normalizeRole, z.enum(ROLE_NAMES)).describe(
@@ -21,7 +21,7 @@ export const roleSchema = z.preprocess(normalizeRole, z.enum(ROLE_NAMES)).descri
 )
 
 export const categorySchema = z.string().max(60).describe(
-  `The industry, if you want to compare against what brands in that category usually do. There is enough data for ${CATEGORY_NAMES.join(', ')}. ` +
+  `The industry, for a comparison with what brands in that category usually do. There is enough data for ${CATEGORY_NAMES.join(', ')}. ` +
   'Any other category still works, just without the comparison.',
 )
 
