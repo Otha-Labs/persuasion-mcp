@@ -18,10 +18,10 @@ export function registerTestingTools(server: McpServer) {
     {
       ...readOnlyTool('Plan an A/B test'),
       description:
-        'Plan an A/B test for marketing copy. Give it the current conversion rate, the smallest lift worth detecting and the daily traffic, ' +
-        'and it tells you how many visitors each version needs and how many days to run. It also frames the test as two different answers to the same reader question, ' +
+        'Plan an A/B test for marketing copy. It takes the current conversion rate, the smallest lift worth detecting and the daily traffic, ' +
+        'and returns how many visitors each version needs and how many days to run. It also frames the test as two different answers to the same reader question, ' +
         'so the result teaches you something you can reuse, and not just that "B won". ' +
-        'Use it when someone asks how long to run a test, how much traffic they need, whether a test is worth running, or what to test next.',
+        'It answers questions like how long to run a test, how much traffic it needs, whether a test is worth running, or what to test next.',
       inputSchema: {
         baseline_conversion_rate_percent: z.number().positive().lt(100).describe('The current conversion rate, in percent, so 3 means 3% and 0.8 means 0.8%.'),
         minimum_detectable_lift_percent: z.number().positive().max(500).describe('The smallest relative lift worth detecting, in percent. 20 means a 20% lift, like going from 3% to 3.6%.'),
@@ -82,7 +82,7 @@ export function registerTestingTools(server: McpServer) {
         "Read the result of an A/B test. You get each version's conversion rate and lift, whether the difference is statistically significant, the confidence interval, " +
         'and the chance each version really beats the original. It also warns you about the things that make a test result lie. Those include too few conversions, ' +
         "traffic that didn't split the way it should (a sample ratio mismatch), stopping the moment it looked good, and testing too many versions at once. " +
-        "So use it whenever someone shares test numbers, or asks \"did my test win?\", \"is this significant?\", \"which version won?\" or \"should I keep it running?\"",
+        "It answers questions like \"did my test win?\", \"is this significant?\", \"which version won?\" or \"should I keep it running?\"",
       inputSchema: {
         versions: z.array(z.object({
           name: z.string().min(1).max(120),

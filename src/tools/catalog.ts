@@ -14,13 +14,13 @@ export function registerCatalogTools(server: McpServer) {
       ...readOnlyTool('Find persuasion techniques'),
       description:
         `Search the Persuasion Taxonomy, ${TECHNIQUES.length} named persuasion techniques documented from real advertising and organized by the nine reader questions they answer. ` +
-        'Describe what you want the copy to do, like build trust without testimonials, create urgency without fake scarcity, handle a price objection, make an opening less generic, ' +
-        'prove a claim or reframe a problem. It finds the techniques that do it. Each one comes with its name and ID, a one-line definition, a real example, ' +
+        'It takes a plain description of what the copy should do, like handle a price objection, make an opening less generic, ' +
+        'prove a claim or reframe a problem, and finds the techniques that do it. Each one comes with its name and ID, a one-line definition, a real example, ' +
         'how common it is in a category if you name one, and a link. ' +
-        'Use it when someone asks for tactics, angles or a less expected way to make a point.',
+        'It answers requests for tactics, angles or a less expected way to make a point.',
       inputSchema: {
-        query: z.string().min(2).max(300).describe('What you want the copy to do, in plain words, like "prove it works without testimonials".'),
-        question: roleSchema.optional().describe('Set this to see only the techniques that answer one reader question.'),
+        query: z.string().min(2).max(300).describe('What the copy should do, in plain words, like "handle a price objection".'),
+        question: roleSchema.optional().describe('Limits the results to techniques that answer one reader question.'),
         format: formatSchema.optional(),
         category: categorySchema.optional(),
         limit: z.number().int().min(1).max(20).default(8),
@@ -49,7 +49,7 @@ export function registerCatalogTools(server: McpServer) {
       description:
         'Look up one persuasion technique by its ID (like PT-PRV-10000), its slug or its name. You get the full definition, why it works, when it lands and when it backfires, ' +
         'real examples from advertising, related and opposite techniques, and a link you can cite. ' +
-        'Use it before you apply or recommend a technique so you get it right, and whenever someone asks what a tactic is called or how it works.',
+        'It answers questions like what a tactic is called or how it works.',
       inputSchema: {
         id: z.string().min(2).max(160).describe('The PT-ID, the slug or the exact name of the technique.'),
         category: categorySchema.optional(),

@@ -32,8 +32,8 @@ export function registerCraftTools(server: McpServer) {
         'Check headlines, email subject lines, ad openings, video hooks, social post openings and first lines, and compare options against each other. ' +
         'For each line it tells you whether the line does its job in that spot, meaning which of the nine reader questions it answers, and whether a competitor could send it unchanged. ' +
         'It also shows exactly what a reader sees before the cutoff, flags anything that fails outright, and brings in evidence from thousands of real headline tests. ' +
-        'Then it tells you what each option is betting on and which two to test. Before you call it, list the reader questions each line answers and quote the exact words doing the work. ' +
-        'Use it when someone asks you to write, check or choose between headlines, hooks or subject lines, or asks which one is best. ' +
+        'Then it says what each option is betting on and which two to test. ' +
+        'It answers requests to check or choose between headlines, hooks or subject lines, including "which one is best?" ' +
         "You won't get a score out of ten. Nobody can predict a winner from the words alone, and that includes this tool.",
       inputSchema: {
         slot: z.enum(SLOTS).describe(`Where the lines will appear: ${SLOTS.join(', ')}. Each spot has its own job, and the check tells you what it is.`),
@@ -87,12 +87,12 @@ export function registerCraftTools(server: McpServer) {
       description:
         'Check whether marketing claims and calls to action are specific enough to believe. It catches the vague superlative, like "the best" or "#1", that readers discount on sight. ' +
         'It catches promises with no proof behind them and results with no mechanism, and it flags the generic buttons everyone uses, like "Learn more" and "Get started". ' +
-        'Then it tells you how to fix each one. Use it when you write or review claims like "results in days", "trusted by thousands" or "the #1 tool", and for any button text. ' +
-        'For headlines, check_headlines does the full job.',
+        'Then it says how to fix each one. It covers claims like "results in days", "trusted by thousands" or "the #1 tool", and any button text. ' +
+        'For a headline, it checks the claim only, not whether the headline does its job in its spot.',
       inputSchema: {
         claims: z.array(z.object({
           text: z.string().min(2).max(600).describe('The claim or the button text, exactly as written.'),
-          type: z.enum(['headline', 'cta', 'body_claim']).describe('Use headline, cta for a button or call to action, or body_claim for a claim inside the copy.'),
+          type: z.enum(['headline', 'cta', 'body_claim']).describe('headline, cta (a button or call to action) or body_claim (a claim inside the copy).'),
           context: z.string().max(1500).optional().describe('For a claim in the body, the paragraph around it, so a mechanism named nearby still counts.'),
         })).min(1).max(30),
       },

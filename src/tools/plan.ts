@@ -16,9 +16,8 @@ export function registerPlanTool(server: McpServer) {
       ...readOnlyTool('Plan marketing copy (the nine reader questions)'),
       description:
         "Plan any piece of marketing copy before you write it, whether it's an ad, a landing page, a sales page or sales letter, an email, a subject line, a social post, a headline or a video script. " +
-        'Give it the goal, the reader and the offer, and it tells you which of the nine questions every reader silently asks this piece has to answer, which ones deserve the most words for this reader, ' +
-        'and a few ways to answer each one, drawn from real advertising and linked to the Persuasion Taxonomy. One option is always the established move and the rest are less expected. ' +
-        'Use it before you draft, and check the finished draft with diagnose_marketing_copy.',
+        'It takes the goal, the reader and the offer, and returns which of the nine questions every reader silently asks this piece has to answer, which ones deserve the most words for this reader, ' +
+        'and a few ways to answer each one, drawn from real advertising and linked to the Persuasion Taxonomy. One option is always the established move and the rest are less expected.',
       inputSchema: {
         goal: goalSchema,
         format: formatSchema,

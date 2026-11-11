@@ -28,14 +28,11 @@ export const INSTRUCTIONS = [
   'Copy persuades when it answers the questions its goal needs, answers them truthfully, and the answers fit together. When one answer contradicts another, ' +
   'the reader feels that something is off and trusts everything else a little less.',
 
-  'Use these tools when someone asks you to write, review or improve marketing copy, from ads and landing pages to emails, subject lines, social posts, headlines and scripts, ' +
-  "or asks why their marketing isn't converting or how to test it.",
-
-  'Here is the usual order. Call plan_marketing_copy before you write a word. Then, before you show anyone a draft, or when someone asks what you think of theirs, ' +
-  'call diagnose_marketing_copy, fix what it finds, and present the work. One check and one revision is usually enough. When a line leans on the obvious move, ' +
-  'find_persuasion_techniques and get_persuasion_technique will find you a better one. For headlines, hooks and subject lines, check_headlines checks and compares them, ' +
-  "and check_marketing_claims does the same for claims and buttons. If a funnel isn't converting, start with explain_why_not_converting. " +
-  "And when it's time to test, plan_ab_test sizes the test and read_ab_test_result tells you what it found.",
+  'The tools cover writing, reviewing and testing marketing copy, from ads and landing pages to emails, subject lines, social posts, headlines and scripts. ' +
+  'plan_marketing_copy plans a piece around the questions its goal needs, and diagnose_marketing_copy reviews a draft against them. ' +
+  'find_persuasion_techniques searches the catalog, and get_persuasion_technique returns one technique in full. ' +
+  'check_headlines checks and compares headlines, hooks and subject lines, and check_marketing_claims checks claims and buttons. ' +
+  "explain_why_not_converting works back from what a funnel shows to the likely cause. plan_ab_test sizes an A/B test, and read_ab_test_result reads its result.",
 
   'Each technique comes with a link to its page, which shows the real examples behind it.',
 ].join('\n\n')
