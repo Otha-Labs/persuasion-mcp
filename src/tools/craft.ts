@@ -71,11 +71,11 @@ export function registerCraftTools(server: McpServer) {
             `${joinList(c.unverified.map((a) => `"${a.words}" for ${a.question}`))}.`)
         }
         out.push(parts.join(' '))
-        out.push(c.fix.startsWith('Nothing') ? c.fix : `Here's the fix. ${c.fix}`)
+        out.push(c.fix)
       })
       out.push('')
       if (checks.some((c) => c.evidence.length)) out.push(EVIDENCE_SOURCE)
-      out.push('Nobody can pick the winner from the words alone, and that includes this check. To find out, test two lines that make different bets, and size the test with plan_ab_test.')
+      out.push('Nobody can pick the winner from the words alone, and that includes this check. To find out, test two lines that make different bets, and work out how much traffic the test needs before you start.')
       return text(out.join('\n'))
     },
   )
@@ -109,7 +109,7 @@ export function registerCraftTools(server: McpServer) {
           const h = checkHook({ text: c.text, slot: 'landing_page_headline', answers: [] })
           const issues = [...h.hardFails, ...h.warnings, ...h.evidenceAgainst]
           out.push(`**"${c.text}"** (a headline). ${issues.length ? issues.join(' ') : 'The claim itself has no problems.'} ` +
-            'To find out whether it does its job, and whether a competitor could send it, run check_headlines with the brief.')
+            'To find out whether it does its job, and whether a competitor could send it, check it as a headline, with the brief.')
           continue
         }
         const r = scored[k++]
@@ -131,7 +131,7 @@ export function registerCraftTools(server: McpServer) {
         out.push(`${lead}${bridge} ${notes.length ? notes.join(' ') : 'Nothing in it needs fixing.'}`)
       }
       out.push('')
-      out.push("A claim persuades when it's specific, it's true and the proof sits right next to it. For ways to prove a claim, search find_persuasion_techniques with the question set to PROVE.")
+      out.push("A claim persuades when it's specific, it's true and the proof sits right next to it. For ways to prove a claim, search the catalog for techniques that answer \"Can I trust the claim?\"")
       return text(out.join('\n'))
     },
   )

@@ -60,7 +60,7 @@ export function registerCatalogTools(server: McpServer) {
       if (!t) {
         const near = searchTechniques(id, { limit: 5 })
         return errorText(`There's no technique called "${id}".${near.length ? ` The closest matches are ${joinList(near.map((n) => `${n.name} (${n.pt_id})`))}.` : ''} ` +
-          'You can search the catalog with find_persuasion_techniques.')
+          'You can search the catalog by name or by what the technique does.')
       }
       const cat = resolveCategory(category)
       const out: string[] = []

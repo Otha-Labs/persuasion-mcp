@@ -131,7 +131,7 @@ export function registerTestingTools(server: McpServer) {
           'Results that small swing wildly, so keep the test running to the sample you planned.')
       }
       if (anyWinner) warnings.push("Big lifts from small tests usually shrink once you roll them out. It's called the winner's curse, so expect less than the lift you measured.")
-      warnings.push('And if you checked the results over and over and stopped when they looked good, the p-value overstates how sure you can be. Stop at the sample size you planned with plan_ab_test.')
+      warnings.push('And if you checked the results over and over and stopped when they looked good, the p-value overstates how sure you can be. Stop at the sample size you planned before the test started.')
       out.push('')
       out.push('## Before you act')
       out.push(warnings.join(' '))
@@ -147,7 +147,7 @@ export function registerTestingTools(server: McpServer) {
       } else {
         out.push('Name the reader question the versions answered differently, and the technique each one used. That turns this result into a rule you can reuse, instead of a one-off winner.')
       }
-      out.push('To find your next challenger, use find_persuasion_techniques.')
+      out.push('To find your next challenger, search the catalog for another way to answer the same question.')
       return text(out.join('\n'))
     },
   )
