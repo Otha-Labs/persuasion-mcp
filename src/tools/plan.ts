@@ -55,7 +55,7 @@ export function registerPlanTool(server: McpServer) {
         'roughly in the order below, and the ones marked as a priority deserve the most words for this reader.')
       lines.push(`Under each question you'll find a few ways to answer it, ranked for this brief in ${mode} mode. Pick the one that fits this reader and this offer best, ` +
         "and make sure at least one of your picks is a less expected move, because that's where the copy stops sounding like everyone else in the category. " +
-        'To see real examples of a technique, and when it backfires, call get_persuasion_technique with its ID.')
+        'To see real examples of a technique, and when it backfires, ask for its full entry by its ID.')
 
       const either = reqs.filter((req) => req.length > 1)
       for (const role of ROLE_NAMES) {
@@ -98,7 +98,7 @@ export function registerPlanTool(server: McpServer) {
       lines.push('')
       lines.push('## Then write it')
       lines.push("Choose one move for each question. The less expected choices are where the copy stops sounding like everyone else, so don't play every one safe, " +
-        'and keep every claim true. When the draft is done, label each line with the question it answers and run diagnose_marketing_copy before you show it to anyone.')
+        'and keep every claim true. When the draft is done, label each line with the question it answers and review it line by line before you show it to anyone.')
       return text(lines.join('\n'))
     },
   )

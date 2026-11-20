@@ -69,7 +69,7 @@ export function registerTestingTools(server: McpServer) {
         out.push('Pick one reader question and test two different answers to it, like proof by demonstration against proof by testimonial, and keep everything else the same. ' +
           `"Version B won" teaches you nothing. "For these buyers, a demonstration answers '${ROLES.PROVE.question}' better than a testimonial" carries over to everything you write next.`)
       }
-      out.push('When the test is done, read the result with read_ab_test_result.')
+      out.push('When the test is done, read the result from the visitors and conversions each version got.')
       return text(out.join('\n'))
     },
   )

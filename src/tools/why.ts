@@ -64,7 +64,7 @@ export function registerWhyTool(server: McpServer) {
         ? `Keep everything else the same and test two versions that answer "${ROLES[top.role as Role].question}" in different ways, for example the established move above against the less expected one. ` +
           'If this was the gap, the version that answers it better will move the number. Work out how much traffic the test needs before you start.'
         : 'Fix the mismatch on one side only and test it against the current version. Work out how much traffic the test needs before you start.')
-      out.push('If you have the copy itself, label each line and run diagnose_marketing_copy for a line-by-line read.')
+      out.push('If you have the copy itself, label each line with the question it answers and review it line by line.')
       return text(out.join('\n'))
     },
   )

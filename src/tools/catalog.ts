@@ -37,7 +37,7 @@ export function registerCatalogTools(server: McpServer) {
       const out = [`# Techniques for "${query}"${role ? `, each one a way to answer ${roleLabel(role)}` : ''}`]
       for (const t of hits) out.push(techniqueLine(t, { category: cat, after: role ? undefined : `It answers ${roleLabel(t.role)}.` }))
       out.push('')
-      out.push('For the full entry, with how it works, when it backfires and more examples, call get_persuasion_technique with the ID.')
+      out.push('For the full entry, with how it works, when it backfires and more examples, ask for the full entry by its ID.')
       return text(out.join('\n'))
     },
   )
