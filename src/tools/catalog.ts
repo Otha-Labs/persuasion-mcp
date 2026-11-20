@@ -37,7 +37,7 @@ export function registerCatalogTools(server: McpServer) {
       const out = [`# Techniques for "${query}"${role ? `, each one a way to answer ${roleLabel(role)}` : ''}`]
       for (const t of hits) out.push(techniqueLine(t, { category: cat, after: role ? undefined : `It answers ${roleLabel(t.role)}.` }))
       out.push('')
-      out.push('For the full entry, with how it works, when it backfires and more examples, call get_persuasion_technique with the ID.')
+      out.push('For the full entry, with how it works, when it backfires and more examples, ask for the full entry by its ID.')
       return text(out.join('\n'))
     },
   )
@@ -60,7 +60,7 @@ export function registerCatalogTools(server: McpServer) {
       if (!t) {
         const near = searchTechniques(id, { limit: 5 })
         return errorText(`There's no technique called "${id}".${near.length ? ` The closest matches are ${joinList(near.map((n) => `${n.name} (${n.pt_id})`))}.` : ''} ` +
-          'You can search the catalog with find_persuasion_techniques.')
+          'You can search the catalog by name or by what the technique does.')
       }
       const cat = resolveCategory(category)
       const out: string[] = []

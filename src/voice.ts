@@ -152,7 +152,7 @@ export function claimGateSentence(name: string, claim: string, type: 'cta' | 'bo
     case 'empty':
       return 'The claim is empty.'
     case 'too_long':
-      return 'That is too long to check as a single claim. For a whole block of copy, use diagnose_marketing_copy.'
+      return 'That is too long to check as a single claim. For a whole block of copy, label each line with the question it answers and review the copy as a whole.'
     default:
       return null
   }

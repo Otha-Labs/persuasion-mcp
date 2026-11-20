@@ -234,7 +234,7 @@ export function registerDiagnoseTool(server: McpServer) {
         out.push(`"${hl}"`)
         out.push(describeCheck(hc, { evidence: false }))
         if (hc.evidence.length) out.push(`${hc.evidence.join(' ')} Those figures come from thousands of real headline tests on news stories, so treat them as a nudge.`)
-        out.push(hc.fix.startsWith('Nothing') ? hc.fix : `Here's the fix. ${hc.fix}`)
+        out.push(hc.fix)
       }
 
       const steps = [`Start by ${mode === 'upgrade' ? 'deepening' : 'answering'} "${gi.question}" with one of the moves above.`]
@@ -244,7 +244,7 @@ export function registerDiagnoseTool(server: McpServer) {
       out.push('')
       out.push('## What to do next')
       out.push(steps.join(' '))
-      out.push('When you want to know what actually converts, test two different answers to the same question, and size the test with plan_ab_test.')
+      out.push('When you want to know what actually converts, test two different answers to the same question, and work out how much traffic the test needs before you start.')
       return text(out.join('\n'))
     },
   )
